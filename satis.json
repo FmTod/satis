@@ -73,7 +73,7 @@
     {
       "type": "vcs",
       "url": "https://github.com/FmTod2/mylisterhub-template-wizard"
-    },
+    }
   ],
   "require-all": false,
   "require-dependencies": true,
