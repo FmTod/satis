@@ -24,7 +24,3 @@
 The workflow runs on pushes to the `main` branch and also nightly at midnight in order to
 ensure dependencies are kept up to date.
 
-**`dependabot.yml`**
-
-`dependabot.yml` ensures `composer.lock` and GitHub actions such as `JamesIves/github-pages-deploy-action`
-are kept up to date automatically. 
