@@ -1,11 +1,8 @@
 {
-  "name": "fmtod",
+  "name": "fmtod/packages",
   "homepage": "https://fmtod.github.io/satis",
   "include-filename": "all.json",
   "repositories": [
-    {
-      "packagist.org": false
-    },
     {
       "type": "vcs",
       "url": "https://github.com/FmTod/laravel-money-source"
