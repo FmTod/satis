@@ -1,0 +1,1634 @@
+{
+    "packages": {
+        "fmtod/laravel-google-translate": [
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "ca053dc6244e4182c63a7b07ef35567cd129b772"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/ca053dc6244e4182c63a7b07ef35567cd129b772",
+                    "reference": "ca053dc6244e4182c63a7b07ef35567cd129b772",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.7.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.7.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2018-10-23T14:04:14+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "f7d01fbe1fcae385f1936c8bcd62f70e8f1be4f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/f7d01fbe1fcae385f1936c8bcd62f70e8f1be4f3",
+                    "reference": "f7d01fbe1fcae385f1936c8bcd62f70e8f1be4f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.7.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.7.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-01-25T19:16:27+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v10.0.0",
+                "version_normalized": "10.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "c5e6c464e3fbf7fcdc3b208c0bba51eed291a021"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/c5e6c464e3fbf7fcdc3b208c0bba51eed291a021",
+                    "reference": "c5e6c464e3fbf7fcdc3b208c0bba51eed291a021",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "phpstan/extension-installer": "^1.3",
+                    "phpstan/phpstan-deprecation-rules": "^1.1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "nunomaduro/larastan": "^2.6",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-drift": "^2.2"
+                },
+                "time": "2023-08-01T17:37:41+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "FmTod\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v10.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "52e51d541bd1ff43cffee1e0776bc7efbac2ba38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/52e51d541bd1ff43cffee1e0776bc7efbac2ba38",
+                    "reference": "52e51d541bd1ff43cffee1e0776bc7efbac2ba38",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.7.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-02-26T23:12:27+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "c282f8f3cc70b04e3ab18f80b7830e0b02b52e03"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/c282f8f3cc70b04e3ab18f80b7830e0b02b52e03",
+                    "reference": "c282f8f3cc70b04e3ab18f80b7830e0b02b52e03",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-02-26T23:20:31+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "408b4f8676e79962c923fcc9fb9cc0f307ea8963"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/408b4f8676e79962c923fcc9fb9cc0f307ea8963",
+                    "reference": "408b4f8676e79962c923fcc9fb9cc0f307ea8963",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-02-26T23:30:33+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "401971b5862f4c3b00beace3ef3b25a1a6547d3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/401971b5862f4c3b00beace3ef3b25a1a6547d3e",
+                    "reference": "401971b5862f4c3b00beace3ef3b25a1a6547d3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-02-26T23:42:05+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.3",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "6b71ca28cd7f57e04d911c30479a40819c87d82f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/6b71ca28cd7f57e04d911c30479a40819c87d82f",
+                    "reference": "6b71ca28cd7f57e04d911c30479a40819c87d82f",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-02-26T23:52:50+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.4",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "4c11adf6d686578f28fcb4d7626dafc8576a52f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/4c11adf6d686578f28fcb4d7626dafc8576a52f3",
+                    "reference": "4c11adf6d686578f28fcb4d7626dafc8576a52f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "time": "2019-04-26T18:50:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.5",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "edaa3a23b66d49e94c56918d0f63ea12f5cdec82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/edaa3a23b66d49e94c56918d0f63ea12f5cdec82",
+                    "reference": "edaa3a23b66d49e94c56918d0f63ea12f5cdec82",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*|6.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2019-09-04T07:30:43+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "627b461365c2b7be9151d639b15878224b4393e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/627b461365c2b7be9151d639b15878224b4393e6",
+                    "reference": "627b461365c2b7be9151d639b15878224b4393e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*|6.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2019-11-14T17:03:12+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "3f638e6f8983f4b446840b1490d0f21c3c392344"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/3f638e6f8983f4b446840b1490d0f21c3c392344",
+                    "reference": "3f638e6f8983f4b446840b1490d0f21c3c392344",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*|6.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2019-11-22T13:19:31+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "1c837e5a8b2597582cd829f0da6419400a346a18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/1c837e5a8b2597582cd829f0da6419400a346a18",
+                    "reference": "1c837e5a8b2597582cd829f0da6419400a346a18",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*|6.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-01-07T17:47:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v4.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "d229f59bba185f74da78cb559297f3d48889021b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/d229f59bba185f74da78cb559297f3d48889021b",
+                    "reference": "d229f59bba185f74da78cb559297f3d48889021b",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "5.8.*|6.*",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-01-14T17:32:02+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v4.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v5.0.0",
+                "version_normalized": "5.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "68607372ca61bbaf2fd2e4a035d554ffeafde25b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/68607372ca61bbaf2fd2e4a035d554ffeafde25b",
+                    "reference": "68607372ca61bbaf2fd2e4a035d554ffeafde25b",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "6.*|7.*",
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "4.*|5.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-03-03T08:45:29+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v5.0.1",
+                "version_normalized": "5.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "a9c89f90338cd7974f0806b4996fc7d13cb3aed1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/a9c89f90338cd7974f0806b4996fc7d13cb3aed1",
+                    "reference": "a9c89f90338cd7974f0806b4996fc7d13cb3aed1",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "6.*|7.*",
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "4.*|5.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-06-29T18:36:00+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v5.0.2",
+                "version_normalized": "5.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "58f1bc7ddb88d6d771a3e037730f6a9eada987c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/58f1bc7ddb88d6d771a3e037730f6a9eada987c4",
+                    "reference": "58f1bc7ddb88d6d771a3e037730f6a9eada987c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "6.*|7.*",
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "4.*|5.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-06-29T18:46:15+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "9c5589c70a09c1cca2577717b79319521bc31089"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/9c5589c70a09c1cca2577717b79319521bc31089",
+                    "reference": "9c5589c70a09c1cca2577717b79319521bc31089",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "7.*|8.*",
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "5.*|6.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-09-10T17:23:01+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v6.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v6.0.1",
+                "version_normalized": "6.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "084a727c546bc97e3a6ae68e5bc1ea10ac785085"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/084a727c546bc97e3a6ae68e5bc1ea10ac785085",
+                    "reference": "084a727c546bc97e3a6ae68e5bc1ea10ac785085",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "7.*|8.*",
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "5.*|6.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-09-10T17:57:38+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v6.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "4e8b3f02b09c964bfa8045eb3406026fe33b0881"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/4e8b3f02b09c964bfa8045eb3406026fe33b0881",
+                    "reference": "4e8b3f02b09c964bfa8045eb3406026fe33b0881",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "7.*|8.*",
+                    "php": "^7.4|^8.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "5.*|6.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2021-01-24T15:27:47+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v7.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v8.0.0",
+                "version_normalized": "8.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "8920ecd022413298e911d9ad5dd82f00157c3f9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/8920ecd022413298e911d9ad5dd82f00157c3f9e",
+                    "reference": "8920ecd022413298e911d9ad5dd82f00157c3f9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "9.*",
+                    "php": "^8.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "7.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2022-03-07T13:01:39+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v8.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v8.1.0",
+                "version_normalized": "8.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "f6303054e67ff8f8785109cce29c6385a05d91c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/f6303054e67ff8f8785109cce29c6385a05d91c7",
+                    "reference": "f6303054e67ff8f8785109cce29c6385a05d91c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "9.*",
+                    "php": "^8.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "7.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2022-07-14T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v8.1.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
+                "version": "v9.0.0",
+                "version_normalized": "9.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "95d50feaf5706dae86ce253df3fe39eb010aa86e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/95d50feaf5706dae86ce253df3fe39eb010aa86e",
+                    "reference": "95d50feaf5706dae86ce253df3fe39eb010aa86e",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "9.*",
+                    "php": "^8.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "7.*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2023-01-02T10:37:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v9.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            }
+        ]
+    }
+}

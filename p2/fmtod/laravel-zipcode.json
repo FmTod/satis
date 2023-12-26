@@ -1,0 +1,206 @@
+{
+    "packages": {
+        "fmtod/laravel-zipcode": [
+            {
+                "name": "fmtod/laravel-zipcode",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-zipcode.git",
+                    "reference": "9e40d5c803b4b3cd2bb1e5b335546af8c61467ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/9e40d5c803b4b3cd2bb1e5b335546af8c61467ea",
+                    "reference": "9e40d5c803b4b3cd2bb1e5b335546af8c61467ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/collections": "^9.0",
+                    "illuminate/contracts": "^9.0",
+                    "illuminate/http": "^9.0",
+                    "illuminate/support": "^9.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^6.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-02-08T20:28:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ZipCode\\ZipCodeServiceProvider"
+                        ],
+                        "aliases": {
+                            "ZipCode": "FmTod\\ZipCode\\Facades\\ZipCode"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Zip code searcher",
+                "homepage": "https://github.com/fmtod/laravel-zipcode",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-zipcode"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-zipcode",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-zipcode.git",
+                    "reference": "4efdae9ad0fcd61a2f9abd29c093c4c41c12454f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/4efdae9ad0fcd61a2f9abd29c093c4c41c12454f",
+                    "reference": "4efdae9ad0fcd61a2f9abd29c093c4c41c12454f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/collections": "^9.51|^10.0",
+                    "illuminate/contracts": "^9.51|^10.0",
+                    "illuminate/http": "^9.51|^10.0",
+                    "illuminate/support": "^9.51|^10.0",
+                    "nesbot/carbon": "^2.63",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^6.0|^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^7.25|^8.0",
+                    "pestphp/pest": "^1.22|^2.0",
+                    "pestphp/pest-plugin-laravel": "^1.0|^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/php-code-coverage": "^9.2|^10.0",
+                    "phpunit/phpunit": "^9.5|^10.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-07-28T18:01:00+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ZipCode\\ZipCodeServiceProvider"
+                        ],
+                        "aliases": {
+                            "ZipCode": "FmTod\\ZipCode\\Facades\\ZipCode"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Zip code searcher",
+                "homepage": "https://github.com/fmtod/laravel-zipcode",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-zipcode"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,637 @@
+{
+    "packages": {
+        "fmtod/laravel-tabulator": [
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "82abaed299ab3ca4eaabd06710d604708461aba6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/82abaed299ab3ca4eaabd06710d604708461aba6",
+                    "reference": "82abaed299ab3ca4eaabd06710d604708461aba6",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-07-31T19:30:54+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/main",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/actions-checkout-4.x",
+                "version_normalized": "dev-renovate/actions-checkout-4.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "0144a79a98372f99a4a87d62ca6cc2f33590abd4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/0144a79a98372f99a4a87d62ca6cc2f33590abd4",
+                    "reference": "0144a79a98372f99a4a87d62ca6cc2f33590abd4",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-10-20T05:07:38+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/actions-checkout-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/actions-setup-node-4.x",
+                "version_normalized": "dev-renovate/actions-setup-node-4.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "7345b939591dcf3a91a1154efa21ae4265540990"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/7345b939591dcf3a91a1154efa21ae4265540990",
+                    "reference": "7345b939591dcf3a91a1154efa21ae4265540990",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-10-24T23:38:14+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/actions-setup-node-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/major-commitlint-monorepo",
+                "version_normalized": "dev-renovate/major-commitlint-monorepo",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "7e79d88690990f80620531f245c817078087cc79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/7e79d88690990f80620531f245c817078087cc79",
+                    "reference": "7e79d88690990f80620531f245c817078087cc79",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-10-21T11:46:43+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/major-semantic-release-monorepo",
+                "version_normalized": "dev-renovate/major-semantic-release-monorepo",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "3448dd556a38fc51e0de52b0be25a85f86363899"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/3448dd556a38fc51e0de52b0be25a85f86363899",
+                    "reference": "3448dd556a38fc51e0de52b0be25a85f86363899",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-09-16T20:46:37+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/nunomaduro-collision-8.x",
+                "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "b4ddda036bd4c80479093be193a583ad4164ff9a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/b4ddda036bd4c80479093be193a583ad4164ff9a",
+                    "reference": "b4ddda036bd4c80479093be193a583ad4164ff9a",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-12-05T05:46:43+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
+                "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "52829035ad26b062cfc82e8072d3dda887444d2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/52829035ad26b062cfc82e8072d3dda887444d2c",
+                    "reference": "52829035ad26b062cfc82e8072d3dda887444d2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2023-10-07T11:22:43+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            }
+        ]
+    }
+}

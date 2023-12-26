@@ -1,0 +1,1435 @@
+{
+    "packages": {
+        "fmtod/activity-log": [
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "172b45c37abac0f1764152884f45a4a4e5803534"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/172b45c37abac0f1764152884f45a4a4e5803534",
+                    "reference": "172b45c37abac0f1764152884f45a4a4e5803534",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-08T19:44:16+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/main",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/autoprefixer-10.x-lockfile",
+                "version_normalized": "dev-renovate/autoprefixer-10.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "7eea871f35ff5a3f98bac8f8795c4690bac3b210"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/7eea871f35ff5a3f98bac8f8795c4690bac3b210",
+                    "reference": "7eea871f35ff5a3f98bac8f8795c4690bac3b210",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-15T18:17:03+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/autoprefixer-10.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/laravel-vite-plugin-0.x-lockfile",
+                "version_normalized": "dev-renovate/laravel-vite-plugin-0.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "fc2063be5264c3791fecb3857f6c70b97dc21673"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/fc2063be5264c3791fecb3857f6c70b97dc21673",
+                    "reference": "fc2063be5264c3791fecb3857f6c70b97dc21673",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-15T22:22:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/laravel-vite-plugin-0.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/logue-vue2-helpers-2.x-lockfile",
+                "version_normalized": "dev-renovate/logue-vue2-helpers-2.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "d7792df0ec2aec37e3e2c70d5d18fcf670a2dc91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/d7792df0ec2aec37e3e2c70d5d18fcf670a2dc91",
+                    "reference": "d7792df0ec2aec37e3e2c70d5d18fcf670a2dc91",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-15T18:16:48+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/logue-vue2-helpers-2.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "8f8f76016e9ff7aa439924791b029662a0d7bee6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/8f8f76016e9ff7aa439924791b029662a0d7bee6",
+                    "reference": "8f8f76016e9ff7aa439924791b029662a0d7bee6",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "10.1.5",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-02-24T12:09:10+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/major-vue-monorepo",
+                "version_normalized": "dev-renovate/major-vue-monorepo",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "e4a22a9382b59cc60c496277bfc3f892df1e4aa0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/e4a22a9382b59cc60c496277bfc3f892df1e4aa0",
+                    "reference": "e4a22a9382b59cc60c496277bfc3f892df1e4aa0",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-02T03:36:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/major-vue-monorepo",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/nunomaduro-collision-7.x",
+                "version_normalized": "dev-renovate/nunomaduro-collision-7.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "f37e895f016ff0e25bbe13ec0d595b7845fde448"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/f37e895f016ff0e25bbe13ec0d595b7845fde448",
+                    "reference": "f37e895f016ff0e25bbe13ec0d595b7845fde448",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "7.0.5",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-02-24T12:09:21+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/nunomaduro-collision-7.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/orchestra-testbench-8.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-8.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "58313e9af8d2af08734d149800927258b8df6ef4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/58313e9af8d2af08734d149800927258b8df6ef4",
+                    "reference": "58313e9af8d2af08734d149800927258b8df6ef4",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-02-14T18:22:42+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/orchestra-testbench-8.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/paambaati-codeclimate-action-5.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "6d15fc9dda0b51c77264ff4ac0f39bf6c53dbd0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/6d15fc9dda0b51c77264ff4ac0f39bf6c53dbd0c",
+                    "reference": "6d15fc9dda0b51c77264ff4ac0f39bf6c53dbd0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-08T19:44:43+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/paambaati-codeclimate-action-5.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/postcss-8.x-lockfile",
+                "version_normalized": "dev-renovate/postcss-8.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "85aacdd218ef45d8ebbd3b357d773983b66182a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/85aacdd218ef45d8ebbd3b357d773983b66182a9",
+                    "reference": "85aacdd218ef45d8ebbd3b357d773983b66182a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-15T22:22:56+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/postcss-8.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/postcss-preset-env-8.x-lockfile",
+                "version_normalized": "dev-renovate/postcss-preset-env-8.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "9f0184fa122e82b004bc5c837955063e67ce9859"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/9f0184fa122e82b004bc5c837955063e67ce9859",
+                    "reference": "9f0184fa122e82b004bc5c837955063e67ce9859",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-16T01:55:20+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/postcss-preset-env-8.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/postcss-preset-env-9.x",
+                "version_normalized": "dev-renovate/postcss-preset-env-9.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "74b049c5373afd65a3385384fc81fd009a1fd8e1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/74b049c5373afd65a3385384fc81fd009a1fd8e1",
+                    "reference": "74b049c5373afd65a3385384fc81fd009a1fd8e1",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-01T19:08:38+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/postcss-preset-env-9.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/tabulator-tables-5.x-lockfile",
+                "version_normalized": "dev-renovate/tabulator-tables-5.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "8d9b07e2e4c38377a5855ec87344f2a60280c24f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/8d9b07e2e4c38377a5855ec87344f2a60280c24f",
+                    "reference": "8d9b07e2e4c38377a5855ec87344f2a60280c24f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^8.83|^9.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.0",
+                    "spatie/laravel-package-tools": "^1.12.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^5.0|^6.0",
+                    "nunomaduro/larastan": "^1.0|^2.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/phpunit": "^9.5",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-03-16T01:55:35+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/tabulator-tables-5.x-lockfile",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/typescript-5.x",
+                "version_normalized": "dev-renovate/typescript-5.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "856621667ffc834b25bdc3dacab63bec5ecf378e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/856621667ffc834b25bdc3dacab63bec5ecf378e",
+                    "reference": "856621667ffc834b25bdc3dacab63bec5ecf378e",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-02T03:35:49+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/typescript-5.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/vue-eslint-config-prettier-8.x",
+                "version_normalized": "dev-renovate/vue-eslint-config-prettier-8.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/activity-log.git",
+                    "reference": "eebaf8652b9ad2ba64b1228d7eb28a748e359dee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/activity-log/zipball/eebaf8652b9ad2ba64b1228d7eb28a748e359dee",
+                    "reference": "eebaf8652b9ad2ba64b1228d7eb28a748e359dee",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.3",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-08-01T21:40:35+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/activity-log/tree/renovate/vue-eslint-config-prettier-8.x",
+                    "issues": "https://github.com/FmTod/activity-log/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "fmtod/factory-generator": [
+            {
+                "name": "fmtod/factory-generator",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/factory-generator.git",
+                    "reference": "f5bc52b5a48bac226f5bf85bd9669f93c8bc7312"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/factory-generator/zipball/f5bc52b5a48bac226f5bf85bd9669f93c8bc7312",
+                    "reference": "f5bc52b5a48bac226f5bf85bd9669f93c8bc7312",
+                    "shasum": ""
+                },
+                "require": {
+                    "fakerphp/faker": "^1.9.1",
+                    "illuminate/support": "^8.83|^9.0",
+                    "naoray/eloquent-model-analyzer": "^3.0.1",
+                    "nikic/php-parser": "^4.0"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^6.0"
+                },
+                "time": "2022-12-05T16:36:31+00:00",
+                "default-branch": true,
+                "type": "package",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Shift\\FactoryGenerator\\FactoryGeneratorServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Shift\\FactoryGenerator\\": "./src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "./tests",
+                        "App\\": "./vendor/orchestra/testbench-core/laravel/app"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Generate factories from existing models",
+                "keywords": [
+                    "factory",
+                    "laravel",
+                    "model",
+                    "testing"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/factory-generator/tree/master"
+                }
+            }
+        ]
+    }
+}

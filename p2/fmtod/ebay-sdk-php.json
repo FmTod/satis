@@ -1,0 +1,2917 @@
+{
+    "packages": {
+        "fmtod/ebay-sdk-php": [
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "34c2db7680a97a12245ba183f90d988606d411fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/34c2db7680a97a12245ba183f90d988606d411fa",
+                    "reference": "34c2db7680a97a12245ba183f90d988606d411fa",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-08-02T07:25:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.1.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "aa083ab0cc159c826a28de744448365762b5fc1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/aa083ab0cc159c826a28de744448365762b5fc1c",
+                    "reference": "aa083ab0cc159c826a28de744448365762b5fc1c",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-08-05T20:11:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.1.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "589f30a1ac50cb386de8cd6a483155fdd7912937"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/589f30a1ac50cb386de8cd6a483155fdd7912937",
+                    "reference": "589f30a1ac50cb386de8cd6a483155fdd7912937",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-08-11T20:24:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.2.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "48179ff5d33f2142c6581175041eb4e7effa8575"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/48179ff5d33f2142c6581175041eb4e7effa8575",
+                    "reference": "48179ff5d33f2142c6581175041eb4e7effa8575",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-10-11T15:33:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.3.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "c73fa1d758d980e294e4c301c20a860296c794e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/c73fa1d758d980e294e4c301c20a860296c794e6",
+                    "reference": "c73fa1d758d980e294e4c301c20a860296c794e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-11-07T14:50:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ReturnManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.4.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "d7e6d968dafacd7b2def7a45de9cb840914bcdf7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/d7e6d968dafacd7b2def7a45de9cb840914bcdf7",
+                    "reference": "d7e6d968dafacd7b2def7a45de9cb840914bcdf7",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-11-20T14:09:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ReturnManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.5.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "3ba668c6fcb9e9123e70ddde7cf4d7eba92f4e18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/3ba668c6fcb9e9123e70ddde7cf4d7eba92f4e18",
+                    "reference": "3ba668c6fcb9e9123e70ddde7cf4d7eba92f4e18",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7",
+                    "php": ">=5.3.9",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "time": "2015-11-28T15:18:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "DTS\\eBaySDK\\": "src/",
+                        "DTS\\eBaySDK\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BulkDataExchange\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Finding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\HalfFinding\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\MerchantData\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ResolutionCaseManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\ReturnManagement\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Shopping\\Mocks\\": "test/",
+                        "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.6.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "49433c7b8b2872258501f8b767adce68b10fb01e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/49433c7b8b2872258501f8b767adce68b10fb01e",
+                    "reference": "49433c7b8b2872258501f8b767adce68b10fb01e",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-03-19T23:49:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/1.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "10.0.0",
+                "version_normalized": "10.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "8da242b0603fbfd22abbce063eb7d854b74ed656"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/8da242b0603fbfd22abbce063eb7d854b74ed656",
+                    "reference": "8da242b0603fbfd22abbce063eb7d854b74ed656",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-03-17T10:05:04+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/10.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "11.0.0",
+                "version_normalized": "11.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "3f730148d5caa639eb1407c0c4a4c5e356a1b752"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/3f730148d5caa639eb1407c0c4a4c5e356a1b752",
+                    "reference": "3f730148d5caa639eb1407c0c4a4c5e356a1b752",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-03-20T16:23:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/11.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "12.0.0",
+                "version_normalized": "12.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "6b8e12a5587721f64cc4eea826218803a1398d31"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/6b8e12a5587721f64cc4eea826218803a1398d31",
+                    "reference": "6b8e12a5587721f64cc4eea826218803a1398d31",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-05-23T20:44:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/12.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "12.0.1",
+                "version_normalized": "12.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "a35247358dc22ceaa23830bf0cb8c6d9fadbdbc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/a35247358dc22ceaa23830bf0cb8c6d9fadbdbc6",
+                    "reference": "a35247358dc22ceaa23830bf0cb8c6d9fadbdbc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-06-15T12:11:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/12.0.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "13.0.0",
+                "version_normalized": "13.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "828c48e68c24ea3b67c3df04e9a92199321201d7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/828c48e68c24ea3b67c3df04e9a92199321201d7",
+                    "reference": "828c48e68c24ea3b67c3df04e9a92199321201d7",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-06-23T15:52:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "13.0.1",
+                "version_normalized": "13.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "8d309d96674ceb857209fcc711c8e53ad853ddfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/8d309d96674ceb857209fcc711c8e53ad853ddfc",
+                    "reference": "8d309d96674ceb857209fcc711c8e53ad853ddfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-08-23T21:06:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "13.0.2",
+                "version_normalized": "13.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "d0274d6d7c7a5fea20c066f75786355c624bf8fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/d0274d6d7c7a5fea20c066f75786355c624bf8fc",
+                    "reference": "d0274d6d7c7a5fea20c066f75786355c624bf8fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-08-28T10:42:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.2"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "13.0.3",
+                "version_normalized": "13.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "00785e296497edd78ff13653740b17eb1e0c4454"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/00785e296497edd78ff13653740b17eb1e0c4454",
+                    "reference": "00785e296497edd78ff13653740b17eb1e0c4454",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-09-07T21:35:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.3"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "13.1.0",
+                "version_normalized": "13.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "09288509a101cc2d138b2e33080048135f4cf1a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/09288509a101cc2d138b2e33080048135f4cf1a1",
+                    "reference": "09288509a101cc2d138b2e33080048135f4cf1a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-09-24T18:50:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.1.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "14.0.0",
+                "version_normalized": "14.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "927d0eeedbcea5a13ea1b1a47530afa225a6fef2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/927d0eeedbcea5a13ea1b1a47530afa225a6fef2",
+                    "reference": "927d0eeedbcea5a13ea1b1a47530afa225a6fef2",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-12-15T13:33:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/14.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "15.0.0",
+                "version_normalized": "15.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "2bc1b2f212b1bfd6a3775dcc04f9cbd841b34c79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/2bc1b2f212b1bfd6a3775dcc04f9cbd841b34c79",
+                    "reference": "2bc1b2f212b1bfd6a3775dcc04f9cbd841b34c79",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2018-03-05T21:27:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/15.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "16.0.0",
+                "version_normalized": "16.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "693b7353df0ed01eb225b91d6e5d474193ca1411"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/693b7353df0ed01eb225b91d6e5d474193ca1411",
+                    "reference": "693b7353df0ed01eb225b91d6e5d474193ca1411",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2018-05-12T19:59:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/16.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "17.0.0",
+                "version_normalized": "17.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "fefee1b828c45c970061db88fdf65ee968a03a26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/fefee1b828c45c970061db88fdf65ee968a03a26",
+                    "reference": "fefee1b828c45c970061db88fdf65ee968a03a26",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2018-06-12T22:38:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/17.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.0",
+                "version_normalized": "18.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "42714ad203f0d37be53aa11fbe78b3eb6b18d34b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/42714ad203f0d37be53aa11fbe78b3eb6b18d34b",
+                    "reference": "42714ad203f0d37be53aa11fbe78b3eb6b18d34b",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2018-06-28T21:22:49+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.1",
+                "version_normalized": "18.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "3b88fe273f34625d1e704e495a52aad7429532fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/3b88fe273f34625d1e704e495a52aad7429532fd",
+                    "reference": "3b88fe273f34625d1e704e495a52aad7429532fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2020-04-22T16:56:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.2",
+                "version_normalized": "18.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "4558c65fd5d0ddfc37099fa1a62c28e462a961de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/4558c65fd5d0ddfc37099fa1a62c28e462a961de",
+                    "reference": "4558c65fd5d0ddfc37099fa1a62c28e462a961de",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2021-01-05T18:24:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.2"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.3",
+                "version_normalized": "18.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "5dc5f9ee726940542d2195b568e2f198ae3f5498"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/5dc5f9ee726940542d2195b568e2f198ae3f5498",
+                    "reference": "5dc5f9ee726940542d2195b568e2f198ae3f5498",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2021-06-01T19:10:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.3"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.4",
+                "version_normalized": "18.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "8b333852a79c3165fb11abaa069678bba599d2ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/8b333852a79c3165fb11abaa069678bba599d2ef",
+                    "reference": "8b333852a79c3165fb11abaa069678bba599d2ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2021-09-22T18:50:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.4"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.5",
+                "version_normalized": "18.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "2ee45c4b64639eb1e8c4bc9b637b72e7f3dd7274"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/2ee45c4b64639eb1e8c4bc9b637b72e7f3dd7274",
+                    "reference": "2ee45c4b64639eb1e8c4bc9b637b72e7f3dd7274",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2021-11-08T19:39:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.5"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.6",
+                "version_normalized": "18.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "53d42be37e82dcf5b3cd91dcf4ce300f4460e0c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/53d42be37e82dcf5b3cd91dcf4ce300f4460e0c1",
+                    "reference": "53d42be37e82dcf5b3cd91dcf4ce300f4460e0c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2021-12-21T17:28:52+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.6"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.7",
+                "version_normalized": "18.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "4b990a4e18d6bcb4075155aff9c99876755e95eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/4b990a4e18d6bcb4075155aff9c99876755e95eb",
+                    "reference": "4b990a4e18d6bcb4075155aff9c99876755e95eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2022-08-29T19:00:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.7"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.0.8",
+                "version_normalized": "18.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "64b5d85a8e616012af349a58755fb4f63cbfc21b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/64b5d85a8e616012af349a58755fb4f63cbfc21b",
+                    "reference": "64b5d85a8e616012af349a58755fb4f63cbfc21b",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2022-09-15T19:31:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.8"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.1.0",
+                "version_normalized": "18.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "15a2e6df5a46d68d59c1e61aef9dbe614f9cc30f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/15a2e6df5a46d68d59c1e61aef9dbe614f9cc30f",
+                    "reference": "15a2e6df5a46d68d59c1e61aef9dbe614f9cc30f",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2023-05-30T21:18:59+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.1.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "18.1.1",
+                "version_normalized": "18.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "ff752cdf55679e0c72976f1ed649d2c99d81555e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/ff752cdf55679e0c72976f1ed649d2c99d81555e",
+                    "reference": "ff752cdf55679e0c72976f1ed649d2c99d81555e",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0|~7",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2023-05-31T17:01:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.1.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "19.0.0",
+                "version_normalized": "19.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "21766ce1766edd1cb240643dc13106697be1932d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/21766ce1766edd1cb240643dc13106697be1932d",
+                    "reference": "21766ce1766edd1cb240643dc13106697be1932d",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.0",
+                    "guzzlehttp/promises": "^2.0",
+                    "guzzlehttp/psr7": "^2.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2023-09-19T17:37:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "19.0.1",
+                "version_normalized": "19.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "0a9c1bdbab8f67118681fef87a80082c57a08fa2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/0a9c1bdbab8f67118681fef87a80082c57a08fa2",
+                    "reference": "0a9c1bdbab8f67118681fef87a80082c57a08fa2",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.0",
+                    "guzzlehttp/promises": "^1.5|^2.0",
+                    "guzzlehttp/psr7": "^2.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2023-12-05T18:10:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.0.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "19.1.0",
+                "version_normalized": "19.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "970d86f49336f22b83a217bf3ed9611e75c29fc2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/970d86f49336f22b83a217bf3ed9611e75c29fc2",
+                    "reference": "970d86f49336f22b83a217bf3ed9611e75c29fc2",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.0",
+                    "guzzlehttp/promises": "^1.5|^2.0",
+                    "guzzlehttp/psr7": "^2.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2023-12-06T14:58:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.1.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "980b004fa00b7658bbd014609f215428cfe51141"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/980b004fa00b7658bbd014609f215428cfe51141",
+                    "reference": "980b004fa00b7658bbd014609f215428cfe51141",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-03-28T17:13:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/2.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "7afcd692e8c50dfbd4ba91e02b18cf81c706b73e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/7afcd692e8c50dfbd4ba91e02b18cf81c706b73e",
+                    "reference": "7afcd692e8c50dfbd4ba91e02b18cf81c706b73e",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-04-11T13:50:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/3.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "00bf4639e583856df8093c9873ab561824b16e30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/00bf4639e583856df8093c9873ab561824b16e30",
+                    "reference": "00bf4639e583856df8093c9873ab561824b16e30",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-04-24T10:26:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/4.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "ab18c7b29c077dfb01d1bfc4fde281926e6b0a44"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/ab18c7b29c077dfb01d1bfc4fde281926e6b0a44",
+                    "reference": "ab18c7b29c077dfb01d1bfc4fde281926e6b0a44",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-05-25T11:27:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/4.0.1"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "5.0.0",
+                "version_normalized": "5.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "98879d263b1f851812c8935aafc0174e0513efdc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/98879d263b1f851812c8935aafc0174e0513efdc",
+                    "reference": "98879d263b1f851812c8935aafc0174e0513efdc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-06-04T12:23:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/5.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "c4c36a8dc9959c171b65b164e9a6052359c7dc5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/c4c36a8dc9959c171b65b164e9a6052359c7dc5e",
+                    "reference": "c4c36a8dc9959c171b65b164e9a6052359c7dc5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-08-30T15:43:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/6.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "9d490d7c0838eb0c3ccb9ac80e2645c05d7f9612"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/9d490d7c0838eb0c3ccb9ac80e2645c05d7f9612",
+                    "reference": "9d490d7c0838eb0c3ccb9ac80e2645c05d7f9612",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-09-03T15:05:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/7.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "8.0.0",
+                "version_normalized": "8.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "3584f5fa985386b392b178d1b4212b6770dbc547"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/3584f5fa985386b392b178d1b4212b6770dbc547",
+                    "reference": "3584f5fa985386b392b178d1b4212b6770dbc547",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-01-26T21:56:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/8.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "9.0.0",
+                "version_normalized": "9.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "81bf07053e0d8c7fd9675116de94979676cd3697"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/81bf07053e0d8c7fd9675116de94979676cd3697",
+                    "reference": "81bf07053e0d8c7fd9675116de94979676cd3697",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-03-01T14:45:08+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/9.0.0"
+                }
+            },
+            {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "9.0.1",
+                "version_normalized": "9.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "7495ccd6562388954dcb158757e401e765592d02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/7495ccd6562388954dcb158757e401e765592d02",
+                    "reference": "7495ccd6562388954dcb158757e401e765592d02",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "guzzlehttp/promises": "^1.1",
+                    "guzzlehttp/psr7": "~1.0",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2017-03-06T09:48:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "(Apache-2.0 and MIT)"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/9.0.1"
+                }
+            }
+        ]
+    }
+}

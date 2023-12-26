@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "fmtod/laravel-ebay": [
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "627b1aab116ae270fd62c05cee01e0a686010a30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/627b1aab116ae270fd62c05cee01e0a686010a30",
+                    "reference": "627b1aab116ae270fd62c05cee01e0a686010a30",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^19.1",
+                    "php": ">=5.5"
+                },
+                "time": "2023-12-06T15:00:41+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.7.0"
+                }
+            }
+        ]
+    }
+}

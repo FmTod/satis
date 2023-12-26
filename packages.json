@@ -1,0 +1,28 @@
+{
+    "packages": [],
+    "includes": {
+        "all.json": {
+            "sha1": "4b0b06f81a459955a03f5cb377a363a8feb01ff5"
+        }
+    },
+    "metadata-url": "/satis/p2/%package%.json",
+    "available-packages": [
+        "cartalyst/converter",
+        "fmtod/activity-log",
+        "fmtod/ebay-sdk-php",
+        "fmtod/factory-generator",
+        "fmtod/laravel-ebay",
+        "fmtod/laravel-errorable",
+        "fmtod/laravel-google-translate",
+        "fmtod/laravel-money",
+        "fmtod/laravel-tabulator",
+        "fmtod/laravel-tabulator-inertia",
+        "fmtod/laravel-zipcode",
+        "fmtod/shipping",
+        "modules/auth",
+        "mylisterhub/api",
+        "mylisterhub/core",
+        "mylisterhub/media",
+        "mylisterhub/template-wizard"
+    ]
+}

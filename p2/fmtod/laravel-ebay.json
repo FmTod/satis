@@ -1,0 +1,764 @@
+{
+    "packages": {
+        "fmtod/laravel-ebay": [
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "3badf00747256368f8389b7abbce122ba57b5139"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/3badf00747256368f8389b7abbce122ba57b5139",
+                    "reference": "3badf00747256368f8389b7abbce122ba57b5139",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~11.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-06-05T05:38:51+00:00",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/0.1.0"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "064c6aad70ec304b8afc24d73e6a77342a983ee0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/064c6aad70ec304b8afc24d73e6a77342a983ee0",
+                    "reference": "064c6aad70ec304b8afc24d73e6a77342a983ee0",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~11.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-06-05T06:48:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/0.1.1"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "d62c4095ac538992316ebe5194e496fe66c03100"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/d62c4095ac538992316ebe5194e496fe66c03100",
+                    "reference": "d62c4095ac538992316ebe5194e496fe66c03100",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-07-13T11:16:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0.0"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "d62c4095ac538992316ebe5194e496fe66c03100"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/d62c4095ac538992316ebe5194e496fe66c03100",
+                    "reference": "d62c4095ac538992316ebe5194e496fe66c03100",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-07-13T11:16:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0.0"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.0-beta",
+                "version_normalized": "1.0.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "305976f8986fc29a5bb1ce501fa90f5a7d561d2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/305976f8986fc29a5bb1ce501fa90f5a7d561d2c",
+                    "reference": "305976f8986fc29a5bb1ce501fa90f5a7d561d2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "^11.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-06-01T11:59:22+00:00",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0-beta"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "f5f9b95a0e80410bcb00e029ed828ac864615f1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/f5f9b95a0e80410bcb00e029ed828ac864615f1a",
+                    "reference": "f5f9b95a0e80410bcb00e029ed828ac864615f1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0",
+                    "php": ">=5.5"
+                },
+                "time": "2017-11-28T09:50:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.1"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "30cbd13681a06a9d11f1c27a7dc3522dc04665b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/30cbd13681a06a9d11f1c27a7dc3522dc04665b2",
+                    "reference": "30cbd13681a06a9d11f1c27a7dc3522dc04665b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0",
+                    "php": ">=5.5"
+                },
+                "time": "2018-04-05T10:46:47+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.2"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "5cb5d47a2f493929f6fa7ac0e48fcd293985b296"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/5cb5d47a2f493929f6fa7ac0e48fcd293985b296",
+                    "reference": "5cb5d47a2f493929f6fa7ac0e48fcd293985b296",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0|~16.0|~17.0|~18.0",
+                    "php": ">=5.5"
+                },
+                "time": "2018-12-07T11:51:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.3"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "141bad61980bec616695aa304892a36d9b6f3240"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/141bad61980bec616695aa304892a36d9b6f3240",
+                    "reference": "141bad61980bec616695aa304892a36d9b6f3240",
+                    "shasum": ""
+                },
+                "require": {
+                    "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0|~16.0|~17.0|~18.0",
+                    "php": ">=5.5"
+                },
+                "time": "2019-05-29T06:21:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.4"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "15bea8ce8945accdabd843abc89923e2cdb2e422"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/15bea8ce8945accdabd843abc89923e2cdb2e422",
+                    "reference": "15bea8ce8945accdabd843abc89923e2cdb2e422",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "18.0.1",
+                    "php": ">=5.5"
+                },
+                "time": "2021-01-05T18:20:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "54ab07ba8416d2e097121c2ea76d591e8d1d9014"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/54ab07ba8416d2e097121c2ea76d591e8d1d9014",
+                    "reference": "54ab07ba8416d2e097121c2ea76d591e8d1d9014",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "18.0.2",
+                    "php": ">=5.5"
+                },
+                "time": "2021-01-05T18:25:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.1"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.5.2",
+                "version_normalized": "1.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "2b9399321a67489b643ff6d0e5bbca74c4997a1b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/2b9399321a67489b643ff6d0e5bbca74c4997a1b",
+                    "reference": "2b9399321a67489b643ff6d0e5bbca74c4997a1b",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^18.0.3",
+                    "php": ">=5.5"
+                },
+                "time": "2021-06-01T19:13:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.2"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "407c8ab8601b3126d21d936a456d0c582b144f4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/407c8ab8601b3126d21d936a456d0c582b144f4c",
+                    "reference": "407c8ab8601b3126d21d936a456d0c582b144f4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^18.1.0",
+                    "php": ">=5.5"
+                },
+                "time": "2023-05-30T21:26:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.3"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "3c4b393bb6538d5712ecb187a0c9612cf603a124"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/3c4b393bb6538d5712ecb187a0c9612cf603a124",
+                    "reference": "3c4b393bb6538d5712ecb187a0c9612cf603a124",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^19.0",
+                    "php": ">=5.5"
+                },
+                "time": "2023-12-05T18:03:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.6.0"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "23ccd31d3d504b859e6c8e160db9af4be1ce0046"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/23ccd31d3d504b859e6c8e160db9af4be1ce0046",
+                    "reference": "23ccd31d3d504b859e6c8e160db9af4be1ce0046",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^19.0.1",
+                    "php": ">=5.5"
+                },
+                "time": "2023-12-05T18:11:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.6.1"
+                }
+            },
+            {
+                "name": "fmtod/laravel-ebay",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "reference": "627b1aab116ae270fd62c05cee01e0a686010a30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-ebay-source/zipball/627b1aab116ae270fd62c05cee01e0a686010a30",
+                    "reference": "627b1aab116ae270fd62c05cee01e0a686010a30",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/ebay-sdk-php": "^19.1",
+                    "php": ">=5.5"
+                },
+                "time": "2023-12-06T15:00:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Hkonnet\\LaravelEbay\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Haroon Khan",
+                        "email": "hkonnet@gmail.com"
+                    }
+                ],
+                "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "laravel",
+                    "laravel5",
+                    "php",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.7.0"
+                }
+            }
+        ]
+    }
+}
