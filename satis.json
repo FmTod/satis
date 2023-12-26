@@ -1,74 +1,80 @@
 {
-  "name": "supportpal",
-  "homepage": "https://supportpal.github.io/satis",
+  "name": "fmtod",
+  "homepage": "https://fmtod.github.io/satis",
   "include-filename": "all.json",
   "repositories": [
     {
       "packagist.org": false
     },
     {
-      "type": "composer",
-      "url": "https://horde-satis.maintaina.com"
-    },
-    {
-      "type": "package",
-      "package": [
-        {
-          "name": "phpclasses/mimeparser",
-          "version": "1.85",
-          "autoload": {
-            "classmap": ["mime_parser.php", "rfc822_addresses.php"]
-          },
-          "dist": {
-            "url": "https://raw.githubusercontent.com/supportpal/satis/main/packages/phpclasses/mimeparser/mimeparser-1.85.0.zip",
-            "shasum": "9ad6ada0ac29e783f6e7a4bcb47b00dd912b6a33",
-            "type": "zip"
-          }
-        }
-      ]
-    },
-    {
-      "type": "package",
-      "package": [
-        {
-          "name": "phpclasses/mimeparser",
-          "version": "1.88",
-          "autoload": {
-            "classmap": ["mime_parser.php", "rfc822_addresses.php"]
-          },
-          "dist": {
-            "url": "https://raw.githubusercontent.com/supportpal/satis/main/packages/phpclasses/mimeparser/mimeparser-1.88.0.zip",
-            "shasum": "ade16b932767b62b27395176753bfb78c4f235e6",
-            "type": "zip"
-          }
-        }
-      ]
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-money-source"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/laravel-js-localization.git"
+      "url": "https://github.com/FmTod/laravel-google-translate"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/CssToInlineStyles.git"
+      "url": "https://github.com/FmTod/ebay-sdk-source"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/laravel-websockets.git"
+      "url": "https://github.com/FmTod/factory-generator"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/php-graph-sdk.git"
-    }
+      "url": "https://github.com/FmTod/laravel-ebay-source"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-zipcode"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/cartalyst/converter"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/shipping-source"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-tabulator"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-tabulator-inertia"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/activity-log"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/laravel-errorable"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-core-package"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-api-package"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-auth-module"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-media-package"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod2/mylisterhub-template-wizard"
+    },
   ],
-  "require": {
-    "andywer/js-localization": "*",
-    "beyondcode/laravel-websockets": "*",
-    "facebook/graph-sdk": "*",
-    "horde/imap_client": "dev-FRAMEWORK_6_0",
-    "phpclasses/mimeparser": "*",
-    "tijsverkoyen/css-to-inline-styles": "*"
-  },
   "require-all": false,
   "require-dependencies": true,
   "require-dev-dependencies": true

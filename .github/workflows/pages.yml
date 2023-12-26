@@ -23,7 +23,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@2.28.0
         with:
-          php-version: 7.4
+          php-version: 8.2
           tools: composer:v2
 
       - name: Install dependencies
@@ -35,12 +35,11 @@ jobs:
         run: |
           ./vendor/bin/satis build ./satis.json ./public
           shopt -s globstar
-          sed -i -e 's/\(pear-pear\.horde\.org\/.*\)/\L\1/' public/**/*.json
           sed -i -e 's/"type": "file",/"type": "tar",/' public/**/*.json
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          clean: true # Automatically remove deleted files from the deploy branch
