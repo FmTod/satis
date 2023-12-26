@@ -1,9 +1,3 @@
-<p align="center">
-    <a href="https://www.supportpal.com" target="_blank"><img src="https://www.supportpal.com/assets/img/logo_blue_small.png" /></a>
-    <br>
-    SupportPal <a href="https://supportpal.github.io/satis/">Satis repository</a>.
-</p>
-
 ----
 
 *This repository is intended for internal usage only.*
