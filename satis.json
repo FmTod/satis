@@ -29,10 +29,6 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/cartalyst/converter"
-    },
-    {
-      "type": "vcs",
       "url": "https://github.com/FmTod/shipping-source"
     },
     {
