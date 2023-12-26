@@ -2,12 +2,11 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "4b0b06f81a459955a03f5cb377a363a8feb01ff5"
+            "sha1": "6794bf228f1ee6e33eff82c5c44e63d942a7d9fc"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
-        "cartalyst/converter",
         "fmtod/activity-log",
         "fmtod/ebay-sdk-php",
         "fmtod/factory-generator",
