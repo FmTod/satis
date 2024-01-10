@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-money-source.git",
-                    "reference": "5e112d44d44eac58afe0c80fdcacdef6241b4de4"
+                    "reference": "9b118ff5ea74f2c28eedd4bd09baf1f1a4babdbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-money-source/zipball/5e112d44d44eac58afe0c80fdcacdef6241b4de4",
-                    "reference": "5e112d44d44eac58afe0c80fdcacdef6241b4de4",
+                    "url": "https://api.github.com/repos/FmTod/laravel-money-source/zipball/9b118ff5ea74f2c28eedd4bd09baf1f1a4babdbd",
+                    "reference": "9b118ff5ea74f2c28eedd4bd09baf1f1a4babdbd",
                     "shasum": ""
                 },
                 "require": {
@@ -34,7 +34,7 @@
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-07-31T21:15:55+00:00",
+                "time": "2024-01-09T19:41:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -85,7 +85,7 @@
                     "money"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/master"
+                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.0.1"
                 }
             }
         ]
