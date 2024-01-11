@@ -1,5 +1,202 @@
 {
     "packages": {
-        "mylisterhub/template-wizard": []
+        "mylisterhub/template-wizard": [
+            {
+                "name": "mylisterhub/template-wizard",
+                "version": "v10.0.0",
+                "version_normalized": "10.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "reference": "48d0748dfbc87ec70d9042ef9ecda974fa9df4e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/48d0748dfbc87ec70d9042ef9ecda974fa9df4e8",
+                    "reference": "48d0748dfbc87ec70d9042ef9ecda974fa9df4e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-10T21:36:54+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\TemplateWizard\\TemplateWizardServiceProvider"
+                        ],
+                        "aliases": {
+                            "TemplateWizard": "MyListerHub\\TemplateWizard\\Facades\\TemplateWizard"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\TemplateWizard\\": "src/",
+                        "MyListerHub\\TemplateWizard\\Database\\Factories\\": "database/factories/",
+                        "MyListerHub\\TemplateWizard\\Database\\Seeders\\": "database/seeders/",
+                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Francisco Cahe",
+                        "email": "franciscocahe@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This wizard will enable users to select a design template and customize it with predefined colors, all within a modal window.",
+                "homepage": "https://github.com/mylisterhub/template-wizard",
+                "keywords": [
+                    "MyListerHub",
+                    "laravel",
+                    "template-wizard"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/v10.0.0",
+                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                }
+            },
+            {
+                "name": "mylisterhub/template-wizard",
+                "version": "v10.0.1",
+                "version_normalized": "10.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "reference": "1b9f528d267b2a0854044caea84b46da1e0c9e1b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/1b9f528d267b2a0854044caea84b46da1e0c9e1b",
+                    "reference": "1b9f528d267b2a0854044caea84b46da1e0c9e1b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-10T22:26:45+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\TemplateWizard\\TemplateWizardServiceProvider"
+                        ],
+                        "aliases": {
+                            "TemplateWizard": "MyListerHub\\TemplateWizard\\Facades\\TemplateWizard"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\TemplateWizard\\": "src/",
+                        "MyListerHub\\TemplateWizard\\Database\\Factories\\": "database/factories/",
+                        "MyListerHub\\TemplateWizard\\Database\\Seeders\\": "database/seeders/",
+                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Francisco Cahe",
+                        "email": "franciscocahe@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This wizard will enable users to select a design template and customize it with predefined colors, all within a modal window.",
+                "homepage": "https://github.com/mylisterhub/template-wizard",
+                "keywords": [
+                    "MyListerHub",
+                    "laravel",
+                    "template-wizard"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/v10.0.1",
+                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                }
+            }
+        ]
     }
 }
