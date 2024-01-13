@@ -497,12 +497,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-core-package.git",
-                    "reference": "88e12ca4adec764a87de493e880370ac50e25c17"
+                    "reference": "a9708b18acb1b042f1f797e78d26640500c0d04e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/88e12ca4adec764a87de493e880370ac50e25c17",
-                    "reference": "88e12ca4adec764a87de493e880370ac50e25c17",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/a9708b18acb1b042f1f797e78d26640500c0d04e",
+                    "reference": "a9708b18acb1b042f1f797e78d26640500c0d04e",
                     "shasum": ""
                 },
                 "require": {
@@ -525,7 +525,7 @@
                     "lorisleiva/laravel-actions": "^2.5",
                     "macellan/laravel-zip": "^1.0",
                     "php": "^8.1",
-                    "rahulhaque/laravel-filepond": "^1.11",
+                    "rahulhaque/laravel-filepond": "^10.0",
                     "spatie/laravel-data": "^3.8",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.3",
@@ -547,7 +547,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-02T18:07:29+00:00",
+                "time": "2024-01-12T22:34:29+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -563,7 +563,8 @@
                         "src/helpers.php"
                     ],
                     "psr-4": {
-                        "MyListerHub\\Core\\": "src/"
+                        "MyListerHub\\Core\\": "src/",
+                        "MyListerHub\\Core\\Database\\Factories\\": "database/factories"
                     }
                 },
                 "autoload-dev": {
