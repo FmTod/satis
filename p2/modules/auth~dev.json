@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "6166040d0901108550676c4c4b0ce955c81e6dc5"
+                    "reference": "1e50f719f5d5905968a536ecb695bb4f49fbbd54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/6166040d0901108550676c4c4b0ce955c81e6dc5",
-                    "reference": "6166040d0901108550676c4c4b0ce955c81e6dc5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/1e50f719f5d5905968a536ecb695bb4f49fbbd54",
+                    "reference": "1e50f719f5d5905968a536ecb695bb4f49fbbd54",
                     "shasum": ""
                 },
                 "require": {
@@ -612,7 +612,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-09T20:56:38+00:00",
+                "time": "2024-01-16T22:02:18+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -667,7 +667,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/main",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v1.2.7",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
