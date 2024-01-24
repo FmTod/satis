@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "0fb5ff1f5143634d54c7603771ba0b2307646030"
+                    "reference": "752aa0a1a5caf4c42c18c1253298edadddbd74da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/0fb5ff1f5143634d54c7603771ba0b2307646030",
-                    "reference": "0fb5ff1f5143634d54c7603771ba0b2307646030",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/752aa0a1a5caf4c42c18c1253298edadddbd74da",
+                    "reference": "752aa0a1a5caf4c42c18c1253298edadddbd74da",
                     "shasum": ""
                 },
                 "require": {
@@ -585,7 +585,7 @@
                     "laravel-notification-channels/webpush": "^7.1",
                     "laravel/sanctum": "^3.2",
                     "laravel/scout": "^10.0",
-                    "laravel/slack-notification-channel": "*",
+                    "laravel/slack-notification-channel": "^3.2",
                     "laravel/spark-stripe": "^4.0",
                     "laravel/ui": "^4.0.0",
                     "lorisleiva/laravel-actions": "^2.5",
@@ -603,7 +603,7 @@
                 "require-dev": {
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
+                    "nunomaduro/larastan": "^2.8",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
@@ -614,7 +614,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-22T19:47:12+00:00",
+                "time": "2024-01-23T20:23:08+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -669,7 +669,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.1.1",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.2.0",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
