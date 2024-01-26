@@ -1,0 +1,127 @@
+{
+    "packages": {
+        "fmtod/laravel-elastic-apm": [
+            {
+                "name": "fmtod/laravel-elastic-apm",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/elastic-apm-package.git",
+                    "reference": "757e1c35270c8246bc95d35b8ee53b8ee759b7e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/757e1c35270c8246bc95d35b8ee53b8ee759b7e9",
+                    "reference": "757e1c35270c8246bc95d35b8ee53b8ee759b7e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-elastic_apm": "*",
+                    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                    "php": "^7.2|^8.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2024-01-26T16:58:25+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Anik\\ElasticApm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "./vendor/bin/phpcs --standard=PSR12 ./src"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Syed Sirajul Islam Anik",
+                        "email": "sirajul.islam.anik@gmail.com"
+                    }
+                ],
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/master",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-elastic-apm",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/elastic-apm-package.git",
+                    "reference": "53d9206b679fdbb7437ad1118a384c8f2de01e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/53d9206b679fdbb7437ad1118a384c8f2de01e57",
+                    "reference": "53d9206b679fdbb7437ad1118a384c8f2de01e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-elastic_apm": "*",
+                    "illuminate/support": "^6.0|^7.0|^8.0",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2024-01-26T16:56:16+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Anik\\ElasticApm\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "./vendor/bin/phpcs --standard=PSR12 ./src"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Syed Sirajul Islam Anik",
+                        "email": "sirajul.islam.anik@gmail.com"
+                    }
+                ],
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/renovate/configure",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
+            }
+        ]
+    }
+}

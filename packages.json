@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "5e569fcf329b7f086b0372ce9ac7ee10da846462"
+            "sha1": "c5b5821129a218c6082ab444eeedd35970a5195c"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -11,6 +11,7 @@
         "fmtod/ebay-sdk-php",
         "fmtod/factory-generator",
         "fmtod/laravel-ebay",
+        "fmtod/laravel-elastic-apm",
         "fmtod/laravel-errorable",
         "fmtod/laravel-google-translate",
         "fmtod/laravel-money",
