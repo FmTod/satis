@@ -65,6 +65,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/FmTod/elastic-apm-package"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/FmTod2/mylisterhub-template-wizard"
     }
   ],
