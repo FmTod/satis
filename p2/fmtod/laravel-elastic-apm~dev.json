@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "c623d05cd8cc631d265be50609d668c8909cf2b7"
+                    "reference": "6efb27e5b6d22d5860d98c85bffff784c0480008"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/c623d05cd8cc631d265be50609d668c8909cf2b7",
-                    "reference": "c623d05cd8cc631d265be50609d668c8909cf2b7",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/6efb27e5b6d22d5860d98c85bffff784c0480008",
+                    "reference": "6efb27e5b6d22d5860d98c85bffff784c0480008",
                     "shasum": ""
                 },
                 "require": {
@@ -37,7 +37,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-29T19:14:08+00:00",
+                "time": "2024-01-29T19:47:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
