@@ -6993,19 +6993,19 @@
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
-            "dev-main": {
+            "v1.0.3": {
                 "name": "fmtod/laravel-elastic-apm",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "6efb27e5b6d22d5860d98c85bffff784c0480008"
+                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/6efb27e5b6d22d5860d98c85bffff784c0480008",
-                    "reference": "6efb27e5b6d22d5860d98c85bffff784c0480008",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/49e0e61c442651ea8c684fe32ff17c5e4e0df856",
+                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856",
                     "shasum": ""
                 },
                 "require": {
@@ -7029,7 +7029,108 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-29T19:47:20+00:00",
+                "time": "2024-01-29T20:36:05+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.3",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
+            },
+            "dev-main": {
+                "name": "fmtod/laravel-elastic-apm",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/elastic-apm-package.git",
+                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/49e0e61c442651ea8c684fe32ff17c5e4e0df856",
+                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.7",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-29T20:36:05+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7091,7 +7192,7 @@
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/main",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.3",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
