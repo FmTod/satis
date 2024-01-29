@@ -1,3 +1,6 @@
+[![gh-pages](https://github.com/FmTod/satis/actions/workflows/pages.yml/badge.svg)](https://github.com/FmTod/satis/actions/workflows/pages.yml)
+[![pages-build-deployment](https://github.com/FmTod/satis/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FmTod/satis/actions/workflows/pages/pages-build-deployment)
+
 ----
 
 *This repository is intended for internal usage only.*
