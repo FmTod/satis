@@ -6690,257 +6690,90 @@
             }
         },
         "fmtod/laravel-elastic-apm": {
-            "v1.0": {
+            "v1.0.0": {
                 "name": "fmtod/laravel-elastic-apm",
-                "version": "v1.0",
+                "version": "v1.0.0",
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "777800d4e3498093ebc42480f8f4ae24fdcada36"
+                    "reference": "10161cca7684119fc985a7dd502d08b9e44de735"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/777800d4e3498093ebc42480f8f4ae24fdcada36",
-                    "reference": "777800d4e3498093ebc42480f8f4ae24fdcada36",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/10161cca7684119fc985a7dd502d08b9e44de735",
+                    "reference": "10161cca7684119fc985a7dd502d08b9e44de735",
                     "shasum": ""
                 },
                 "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0",
-                    "php": "^7.2"
-                },
-                "time": "2020-07-10T18:24:43+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
-                        ],
-                        "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
-                    }
-                ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
-                "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0",
-                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
-            },
-            "v1.1": {
-                "name": "fmtod/laravel-elastic-apm",
-                "version": "v1.1",
-                "version_normalized": "1.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "3eb88d339dc7c603af8650b14af0f062533c3ae2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/3eb88d339dc7c603af8650b14af0f062533c3ae2",
-                    "reference": "3eb88d339dc7c603af8650b14af0f062533c3ae2",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0",
-                    "php": "^7.2"
-                },
-                "time": "2020-07-10T22:44:38+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
-                        ],
-                        "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
-                    }
-                ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
-                "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.1",
-                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
-            },
-            "v1.2": {
-                "name": "fmtod/laravel-elastic-apm",
-                "version": "v1.2",
-                "version_normalized": "1.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "15b5b8bb72957f38ee1615938d419b50b6b324b6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/15b5b8bb72957f38ee1615938d419b50b6b324b6",
-                    "reference": "15b5b8bb72957f38ee1615938d419b50b6b324b6",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0",
-                    "php": "^7.2"
-                },
-                "time": "2020-07-11T19:19:38+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
-                        ],
-                        "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
-                    }
-                ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
-                "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.2",
-                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
-            },
-            "v1.3": {
-                "name": "fmtod/laravel-elastic-apm",
-                "version": "v1.3",
-                "version_normalized": "1.3.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "a758d675e34a773eb2858948f0b993cee94bbaa3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/a758d675e34a773eb2858948f0b993cee94bbaa3",
-                    "reference": "a758d675e34a773eb2858948f0b993cee94bbaa3",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0|^8.0",
-                    "php": "^7.2"
-                },
-                "time": "2020-11-21T13:15:19+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
-                        ],
-                        "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
-                    }
-                ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
-                "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.3",
-                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
-            },
-            "v2.0": {
-                "name": "fmtod/laravel-elastic-apm",
-                "version": "v2.0",
-                "version_normalized": "2.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "e89cdb925743fd0ed4ed062d575e4e0a98113d37"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/e89cdb925743fd0ed4ed062d575e4e0a98113d37",
-                    "reference": "e89cdb925743fd0ed4ed062d575e4e0a98113d37",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0|^8.0",
-                    "php": "^7.2"
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.5"
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2020-12-01T14:47:22+00:00",
+                "time": "2024-01-29T18:59:28+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
                         ],
                         "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
                         }
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
                     "test": [
-                        "./vendor/bin/phpcs --standard=PSR12 ./src"
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
                     ]
                 },
                 "license": [
@@ -6948,59 +6781,100 @@
                 ],
                 "authors": [
                     {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v2.0",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.0",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
-            "v2.1": {
+            "v1.0.1": {
                 "name": "fmtod/laravel-elastic-apm",
-                "version": "v2.1",
-                "version_normalized": "2.1.0.0",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "f3e303c2896d0ea9f70bc69eed468948a099bf40"
+                    "reference": "59ce701288b4e0900266ae8217aeb825b330ad5c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/f3e303c2896d0ea9f70bc69eed468948a099bf40",
-                    "reference": "f3e303c2896d0ea9f70bc69eed468948a099bf40",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/59ce701288b4e0900266ae8217aeb825b330ad5c",
+                    "reference": "59ce701288b4e0900266ae8217aeb825b330ad5c",
                     "shasum": ""
                 },
                 "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0|^8.0",
-                    "php": "^7.2"
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.5"
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2021-04-24T13:26:19+00:00",
+                "time": "2024-01-29T19:04:18+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
                         ],
                         "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
                         }
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
                     "test": [
-                        "./vendor/bin/phpcs --standard=PSR12 ./src"
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
                     ]
                 },
                 "license": [
@@ -7008,60 +6882,202 @@
                 ],
                 "authors": [
                     {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v2.1",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.1",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
-            "dev-master": {
+            "v1.0.2": {
                 "name": "fmtod/laravel-elastic-apm",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "757e1c35270c8246bc95d35b8ee53b8ee759b7e9"
+                    "reference": "a2a6ee7bcf7c2151010317f0ed2bcdb3d29c7ce9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/757e1c35270c8246bc95d35b8ee53b8ee759b7e9",
-                    "reference": "757e1c35270c8246bc95d35b8ee53b8ee759b7e9",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/a2a6ee7bcf7c2151010317f0ed2bcdb3d29c7ce9",
+                    "reference": "a2a6ee7bcf7c2151010317f0ed2bcdb3d29c7ce9",
                     "shasum": ""
                 },
                 "require": {
-                    "ext-elastic_apm": "*",
-                    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                    "php": "^7.2|^8.0"
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.5"
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.7",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-26T16:58:25+00:00",
+                "time": "2024-01-29T19:12:11+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.2",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
+            },
+            "dev-main": {
+                "name": "fmtod/laravel-elastic-apm",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/elastic-apm-package.git",
+                    "reference": "c623d05cd8cc631d265be50609d668c8909cf2b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/c623d05cd8cc631d265be50609d668c8909cf2b7",
+                    "reference": "c623d05cd8cc631d265be50609d668c8909cf2b7",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.7",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-29T19:14:08+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
                     "laravel": {
                         "providers": [
-                            "Anik\\ElasticApm\\Providers\\ElasticApmServiceProvider"
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
                         ],
                         "aliases": {
-                            "Agent": "Anik\\ElasticApm\\Facades\\Agent"
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
                         }
                     }
                 },
                 "autoload": {
                     "psr-4": {
-                        "Anik\\ElasticApm\\": "src/"
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
                     }
                 },
                 "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
                     "test": [
-                        "./vendor/bin/phpcs --standard=PSR12 ./src"
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
                     ]
                 },
                 "license": [
@@ -7069,13 +7085,13 @@
                 ],
                 "authors": [
                     {
-                        "name": "Syed Sirajul Islam Anik",
-                        "email": "sirajul.islam.anik@gmail.com"
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/master",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/main",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
