@@ -7094,19 +7094,19 @@
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
-            "dev-main": {
+            "v1.0.4": {
                 "name": "fmtod/laravel-elastic-apm",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856"
+                    "reference": "d54a597414d22fadf8a180da232f0489a10e66af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/49e0e61c442651ea8c684fe32ff17c5e4e0df856",
-                    "reference": "49e0e61c442651ea8c684fe32ff17c5e4e0df856",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/d54a597414d22fadf8a180da232f0489a10e66af",
+                    "reference": "d54a597414d22fadf8a180da232f0489a10e66af",
                     "shasum": ""
                 },
                 "require": {
@@ -7130,7 +7130,108 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-29T20:36:05+00:00",
+                "time": "2024-01-29T22:49:31+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ElasticApm\\ElasticApmServiceProvider"
+                        ],
+                        "aliases": {
+                            "Agent": "FmTod\\ElasticApm\\Facades\\Agent"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ElasticApm\\": "src/",
+                        "FmTod\\ElasticApm\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "clear": [
+                        "@php vendor/bin/testbench package:purge-skeleton --ansi"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "build": [
+                        "@composer run prepare",
+                        "@php vendor/bin/testbench workbench:build --ansi"
+                    ],
+                    "start": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "@composer run build",
+                        "@php vendor/bin/testbench serve"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.4",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
+            },
+            "dev-main": {
+                "name": "fmtod/laravel-elastic-apm",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/elastic-apm-package.git",
+                    "reference": "d54a597414d22fadf8a180da232f0489a10e66af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/d54a597414d22fadf8a180da232f0489a10e66af",
+                    "reference": "d54a597414d22fadf8a180da232f0489a10e66af",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/promises": "^2.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0.1",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.8",
+                    "orchestra/testbench": "^8.8",
+                    "pestphp/pest": "^2.20",
+                    "pestphp/pest-plugin-arch": "^2.7",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-type-coverage": "^2.8",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-29T22:49:31+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7192,7 +7293,7 @@
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.3",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.4",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },
@@ -34048,6 +34149,121 @@
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
+            "v2.3.1": {
+                "name": "modules/auth",
+                "version": "v2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
+                    "reference": "b96f1378fc8fdc02ab007a46150e6c433fe945ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b96f1378fc8fdc02ab007a46150e6c433fe945ad",
+                    "reference": "b96f1378fc8fdc02ab007a46150e6c433fe945ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "ambengers/kinetic": "^1.8",
+                    "bensampo/laravel-enum": "^6.3",
+                    "fmtod/laravel-google-translate": "*",
+                    "fmtod/laravel-money": "^10.0",
+                    "fmtod/laravel-tabulator": "^v1.0",
+                    "fmtod/laravel-tabulator-inertia": "^1.0",
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.9",
+                    "laravel-notification-channels/webpush": "^7.1",
+                    "laravel/sanctum": "^3.2",
+                    "laravel/scout": "^10.0",
+                    "laravel/slack-notification-channel": "^3.2",
+                    "laravel/spark-stripe": "^4.0",
+                    "laravel/ui": "^4.0.0",
+                    "lorisleiva/laravel-actions": "^2.5",
+                    "mylisterhub/api": "*",
+                    "mylisterhub/core": "^1.1",
+                    "mylisterhub/media": "^10.1.1",
+                    "php": "^8.1",
+                    "rinvex/countries": "^9.0",
+                    "santigarcor/laratrust": "^8.0",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "stancl/tenancy": "^3.6.1",
+                    "tightenco/ziggy": "^1.5",
+                    "touhidurabir/laravel-model-sanitize": "^1.1"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.8",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-01-29T21:12:02+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Modules\\Auth\\ModuleServiceProvider",
+                            "Modules\\Auth\\Providers\\AuthServiceProvider",
+                            "Modules\\Auth\\Providers\\EventServiceProvider",
+                            "Modules\\Auth\\Providers\\InertiaServiceProvider",
+                            "Modules\\Auth\\Providers\\SparkServiceProvider",
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
+                        ],
+                        "aliases": {
+                            "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Modules\\Auth\\": "src",
+                        "Modules\\Auth\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Modules\\Auth\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.3.1",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
+            },
             "dev-dependabot/npm_and_yarn/axios-1.6.1": {
                 "name": "modules/auth",
                 "version": "dev-dependabot/npm_and_yarn/axios-1.6.1",
@@ -34612,12 +34828,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "506c6a224c5b9d440e5b7ce209ce13dbf4143451"
+                    "reference": "efa48e5cc6f7a41627753dd804184c96c19d153b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/506c6a224c5b9d440e5b7ce209ce13dbf4143451",
-                    "reference": "506c6a224c5b9d440e5b7ce209ce13dbf4143451",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/efa48e5cc6f7a41627753dd804184c96c19d153b",
+                    "reference": "efa48e5cc6f7a41627753dd804184c96c19d153b",
                     "shasum": ""
                 },
                 "require": {
@@ -34662,7 +34878,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-24T18:50:12+00:00",
+                "time": "2024-01-29T21:13:04+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
