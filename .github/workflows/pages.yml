@@ -1,6 +1,9 @@
 name: gh-pages
 
 on:
+  repository_dispatch:
+    types:
+      - new_version
   workflow_call:
   workflow_dispatch:
   push:
