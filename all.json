@@ -36016,12 +36016,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "83776b3fde50c0fc7be7c489b3f9a436195f7984"
+                    "reference": "952760398c38bce58ce1708c02bac3fefb2b97ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/83776b3fde50c0fc7be7c489b3f9a436195f7984",
-                    "reference": "83776b3fde50c0fc7be7c489b3f9a436195f7984",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/952760398c38bce58ce1708c02bac3fefb2b97ac",
+                    "reference": "952760398c38bce58ce1708c02bac3fefb2b97ac",
                     "shasum": ""
                 },
                 "require": {
@@ -36036,10 +36036,13 @@
                     "laravel-notification-channels/webpush": "^7.1",
                     "laravel/sanctum": "^3.2",
                     "laravel/scout": "^10.0",
+                    "laravel/slack-notification-channel": "^3.2",
                     "laravel/spark-stripe": "^4.0",
                     "laravel/ui": "^4.0.0",
                     "lorisleiva/laravel-actions": "^2.5",
+                    "mylisterhub/api": "*",
                     "mylisterhub/core": "^1.1",
+                    "mylisterhub/media": "^10.1.1",
                     "php": "^8.1",
                     "rinvex/countries": "^9.0",
                     "santigarcor/laratrust": "^8.0",
@@ -36049,9 +36052,10 @@
                     "touhidurabir/laravel-model-sanitize": "^1.1"
                 },
                 "require-dev": {
+                    "larastan/larastan": "^2.0",
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
+                    "nunomaduro/larastan": "^2.8",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
@@ -36062,7 +36066,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-11-22T15:52:35+00:00",
+                "time": "2024-02-05T12:08:09+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -36636,6 +36640,103 @@
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
+            "v1.0.1": {
+                "name": "mylisterhub/api",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
+                    "reference": "dd53fe1463ebe42529e7850fec7b3ee2e4abd903"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/dd53fe1463ebe42529e7850fec7b3ee2e4abd903",
+                    "reference": "dd53fe1463ebe42529e7850fec7b3ee2e4abd903",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-02-05T22:20:11+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\API\\APIServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\API\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\API\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Resource API for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "api",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
+            },
             "dev-feat/make-controller-command": {
                 "name": "mylisterhub/api",
                 "version": "dev-feat/make-controller-command",
@@ -36740,12 +36841,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "d35ac590fc0091ad46b0f2fc24998e48e6dff7b2"
+                    "reference": "841b4f918bf12318b64603c939dc7aa2db17c377"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/d35ac590fc0091ad46b0f2fc24998e48e6dff7b2",
-                    "reference": "d35ac590fc0091ad46b0f2fc24998e48e6dff7b2",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/841b4f918bf12318b64603c939dc7aa2db17c377",
+                    "reference": "841b4f918bf12318b64603c939dc7aa2db17c377",
                     "shasum": ""
                 },
                 "require": {
@@ -36768,7 +36869,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-12-25T19:34:33+00:00",
+                "time": "2024-02-05T22:25:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

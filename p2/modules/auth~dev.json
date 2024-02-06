@@ -1233,12 +1233,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "83776b3fde50c0fc7be7c489b3f9a436195f7984"
+                    "reference": "952760398c38bce58ce1708c02bac3fefb2b97ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/83776b3fde50c0fc7be7c489b3f9a436195f7984",
-                    "reference": "83776b3fde50c0fc7be7c489b3f9a436195f7984",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/952760398c38bce58ce1708c02bac3fefb2b97ac",
+                    "reference": "952760398c38bce58ce1708c02bac3fefb2b97ac",
                     "shasum": ""
                 },
                 "require": {
@@ -1253,10 +1253,13 @@
                     "laravel-notification-channels/webpush": "^7.1",
                     "laravel/sanctum": "^3.2",
                     "laravel/scout": "^10.0",
+                    "laravel/slack-notification-channel": "^3.2",
                     "laravel/spark-stripe": "^4.0",
                     "laravel/ui": "^4.0.0",
                     "lorisleiva/laravel-actions": "^2.5",
+                    "mylisterhub/api": "*",
                     "mylisterhub/core": "^1.1",
+                    "mylisterhub/media": "^10.1.1",
                     "php": "^8.1",
                     "rinvex/countries": "^9.0",
                     "santigarcor/laratrust": "^8.0",
@@ -1266,9 +1269,10 @@
                     "touhidurabir/laravel-model-sanitize": "^1.1"
                 },
                 "require-dev": {
+                    "larastan/larastan": "^2.0",
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
+                    "nunomaduro/larastan": "^2.8",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
@@ -1279,7 +1283,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-11-22T15:52:35+00:00",
+                "time": "2024-02-05T12:08:09+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
