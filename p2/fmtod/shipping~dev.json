@@ -3,17 +3,17 @@
         "fmtod/shipping": [
             {
                 "name": "fmtod/shipping",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-ASSIGNMENT",
+                "version_normalized": "dev-ASSIGNMENT",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/shipping-source.git",
-                    "reference": "8e2bfd0ba20197925820a99aac99dd9a44789eb9"
+                    "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/8e2bfd0ba20197925820a99aac99dd9a44789eb9",
-                    "reference": "8e2bfd0ba20197925820a99aac99dd9a44789eb9",
+                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
+                    "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
                     "shasum": ""
                 },
                 "require": {
@@ -41,7 +41,105 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-16T19:17:25+00:00",
+                "time": "2024-03-01T21:13:03+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\Shipping\\ShippingServiceProvider"
+                        ],
+                        "aliases": {
+                            "Shipping": "FmTod\\Shipping\\Facades\\Shipping"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\Shipping\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Shipping\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "lint": [
+                        "vendor/bin/php-cs-fixer fix"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package shipping",
+                "homepage": "https://github.com/FmTod/shipping-source",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "shipping"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/shipping-source/tree/ASSIGNMENT",
+                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                }
+            },
+            {
+                "name": "fmtod/shipping",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "reference": "7b64c3cb57ce69badee7eb39f1dc4714b5594bd9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/7b64c3cb57ce69badee7eb39f1dc4714b5594bd9",
+                    "reference": "7b64c3cb57ce69badee7eb39f1dc4714b5594bd9",
+                    "shasum": ""
+                },
+                "require": {
+                    "bensampo/laravel-enum": "^6.4",
+                    "fmtod/laravel-money": "^10.0",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/translation": "^10.0",
+                    "illuminate/validation": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "shippo/shippo-php": "^1.4.4",
+                    "spatie/laravel-package-tools": "^1.14"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.4",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-faker": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.1",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-01T20:52:33+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -102,17 +200,17 @@
             },
             {
                 "name": "fmtod/shipping",
-                "version": "dev-php-cs-fixer/patch",
-                "version_normalized": "dev-php-cs-fixer/patch",
+                "version": "dev-renovate/actions-cache-4.x",
+                "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/shipping-source.git",
-                    "reference": "3d028b70f8148ec13868acac7f4a1ff7d6c53c7b"
+                    "reference": "74621cdb361aa8c785c562b704411537ee272458"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/3d028b70f8148ec13868acac7f4a1ff7d6c53c7b",
-                    "reference": "3d028b70f8148ec13868acac7f4a1ff7d6c53c7b",
+                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/74621cdb361aa8c785c562b704411537ee272458",
+                    "reference": "74621cdb361aa8c785c562b704411537ee272458",
                     "shasum": ""
                 },
                 "require": {
@@ -140,7 +238,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-07-28T18:34:22+00:00",
+                "time": "2024-03-01T21:15:27+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -194,23 +292,23 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/php-cs-fixer/patch",
+                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/actions-cache-4.x",
                     "issues": "https://github.com/FmTod/shipping-source/issues"
                 }
             },
             {
                 "name": "fmtod/shipping",
-                "version": "dev-renovate/configure",
-                "version_normalized": "dev-renovate/configure",
+                "version": "dev-renovate/semantic-release-monorepo",
+                "version_normalized": "dev-renovate/semantic-release-monorepo",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/shipping-source.git",
-                    "reference": "d0c6285b1d543ae97744d2c6232fd398325842e1"
+                    "reference": "36b336eab2a9704fbba693e206b52987820bf103"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/d0c6285b1d543ae97744d2c6232fd398325842e1",
-                    "reference": "d0c6285b1d543ae97744d2c6232fd398325842e1",
+                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/36b336eab2a9704fbba693e206b52987820bf103",
+                    "reference": "36b336eab2a9704fbba693e206b52987820bf103",
                     "shasum": ""
                 },
                 "require": {
@@ -238,7 +336,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-12-05T08:35:55+00:00",
+                "time": "2024-03-01T21:15:23+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -292,7 +390,7 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/configure",
+                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/semantic-release-monorepo",
                     "issues": "https://github.com/FmTod/shipping-source/issues"
                 }
             }
