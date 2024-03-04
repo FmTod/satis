@@ -7,12 +7,12 @@
                 "version_normalized": "dev-ASSIGNMENT",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
                     "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
                     "shasum": ""
                 },
@@ -95,8 +95,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/ASSIGNMENT",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/ASSIGNMENT",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -105,12 +105,12 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "d7e1f23fdf089030110ec4b1a99bbac36d600472"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/d7e1f23fdf089030110ec4b1a99bbac36d600472",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/d7e1f23fdf089030110ec4b1a99bbac36d600472",
                     "reference": "d7e1f23fdf089030110ec4b1a99bbac36d600472",
                     "shasum": ""
                 },
@@ -194,8 +194,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/main",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/main",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -204,12 +204,12 @@
                 "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "74621cdb361aa8c785c562b704411537ee272458"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/74621cdb361aa8c785c562b704411537ee272458",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/74621cdb361aa8c785c562b704411537ee272458",
                     "reference": "74621cdb361aa8c785c562b704411537ee272458",
                     "shasum": ""
                 },
@@ -292,8 +292,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/actions-cache-4.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/actions-cache-4.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -302,12 +302,12 @@
                 "version_normalized": "dev-renovate/actions-checkout-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "f974e1195585bdf4d74284d7193af9b491b1a1af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/f974e1195585bdf4d74284d7193af9b491b1a1af",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/f974e1195585bdf4d74284d7193af9b491b1a1af",
                     "reference": "f974e1195585bdf4d74284d7193af9b491b1a1af",
                     "shasum": ""
                 },
@@ -390,8 +390,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/actions-checkout-4.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/actions-checkout-4.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -400,12 +400,12 @@
                 "version_normalized": "dev-renovate/actions-setup-node-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "729db3184647b982923fd63000ac115bd26167db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/729db3184647b982923fd63000ac115bd26167db",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/729db3184647b982923fd63000ac115bd26167db",
                     "reference": "729db3184647b982923fd63000ac115bd26167db",
                     "shasum": ""
                 },
@@ -488,8 +488,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/actions-setup-node-4.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/actions-setup-node-4.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -498,12 +498,12 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8b4df9ef7d15e9c60c2586468b3d49c6862a340a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/8b4df9ef7d15e9c60c2586468b3d49c6862a340a",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/8b4df9ef7d15e9c60c2586468b3d49c6862a340a",
                     "reference": "8b4df9ef7d15e9c60c2586468b3d49c6862a340a",
                     "shasum": ""
                 },
@@ -586,8 +586,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/husky-9.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/husky-9.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -596,12 +596,12 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "6c1c9c7394b5447ea2cb2501ae547b919e3fdce1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/6c1c9c7394b5447ea2cb2501ae547b919e3fdce1",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/6c1c9c7394b5447ea2cb2501ae547b919e3fdce1",
                     "reference": "6c1c9c7394b5447ea2cb2501ae547b919e3fdce1",
                     "shasum": ""
                 },
@@ -684,8 +684,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/major-commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -694,12 +694,12 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "36278542a3b0c7947a427af0bc7868254eaadf14"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/36278542a3b0c7947a427af0bc7868254eaadf14",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/36278542a3b0c7947a427af0bc7868254eaadf14",
                     "reference": "36278542a3b0c7947a427af0bc7868254eaadf14",
                     "shasum": ""
                 },
@@ -782,8 +782,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -792,12 +792,12 @@
                 "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8eab9e47d46027ca0f9b4782be62c7fa39c569eb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/8eab9e47d46027ca0f9b4782be62c7fa39c569eb",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/8eab9e47d46027ca0f9b4782be62c7fa39c569eb",
                     "reference": "8eab9e47d46027ca0f9b4782be62c7fa39c569eb",
                     "shasum": ""
                 },
@@ -880,8 +880,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/nunomaduro-collision-8.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -890,12 +890,12 @@
                 "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "edf22bfa5d28aa7764778d040649cc67120d3324"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/edf22bfa5d28aa7764778d040649cc67120d3324",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/edf22bfa5d28aa7764778d040649cc67120d3324",
                     "reference": "edf22bfa5d28aa7764778d040649cc67120d3324",
                     "shasum": ""
                 },
@@ -978,8 +978,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/paambaati-codeclimate-action-5.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/paambaati-codeclimate-action-5.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -988,12 +988,12 @@
                 "version_normalized": "dev-renovate/shippo-shippo-php-2.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "04ef55308a9d4e349f4841315fee5799273e28f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/04ef55308a9d4e349f4841315fee5799273e28f4",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/04ef55308a9d4e349f4841315fee5799273e28f4",
                     "reference": "04ef55308a9d4e349f4841315fee5799273e28f4",
                     "shasum": ""
                 },
@@ -1076,8 +1076,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/shippo-shippo-php-2.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/shippo-shippo-php-2.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             },
             {
@@ -1086,12 +1086,12 @@
                 "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/shipping-source.git",
+                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
                     "reference": "336f0cdbaf852999ee9a8f5a3af7ec0c9cc1eed8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/shipping-source/zipball/336f0cdbaf852999ee9a8f5a3af7ec0c9cc1eed8",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/336f0cdbaf852999ee9a8f5a3af7ec0c9cc1eed8",
                     "reference": "336f0cdbaf852999ee9a8f5a3af7ec0c9cc1eed8",
                     "shasum": ""
                 },
@@ -1174,8 +1174,8 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/shipping-source/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
-                    "issues": "https://github.com/FmTod/shipping-source/issues"
+                    "source": "https://github.com/FmTod2/mylisterhub-shipping-package/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "issues": "https://github.com/FmTod2/mylisterhub-shipping-package/issues"
                 }
             }
         ]
