@@ -218,12 +218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "44b04bb153f1a63356f34b7f7342f94c8902884b"
+                    "reference": "ac4cd3c94b5839a18bdc0d425541466fb2869a32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/44b04bb153f1a63356f34b7f7342f94c8902884b",
-                    "reference": "44b04bb153f1a63356f34b7f7342f94c8902884b",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/ac4cd3c94b5839a18bdc0d425541466fb2869a32",
+                    "reference": "ac4cd3c94b5839a18bdc0d425541466fb2869a32",
                     "shasum": ""
                 },
                 "require": {
@@ -250,7 +250,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-05T01:08:09+00:00",
+                "time": "2024-03-06T21:32:27+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -313,7 +313,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/main",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.1.5",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
@@ -534,12 +534,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "d1f53666fa11a63c26e68e5ac02171946d79bc2a"
+                    "reference": "9b0e14b49c3bd9394e829067f3ab46e0f5c49b17"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/d1f53666fa11a63c26e68e5ac02171946d79bc2a",
-                    "reference": "d1f53666fa11a63c26e68e5ac02171946d79bc2a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9b0e14b49c3bd9394e829067f3ab46e0f5c49b17",
+                    "reference": "9b0e14b49c3bd9394e829067f3ab46e0f5c49b17",
                     "shasum": ""
                 },
                 "require": {
@@ -566,7 +566,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-05T01:08:45+00:00",
+                "time": "2024-03-06T21:33:12+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -639,12 +639,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "1e58c91d55cf3aa0a7337ab87cbdce552407222d"
+                    "reference": "dd987c41b9bd8d9107836379338f8c2656af33b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/1e58c91d55cf3aa0a7337ab87cbdce552407222d",
-                    "reference": "1e58c91d55cf3aa0a7337ab87cbdce552407222d",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/dd987c41b9bd8d9107836379338f8c2656af33b1",
+                    "reference": "dd987c41b9bd8d9107836379338f8c2656af33b1",
                     "shasum": ""
                 },
                 "require": {
@@ -671,7 +671,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-02-26T13:05:10+00:00",
+                "time": "2024-03-06T21:33:28+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
