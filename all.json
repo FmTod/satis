@@ -27975,7 +27975,7 @@
                 "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8b6845b7d9672a854a94310301a58fd820c4f9c7"
                 },
                 "dist": {
@@ -28074,7 +28074,7 @@
                 "version_normalized": "0.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "f8ef87c9196178467d4c2dbab49862580c539d4c"
                 },
                 "dist": {
@@ -28173,7 +28173,7 @@
                 "version_normalized": "0.6.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "4328ef70032f30a9c74a6153da8e845dc3761e3b"
                 },
                 "dist": {
@@ -28273,7 +28273,7 @@
                 "version_normalized": "0.6.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "9fd9e96a4d206090d219ae646502e32f0c79c8de"
                 },
                 "dist": {
@@ -28373,7 +28373,7 @@
                 "version_normalized": "0.6.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "2c0cfc56c60546e033cbd9e84141a45c74ffea99"
                 },
                 "dist": {
@@ -28473,7 +28473,7 @@
                 "version_normalized": "0.6.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "03482dac996226ad37388e8e7422cce33da1442c"
                 },
                 "dist": {
@@ -28573,7 +28573,7 @@
                 "version_normalized": "0.7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "adfb1abb9505256c88a533868d8166bceab8c302"
                 },
                 "dist": {
@@ -28673,7 +28673,7 @@
                 "version_normalized": "0.7.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "bbdfa77de4a547db82414c4ef0fad9f7e0533a95"
                 },
                 "dist": {
@@ -28773,7 +28773,7 @@
                 "version_normalized": "0.7.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "bbdfa77de4a547db82414c4ef0fad9f7e0533a95"
                 },
                 "dist": {
@@ -28873,7 +28873,7 @@
                 "version_normalized": "0.7.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "93316122673c1b1b42051c21574aa2eaf2e5fa55"
                 },
                 "dist": {
@@ -28975,7 +28975,7 @@
                 "version_normalized": "0.7.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "4ee94927602665530a98452660ec49b3f7d5ce66"
                 },
                 "dist": {
@@ -29077,7 +29077,7 @@
                 "version_normalized": "0.7.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "9879c95d15e851f1a6d79ffee36529ac80a6e238"
                 },
                 "dist": {
@@ -29179,7 +29179,7 @@
                 "version_normalized": "0.7.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "7361f2a44cbc6a5e0654b7b28c884d4a4335ffaa"
                 },
                 "dist": {
@@ -29281,7 +29281,7 @@
                 "version_normalized": "0.7.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "d2db3271d5a18e92dac2f2279306e59da23e6853"
                 },
                 "dist": {
@@ -29383,7 +29383,7 @@
                 "version_normalized": "0.7.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "cd742be554310b6e6015e1474c43a29c606f83db"
                 },
                 "dist": {
@@ -29485,7 +29485,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "69dab224d7218e205f5c2bbbebbffe9588825812"
                 },
                 "dist": {
@@ -29585,7 +29585,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "9fc16d8a594982cbbc0a1d15db6325b1689fd598"
                 },
                 "dist": {
@@ -29685,7 +29685,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "7c428bdafc992e67e7837518bd4b039dbd9758cd"
                 },
                 "dist": {
@@ -29785,7 +29785,7 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "2ec594788232a3082aafcd6d7761ff8875d3d2d3"
                 },
                 "dist": {
@@ -29883,7 +29883,7 @@
                 "version_normalized": "2.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "4b2ea20d2b486a3aeef735776021a78ba614b6b1"
                 },
                 "dist": {
@@ -29981,7 +29981,7 @@
                 "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8667c573707aad181e93e712e2ba7b5c808b5fff"
                 },
                 "dist": {
@@ -30079,13 +30079,13 @@
                 "version_normalized": "dev-ASSIGNMENT",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
-                    "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3"
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
+                    "reference": "d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
-                    "reference": "6a22c0f82b0a2c698f7c4a12def27d6fbfd266b3",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b",
+                    "reference": "d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b",
                     "shasum": ""
                 },
                 "require": {
@@ -30113,7 +30113,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-01T21:13:03+00:00",
+                "time": "2024-03-11T13:01:14+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -30177,7 +30177,7 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "d7e1f23fdf089030110ec4b1a99bbac36d600472"
                 },
                 "dist": {
@@ -30276,7 +30276,7 @@
                 "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "74621cdb361aa8c785c562b704411537ee272458"
                 },
                 "dist": {
@@ -30374,7 +30374,7 @@
                 "version_normalized": "dev-renovate/actions-checkout-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "f974e1195585bdf4d74284d7193af9b491b1a1af"
                 },
                 "dist": {
@@ -30472,7 +30472,7 @@
                 "version_normalized": "dev-renovate/actions-setup-node-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "729db3184647b982923fd63000ac115bd26167db"
                 },
                 "dist": {
@@ -30570,7 +30570,7 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8b4df9ef7d15e9c60c2586468b3d49c6862a340a"
                 },
                 "dist": {
@@ -30668,7 +30668,7 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "6c1c9c7394b5447ea2cb2501ae547b919e3fdce1"
                 },
                 "dist": {
@@ -30766,7 +30766,7 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "36278542a3b0c7947a427af0bc7868254eaadf14"
                 },
                 "dist": {
@@ -30864,7 +30864,7 @@
                 "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "8eab9e47d46027ca0f9b4782be62c7fa39c569eb"
                 },
                 "dist": {
@@ -30962,7 +30962,7 @@
                 "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "edf22bfa5d28aa7764778d040649cc67120d3324"
                 },
                 "dist": {
@@ -31060,7 +31060,7 @@
                 "version_normalized": "dev-renovate/shippo-shippo-php-2.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "04ef55308a9d4e349f4841315fee5799273e28f4"
                 },
                 "dist": {
@@ -31158,7 +31158,7 @@
                 "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod2/mylisterhub-shipping-package.git",
+                    "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
                     "reference": "336f0cdbaf852999ee9a8f5a3af7ec0c9cc1eed8"
                 },
                 "dist": {
@@ -42509,12 +42509,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "ac4cd3c94b5839a18bdc0d425541466fb2869a32"
+                    "reference": "c9c9b616ae2402f969c770633eba7aa172af4f56"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/ac4cd3c94b5839a18bdc0d425541466fb2869a32",
-                    "reference": "ac4cd3c94b5839a18bdc0d425541466fb2869a32",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/c9c9b616ae2402f969c770633eba7aa172af4f56",
+                    "reference": "c9c9b616ae2402f969c770633eba7aa172af4f56",
                     "shasum": ""
                 },
                 "require": {
@@ -42541,7 +42541,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-06T21:32:27+00:00",
+                "time": "2024-03-11T18:56:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -42604,7 +42604,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.1.5",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/main",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
@@ -42825,12 +42825,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "9b0e14b49c3bd9394e829067f3ab46e0f5c49b17"
+                    "reference": "1432031a6e9fc383c5c03b5c955074aa14fa9334"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9b0e14b49c3bd9394e829067f3ab46e0f5c49b17",
-                    "reference": "9b0e14b49c3bd9394e829067f3ab46e0f5c49b17",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/1432031a6e9fc383c5c03b5c955074aa14fa9334",
+                    "reference": "1432031a6e9fc383c5c03b5c955074aa14fa9334",
                     "shasum": ""
                 },
                 "require": {
@@ -42857,7 +42857,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-06T21:33:12+00:00",
+                "time": "2024-03-11T11:46:28+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
