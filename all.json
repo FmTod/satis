@@ -8887,6 +8887,101 @@
                     "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
+            "dev-renovate/major-illuminate": {
+                "name": "fmtod/laravel-errorable",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
+                    "reference": "9b3971e7d11a8cbcc01bd2e992bf581c2aaeaf62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/9b3971e7d11a8cbcc01bd2e992bf581c2aaeaf62",
+                    "reference": "9b3971e7d11a8cbcc01bd2e992bf581c2aaeaf62",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-faker": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-12T16:30:24+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\Errorable\\ErrorableServiceProvider"
+                        ],
+                        "aliases": {
+                            "Errorable": "FmTod\\Errorable\\Facades\\Errorable"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\Errorable\\": "src/",
+                        "FmTod\\Errorable\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Errorable\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Laravel Errorable",
+                "homepage": "https://github.com/fmtod/laravel-errorable",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-errorable"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
+            },
             "dev-renovate/major-semantic-release-monorepo": {
                 "name": "fmtod/laravel-errorable",
                 "version": "dev-renovate/major-semantic-release-monorepo",
@@ -11328,6 +11423,94 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            "dev-renovate/major-illuminate": {
+                "name": "fmtod/laravel-google-translate",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "3c29ffb782316a335a82d54acb8365c00174a93d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/3c29ffb782316a335a82d54acb8365c00174a93d",
+                    "reference": "3c29ffb782316a335a82d54acb8365c00174a93d",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "^11.0",
+                    "php": "^8.1|^8.2",
+                    "phpstan/extension-installer": "^1.3",
+                    "phpstan/phpstan-deprecation-rules": "^1.1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.1",
+                    "nunomaduro/larastan": "^2.6",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-drift": "^2.2"
+                },
+                "time": "2024-03-12T14:15:36+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "FmTod\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/major-illuminate",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },
@@ -24989,6 +25172,96 @@
                     "issues": "https://github.com/FmTod/laravel-tabulator/issues"
                 }
             },
+            "dev-renovate/major-illuminate": {
+                "name": "fmtod/laravel-tabulator",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
+                    "reference": "98fbc21444bf2f7b38e41a2e4a94ecbcd62cf240"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/98fbc21444bf2f7b38e41a2e4a94ecbcd62cf240",
+                    "reference": "98fbc21444bf2f7b38e41a2e4a94ecbcd62cf240",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.8",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.29"
+                },
+                "time": "2024-03-12T20:43:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulator\\TabulatorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelTabulator": "FmTod\\LaravelTabulator\\Facades\\Tabulator"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulator\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor Rivero",
+                        "email": "victorrivero2415@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package laravel-tabulator",
+                "homepage": "https://github.com/fmtod/laravel-tabulator",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "laravel-tabulator"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
+            },
             "dev-renovate/major-semantic-release-monorepo": {
                 "name": "fmtod/laravel-tabulator",
                 "version": "dev-renovate/major-semantic-release-monorepo",
@@ -26510,6 +26783,94 @@
                     "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
                 }
             },
+            "dev-renovate/major-illuminate": {
+                "name": "fmtod/laravel-tabulator-inertia",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
+                    "reference": "c83dcd3122a6ee1a059b9da82b5038f1f4f555b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/c83dcd3122a6ee1a059b9da82b5038f1f4f555b6",
+                    "reference": "c83dcd3122a6ee1a059b9da82b5038f1f4f555b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/laravel-tabulator": "*",
+                    "illuminate/contracts": "^11.0",
+                    "inertiajs/inertia-laravel": "*",
+                    "php": "^8.1|^8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-12T15:09:34+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
+                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-tabulator-inertia"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
+            },
             "dev-renovate/major-semantic-release-monorepo": {
                 "name": "fmtod/laravel-tabulator-inertia",
                 "version": "dev-renovate/major-semantic-release-monorepo",
@@ -27469,6 +27830,105 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
+                }
+            },
+            "dev-renovate/major-illuminate": {
+                "name": "fmtod/laravel-zipcode",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-zipcode.git",
+                    "reference": "a63e3923be636daa405ba96984394626d9423b52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/a63e3923be636daa405ba96984394626d9423b52",
+                    "reference": "a63e3923be636daa405ba96984394626d9423b52",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "guzzlehttp/guzzle": "^7.5",
+                    "illuminate/collections": "^11.0",
+                    "illuminate/contracts": "^11.0",
+                    "illuminate/http": "^11.0",
+                    "illuminate/support": "^11.0",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "phpunit/php-code-coverage": "^10.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-12T17:18:14+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ZipCode\\ZipCodeServiceProvider"
+                        ],
+                        "aliases": {
+                            "ZipCode": "FmTod\\ZipCode\\Facades\\ZipCode"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ZipCode\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Zip code searcher",
+                "homepage": "https://github.com/fmtod/laravel-zipcode",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-zipcode"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/major-illuminate",
                     "issues": "https://github.com/FmTod/laravel-zipcode/issues"
                 }
             },
@@ -37462,12 +37922,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "3b0b0f03b14b54bdee83b0a4949ad50df37e0da5"
+                    "reference": "42d55e73884a6e9fa16d0f810dd673bcc10f5bbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/3b0b0f03b14b54bdee83b0a4949ad50df37e0da5",
-                    "reference": "3b0b0f03b14b54bdee83b0a4949ad50df37e0da5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/42d55e73884a6e9fa16d0f810dd673bcc10f5bbd",
+                    "reference": "42d55e73884a6e9fa16d0f810dd673bcc10f5bbd",
                     "shasum": ""
                 },
                 "require": {
@@ -37512,7 +37972,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-08T10:22:41+00:00",
+                "time": "2024-03-12T11:23:20+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -38786,6 +39246,103 @@
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
+            "dev-renovate/major-illuminate": {
+                "name": "mylisterhub/api",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
+                    "reference": "c4951d6577c8b2c664b74cc40afde71188e84a35"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/c4951d6577c8b2c664b74cc40afde71188e84a35",
+                    "reference": "c4951d6577c8b2c664b74cc40afde71188e84a35",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-12T17:42:32+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\API\\APIServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\API\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\API\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Resource API for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "api",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
+            },
             "dev-renovate/major-semantic-release-monorepo": {
                 "name": "mylisterhub/api",
                 "version": "dev-renovate/major-semantic-release-monorepo",
@@ -38974,6 +39531,103 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
+            },
+            "dev-renovate/orchestra-canvas-9.x": {
+                "name": "mylisterhub/api",
+                "version": "dev-renovate/orchestra-canvas-9.x",
+                "version_normalized": "dev-renovate/orchestra-canvas-9.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
+                    "reference": "5cd96cb1be543b0cc47b59c92455e1c6cacd5c3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/5cd96cb1be543b0cc47b59c92455e1c6cacd5c3d",
+                    "reference": "5cd96cb1be543b0cc47b59c92455e1c6cacd5c3d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "php": "^8.1",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^9.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-03-12T17:42:27+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\API\\APIServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\API\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\API\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Resource API for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "api",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-canvas-9.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
@@ -43038,6 +43692,111 @@
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
+            "dev-renovate/major-illuminate": {
+                "name": "mylisterhub/media",
+                "version": "dev-renovate/major-illuminate",
+                "version_normalized": "dev-renovate/major-illuminate",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "reference": "326dfa8fcb20dbb29e3f99459dafa2997ff499e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/326dfa8fcb20dbb29e3f99459dafa2997ff499e4",
+                    "reference": "326dfa8fcb20dbb29e3f99459dafa2997ff499e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "mylisterhub/api": "^1.0",
+                    "php": "^8.1",
+                    "rahulhaque/laravel-filepond": "^10.0",
+                    "spatie/image": "^2.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26",
+                    "tightenco/duster": "^2.6"
+                },
+                "time": "2024-03-12T15:00:20+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\Media\\MediaServiceProvider"
+                        ],
+                        "aliases": {
+                            "Media": "MyListerHub\\Media\\Facades\\Media"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\Media\\": "src/",
+                        "MyListerHub\\Media\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Media\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Media management package for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-media-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "laravel",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
+                }
+            },
             "dev-renovate/major-semantic-release-monorepo": {
                 "name": "mylisterhub/media",
                 "version": "dev-renovate/major-semantic-release-monorepo",
@@ -43140,6 +43899,111 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
+                }
+            },
+            "dev-renovate/orchestra-canvas-9.x": {
+                "name": "mylisterhub/media",
+                "version": "dev-renovate/orchestra-canvas-9.x",
+                "version_normalized": "dev-renovate/orchestra-canvas-9.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "reference": "9d39b006722efdc81a010c395cb23d2ba15bf9cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9d39b006722efdc81a010c395cb23d2ba15bf9cf",
+                    "reference": "9d39b006722efdc81a010c395cb23d2ba15bf9cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0",
+                    "mylisterhub/api": "^1.0",
+                    "php": "^8.1",
+                    "rahulhaque/laravel-filepond": "^10.0",
+                    "spatie/image": "^2.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^9.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26",
+                    "tightenco/duster": "^2.6"
+                },
+                "time": "2024-03-12T15:00:16+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\Media\\MediaServiceProvider"
+                        ],
+                        "aliases": {
+                            "Media": "MyListerHub\\Media\\Facades\\Media"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\Media\\": "src/",
+                        "MyListerHub\\Media\\Database\\Factories\\": "database/factories/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Media\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Media management package for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-media-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "laravel",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/orchestra-canvas-9.x",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
