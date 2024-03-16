@@ -591,12 +591,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "cdbdb988ec75db387d4d082e1cb1c8e8cd16aa42"
+                    "reference": "570e5c1e12d38d083a1ac800c25ae8a0171a0654"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/cdbdb988ec75db387d4d082e1cb1c8e8cd16aa42",
-                    "reference": "cdbdb988ec75db387d4d082e1cb1c8e8cd16aa42",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/570e5c1e12d38d083a1ac800c25ae8a0171a0654",
+                    "reference": "570e5c1e12d38d083a1ac800c25ae8a0171a0654",
                     "shasum": ""
                 },
                 "require": {
@@ -619,7 +619,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-13T00:25:31+00:00",
+                "time": "2024-03-15T01:48:48+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

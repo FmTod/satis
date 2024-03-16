@@ -625,12 +625,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-google-translate.git",
-                    "reference": "537541766e29b158515e85350ae1778bf4dc09ba"
+                    "reference": "898fe14f77e6968466812412e3a184d5c321b92b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/537541766e29b158515e85350ae1778bf4dc09ba",
-                    "reference": "537541766e29b158515e85350ae1778bf4dc09ba",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/898fe14f77e6968466812412e3a184d5c321b92b",
+                    "reference": "898fe14f77e6968466812412e3a184d5c321b92b",
                     "shasum": ""
                 },
                 "require": {
@@ -647,7 +647,7 @@
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-drift": "^2.2"
                 },
-                "time": "2024-02-25T15:36:30+00:00",
+                "time": "2024-03-15T00:36:08+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

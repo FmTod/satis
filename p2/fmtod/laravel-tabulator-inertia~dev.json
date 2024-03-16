@@ -625,12 +625,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "d8b78c86190921bc84c47cee0ebcfe5561648c76"
+                    "reference": "599606eb566d6cb56479d2f0c6ba4110b9da4963"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/d8b78c86190921bc84c47cee0ebcfe5561648c76",
-                    "reference": "d8b78c86190921bc84c47cee0ebcfe5561648c76",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/599606eb566d6cb56479d2f0c6ba4110b9da4963",
+                    "reference": "599606eb566d6cb56479d2f0c6ba4110b9da4963",
                     "shasum": ""
                 },
                 "require": {
@@ -651,7 +651,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-25T16:13:04+00:00",
+                "time": "2024-03-15T02:02:31+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

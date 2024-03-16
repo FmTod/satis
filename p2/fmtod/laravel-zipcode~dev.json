@@ -603,12 +603,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "e56edfaee48f83695ee850b2768d4c291585d0f3"
+                    "reference": "78a2d796e9fd0b7d576a8d84bf573b15c634aabc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/e56edfaee48f83695ee850b2768d4c291585d0f3",
-                    "reference": "e56edfaee48f83695ee850b2768d4c291585d0f3",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/78a2d796e9fd0b7d576a8d84bf573b15c634aabc",
+                    "reference": "78a2d796e9fd0b7d576a8d84bf573b15c634aabc",
                     "shasum": ""
                 },
                 "require": {
@@ -634,7 +634,7 @@
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-25T15:20:22+00:00",
+                "time": "2024-03-15T00:39:02+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
