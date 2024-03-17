@@ -30811,12 +30811,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod2/mylisterhub-shipping-package.git",
-                    "reference": "d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b"
+                    "reference": "e25b0b7de03a4c3c8b1f13d23819cc62ba3827b0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b",
-                    "reference": "d5a75e4dc45c8a0fa1e9993bc07996d7cd22059b",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-shipping-package/zipball/e25b0b7de03a4c3c8b1f13d23819cc62ba3827b0",
+                    "reference": "e25b0b7de03a4c3c8b1f13d23819cc62ba3827b0",
                     "shasum": ""
                 },
                 "require": {
@@ -30844,7 +30844,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-11T13:01:14+00:00",
+                "time": "2024-03-16T13:07:40+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -44993,19 +44993,19 @@
                     "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/follow-redirects-1.15.4": {
+            "dev-dependabot/npm_and_yarn/follow-redirects-1.15.6": {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.4",
-                "version_normalized": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.4",
+                "version": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.6",
+                "version_normalized": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.6",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
-                    "reference": "dfac9c3c6205306395a251480b5ce7f2d3ff1b79"
+                    "reference": "a654317557c95b59b2eaf5405686c09f09253c86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/dfac9c3c6205306395a251480b5ce7f2d3ff1b79",
-                    "reference": "dfac9c3c6205306395a251480b5ce7f2d3ff1b79",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/a654317557c95b59b2eaf5405686c09f09253c86",
+                    "reference": "a654317557c95b59b2eaf5405686c09f09253c86",
                     "shasum": ""
                 },
                 "require": {
@@ -45027,7 +45027,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-11T05:19:30+00:00",
+                "time": "2024-03-16T21:18:12+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -45087,7 +45087,7 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/follow-redirects-1.15.4",
+                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/follow-redirects-1.15.6",
                     "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
                 }
             },
