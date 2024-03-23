@@ -218,12 +218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "388e2dc9a448d6add881078e6b17a119e00947b3"
+                    "reference": "81f080f9c9aa82f45b835e77ea10508d95689f13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/388e2dc9a448d6add881078e6b17a119e00947b3",
-                    "reference": "388e2dc9a448d6add881078e6b17a119e00947b3",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/81f080f9c9aa82f45b835e77ea10508d95689f13",
+                    "reference": "81f080f9c9aa82f45b835e77ea10508d95689f13",
                     "shasum": ""
                 },
                 "require": {
@@ -250,7 +250,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-20T16:43:40+00:00",
+                "time": "2024-03-22T13:33:32+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1269,12 +1269,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "6f9027e877ea938224bfa4aec3774ada85a971b7"
+                    "reference": "6f39d4e305dc8e718558fdafcd27a71088fc296a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/6f9027e877ea938224bfa4aec3774ada85a971b7",
-                    "reference": "6f9027e877ea938224bfa4aec3774ada85a971b7",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/6f39d4e305dc8e718558fdafcd27a71088fc296a",
+                    "reference": "6f39d4e305dc8e718558fdafcd27a71088fc296a",
                     "shasum": ""
                 },
                 "require": {
@@ -1301,7 +1301,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-20T16:44:17+00:00",
+                "time": "2024-03-22T13:34:27+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
