@@ -43751,12 +43751,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "544a0997d860eb5f6b9df09630be2d6af939465e"
+                    "reference": "402d7af8a9493e61a4ee74a84e91f92d86a73358"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/544a0997d860eb5f6b9df09630be2d6af939465e",
-                    "reference": "544a0997d860eb5f6b9df09630be2d6af939465e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/402d7af8a9493e61a4ee74a84e91f92d86a73358",
+                    "reference": "402d7af8a9493e61a4ee74a84e91f92d86a73358",
                     "shasum": ""
                 },
                 "require": {
@@ -43783,7 +43783,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-29T10:25:29+00:00",
+                "time": "2024-04-03T16:45:22+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -44802,12 +44802,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "3ba48a2fdcf4598a64354de2cdf6130c1e99591b"
+                    "reference": "976aaf94deac832eb77fdaa181e59d8ba1e6a26b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/3ba48a2fdcf4598a64354de2cdf6130c1e99591b",
-                    "reference": "3ba48a2fdcf4598a64354de2cdf6130c1e99591b",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/976aaf94deac832eb77fdaa181e59d8ba1e6a26b",
+                    "reference": "976aaf94deac832eb77fdaa181e59d8ba1e6a26b",
                     "shasum": ""
                 },
                 "require": {
@@ -44834,7 +44834,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-03-29T10:26:16+00:00",
+                "time": "2024-04-03T16:46:13+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -45294,19 +45294,19 @@
                     "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/vite-5.0.12": {
+            "dev-dependabot/npm_and_yarn/vite-5.0.13": {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-dependabot/npm_and_yarn/vite-5.0.12",
-                "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.12",
+                "version": "dev-dependabot/npm_and_yarn/vite-5.0.13",
+                "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.13",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
-                    "reference": "66a4c8508a9cddef3474fcb708348564f3fd09e5"
+                    "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/66a4c8508a9cddef3474fcb708348564f3fd09e5",
-                    "reference": "66a4c8508a9cddef3474fcb708348564f3fd09e5",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
+                    "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
                     "shasum": ""
                 },
                 "require": {
@@ -45328,7 +45328,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-19T23:13:37+00:00",
+                "time": "2024-04-03T19:12:33+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -45388,7 +45388,7 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.12",
+                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.13",
                     "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
                 }
             },

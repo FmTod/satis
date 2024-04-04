@@ -199,17 +199,17 @@
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-dependabot/npm_and_yarn/vite-5.0.12",
-                "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.12",
+                "version": "dev-dependabot/npm_and_yarn/vite-5.0.13",
+                "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.13",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
-                    "reference": "66a4c8508a9cddef3474fcb708348564f3fd09e5"
+                    "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/66a4c8508a9cddef3474fcb708348564f3fd09e5",
-                    "reference": "66a4c8508a9cddef3474fcb708348564f3fd09e5",
+                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
+                    "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
                     "shasum": ""
                 },
                 "require": {
@@ -231,7 +231,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-19T23:13:37+00:00",
+                "time": "2024-04-03T19:12:33+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -291,7 +291,7 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.12",
+                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.13",
                     "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
                 }
             },
