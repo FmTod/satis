@@ -1137,12 +1137,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "7fdf5b88dcef724f9cebcc87f956dd819cb15e90"
+                    "reference": "9e708d8865fccf41ba672b93cfd4da72e5e6fa44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/7fdf5b88dcef724f9cebcc87f956dd819cb15e90",
-                    "reference": "7fdf5b88dcef724f9cebcc87f956dd819cb15e90",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/9e708d8865fccf41ba672b93cfd4da72e5e6fa44",
+                    "reference": "9e708d8865fccf41ba672b93cfd4da72e5e6fa44",
                     "shasum": ""
                 },
                 "require": {
@@ -1187,7 +1187,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-19T15:09:36+00:00",
+                "time": "2024-04-21T11:32:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
