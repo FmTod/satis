@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "a96c18e4848a6fad5630c08e3517846612a19107"
+                    "reference": "137ffd8cbda5441509062c5e639b94f704776926"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/a96c18e4848a6fad5630c08e3517846612a19107",
-                    "reference": "a96c18e4848a6fad5630c08e3517846612a19107",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/137ffd8cbda5441509062c5e639b94f704776926",
+                    "reference": "137ffd8cbda5441509062c5e639b94f704776926",
                     "shasum": ""
                 },
                 "require": {
@@ -615,7 +615,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-26T13:37:57+00:00",
+                "time": "2024-04-26T18:27:59+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1022,12 +1022,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "23836e82b449b146b510fd5ca00367d3aa52d0a9"
+                    "reference": "49d801d7d8578edfb0bfc3ddf61e8cfb59d0a43e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/23836e82b449b146b510fd5ca00367d3aa52d0a9",
-                    "reference": "23836e82b449b146b510fd5ca00367d3aa52d0a9",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/49d801d7d8578edfb0bfc3ddf61e8cfb59d0a43e",
+                    "reference": "49d801d7d8578edfb0bfc3ddf61e8cfb59d0a43e",
                     "shasum": ""
                 },
                 "require": {
@@ -1072,7 +1072,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-26T07:39:21+00:00",
+                "time": "2024-04-26T18:28:00+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1242,121 +1242,6 @@
                 "description": "Auth",
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/npm-run-all-replacement",
-                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
-                }
-            },
-            {
-                "name": "modules/auth",
-                "version": "dev-renovate/pinia-2.x-lockfile",
-                "version_normalized": "dev-renovate/pinia-2.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "63a719e2c0b8d801fead0096094e3b46360691b2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/63a719e2c0b8d801fead0096094e3b46360691b2",
-                    "reference": "63a719e2c0b8d801fead0096094e3b46360691b2",
-                    "shasum": ""
-                },
-                "require": {
-                    "ambengers/kinetic": "^1.8",
-                    "bensampo/laravel-enum": "^6.3",
-                    "fmtod/laravel-google-translate": "*",
-                    "fmtod/laravel-money": "^10.0",
-                    "fmtod/laravel-tabulator": "^v1.0",
-                    "fmtod/laravel-tabulator-inertia": "^1.0",
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6.9",
-                    "laravel-notification-channels/webpush": "^7.1",
-                    "laravel/sanctum": "^3.2",
-                    "laravel/scout": "^10.0",
-                    "laravel/slack-notification-channel": "^3.2",
-                    "laravel/spark-stripe": "^4.0",
-                    "laravel/ui": "^4.0.0",
-                    "lorisleiva/laravel-actions": "^2.5",
-                    "mylisterhub/api": "*",
-                    "mylisterhub/core": "^1.1",
-                    "mylisterhub/media": "^10.1.1",
-                    "php": "^8.1",
-                    "rinvex/countries": "^9.0",
-                    "santigarcor/laratrust": "^8.0",
-                    "spatie/laravel-package-tools": "^1.14.0",
-                    "stancl/tenancy": "^3.6.1",
-                    "tightenco/ziggy": "^1.5",
-                    "touhidurabir/laravel-model-sanitize": "^1.1"
-                },
-                "require-dev": {
-                    "larastan/larastan": "^2.0",
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.8",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-04-26T13:37:46+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Modules\\Auth\\ModuleServiceProvider",
-                            "Modules\\Auth\\Providers\\AuthServiceProvider",
-                            "Modules\\Auth\\Providers\\EventServiceProvider",
-                            "Modules\\Auth\\Providers\\InertiaServiceProvider",
-                            "Modules\\Auth\\Providers\\SparkServiceProvider",
-                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
-                        ],
-                        "aliases": {
-                            "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
-                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Modules\\Auth\\": "src",
-                        "Modules\\Auth\\Database\\Factories\\": "database/factories"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Modules\\Auth\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "authors": [
-                    {
-                        "name": "Victor R",
-                        "email": "39545521+viicslen@users.noreply.github.com"
-                    }
-                ],
-                "description": "Auth",
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/pinia-2.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
@@ -1579,6 +1464,121 @@
                 "description": "Auth",
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/swiper-11.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
+            },
+            {
+                "name": "modules/auth",
+                "version": "dev-renovate/vite-plugin-checker-0.x-lockfile",
+                "version_normalized": "dev-renovate/vite-plugin-checker-0.x-lockfile",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
+                    "reference": "7e5c219b01029b34176f3934c6f91058b416d337"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/7e5c219b01029b34176f3934c6f91058b416d337",
+                    "reference": "7e5c219b01029b34176f3934c6f91058b416d337",
+                    "shasum": ""
+                },
+                "require": {
+                    "ambengers/kinetic": "^1.8",
+                    "bensampo/laravel-enum": "^6.3",
+                    "fmtod/laravel-google-translate": "*",
+                    "fmtod/laravel-money": "^10.0",
+                    "fmtod/laravel-tabulator": "^v1.0",
+                    "fmtod/laravel-tabulator-inertia": "^1.0",
+                    "illuminate/contracts": "^10.0",
+                    "inertiajs/inertia-laravel": "^0.6.9",
+                    "laravel-notification-channels/webpush": "^7.1",
+                    "laravel/sanctum": "^3.2",
+                    "laravel/scout": "^10.0",
+                    "laravel/slack-notification-channel": "^3.2",
+                    "laravel/spark-stripe": "^4.0",
+                    "laravel/ui": "^4.0.0",
+                    "lorisleiva/laravel-actions": "^2.5",
+                    "mylisterhub/api": "*",
+                    "mylisterhub/core": "^1.1",
+                    "mylisterhub/media": "^10.1.1",
+                    "php": "^8.1",
+                    "rinvex/countries": "^9.0",
+                    "santigarcor/laratrust": "^8.0",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "stancl/tenancy": "^3.6.1",
+                    "tightenco/ziggy": "^1.5",
+                    "touhidurabir/laravel-model-sanitize": "^1.1"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.8",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2024-04-26T18:27:35+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Modules\\Auth\\ModuleServiceProvider",
+                            "Modules\\Auth\\Providers\\AuthServiceProvider",
+                            "Modules\\Auth\\Providers\\EventServiceProvider",
+                            "Modules\\Auth\\Providers\\InertiaServiceProvider",
+                            "Modules\\Auth\\Providers\\SparkServiceProvider",
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
+                        ],
+                        "aliases": {
+                            "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Modules\\Auth\\": "src",
+                        "Modules\\Auth\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Modules\\Auth\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vite-plugin-checker-0.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
