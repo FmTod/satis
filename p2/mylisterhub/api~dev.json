@@ -971,17 +971,17 @@
             },
             {
                 "name": "mylisterhub/api",
-                "version": "dev-renovate/paambaati-codeclimate-action-5.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
+                "version": "dev-renovate/paambaati-codeclimate-action-6.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-6.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "ed0969463081ed040a4fd95a0d0e8ccc7c0d673b"
+                    "reference": "f85ab81d61c8aa88d1e4701333e2fa441fe83b99"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/ed0969463081ed040a4fd95a0d0e8ccc7c0d673b",
-                    "reference": "ed0969463081ed040a4fd95a0d0e8ccc7c0d673b",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/f85ab81d61c8aa88d1e4701333e2fa441fe83b99",
+                    "reference": "f85ab81d61c8aa88d1e4701333e2fa441fe83b99",
                     "shasum": ""
                 },
                 "require": {
@@ -1004,7 +1004,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-12-01T21:15:25+00:00",
+                "time": "2024-04-26T07:49:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1036,6 +1036,9 @@
                     "test-coverage": [
                         "vendor/bin/pest --coverage"
                     ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ],
                     "format": [
                         "vendor/bin/pint"
                     ]
@@ -1059,7 +1062,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/paambaati-codeclimate-action-5.x",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/paambaati-codeclimate-action-6.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },

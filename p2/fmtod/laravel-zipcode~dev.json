@@ -796,17 +796,17 @@
             },
             {
                 "name": "fmtod/laravel-zipcode",
-                "version": "dev-renovate/paambaati-codeclimate-action-5.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
+                "version": "dev-renovate/orchestra-testbench-9.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "d95798ff8c5d340cac24f30ae04bfb82f816c2db"
+                    "reference": "4a95840b5bd60547c2cac567cee3ca5e4ca8d5a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/d95798ff8c5d340cac24f30ae04bfb82f816c2db",
-                    "reference": "d95798ff8c5d340cac24f30ae04bfb82f816c2db",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/4a95840b5bd60547c2cac567cee3ca5e4ca8d5a0",
+                    "reference": "4a95840b5bd60547c2cac567cee3ca5e4ca8d5a0",
                     "shasum": ""
                 },
                 "require": {
@@ -823,7 +823,7 @@
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -832,7 +832,7 @@
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-07-31T20:38:54+00:00",
+                "time": "2024-04-26T09:40:22+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -889,7 +889,7 @@
                     "laravel-zipcode"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/paambaati-codeclimate-action-5.x",
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/orchestra-testbench-9.x",
                     "issues": "https://github.com/FmTod/laravel-zipcode/issues"
                 }
             },
