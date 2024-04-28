@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "8117a09f697c79c929819ac1a05360d948d186b0"
+                    "reference": "d0d6b2583d332845ecbc71711ff5809c0e4bb2b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/8117a09f697c79c929819ac1a05360d948d186b0",
-                    "reference": "8117a09f697c79c929819ac1a05360d948d186b0",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/d0d6b2583d332845ecbc71711ff5809c0e4bb2b8",
+                    "reference": "d0d6b2583d332845ecbc71711ff5809c0e4bb2b8",
                     "shasum": ""
                 },
                 "require": {
@@ -615,7 +615,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T09:53:11+00:00",
+                "time": "2024-04-28T13:54:01+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1247,17 +1247,17 @@
             },
             {
                 "name": "modules/auth",
-                "version": "dev-renovate/prettier-3.x-lockfile",
-                "version_normalized": "dev-renovate/prettier-3.x-lockfile",
+                "version": "dev-renovate/sass-1.x-lockfile",
+                "version_normalized": "dev-renovate/sass-1.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "f46b810a89a3049e32918829aa18f3f8d32c5044"
+                    "reference": "d84871d2ced797a1dd7d70928ff7ad859fe319e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/f46b810a89a3049e32918829aa18f3f8d32c5044",
-                    "reference": "f46b810a89a3049e32918829aa18f3f8d32c5044",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/d84871d2ced797a1dd7d70928ff7ad859fe319e4",
+                    "reference": "d84871d2ced797a1dd7d70928ff7ad859fe319e4",
                     "shasum": ""
                 },
                 "require": {
@@ -1302,7 +1302,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T09:54:16+00:00",
+                "time": "2024-04-28T13:54:49+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1356,7 +1356,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/prettier-3.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/sass-1.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
