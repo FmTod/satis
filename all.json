@@ -39499,12 +39499,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "2ae9aca6774af08441d3c4111a178bdac41ce803"
+                    "reference": "c001d29df6f7a0da85f565c2ecc5f25e8644d2a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/2ae9aca6774af08441d3c4111a178bdac41ce803",
-                    "reference": "2ae9aca6774af08441d3c4111a178bdac41ce803",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/c001d29df6f7a0da85f565c2ecc5f25e8644d2a6",
+                    "reference": "c001d29df6f7a0da85f565c2ecc5f25e8644d2a6",
                     "shasum": ""
                 },
                 "require": {
@@ -39549,7 +39549,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T05:07:44+00:00",
+                "time": "2024-04-28T06:53:34+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -39719,19 +39719,19 @@
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
-            "dev-renovate/eslint-8.x-lockfile": {
+            "dev-renovate/eslint-plugin-vue-9.x-lockfile": {
                 "name": "modules/auth",
-                "version": "dev-renovate/eslint-8.x-lockfile",
-                "version_normalized": "dev-renovate/eslint-8.x-lockfile",
+                "version": "dev-renovate/eslint-plugin-vue-9.x-lockfile",
+                "version_normalized": "dev-renovate/eslint-plugin-vue-9.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "bad53924b6757b940d4a336dfe342532ecb7f0db"
+                    "reference": "533b699ae347e1a5a83138d5836fef31106b58df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/bad53924b6757b940d4a336dfe342532ecb7f0db",
-                    "reference": "bad53924b6757b940d4a336dfe342532ecb7f0db",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/533b699ae347e1a5a83138d5836fef31106b58df",
+                    "reference": "533b699ae347e1a5a83138d5836fef31106b58df",
                     "shasum": ""
                 },
                 "require": {
@@ -39776,7 +39776,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T05:08:41+00:00",
+                "time": "2024-04-28T06:54:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -39830,7 +39830,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/eslint-8.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/eslint-plugin-vue-9.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
@@ -39956,12 +39956,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "bdd2f8afec5a35576fb5adb74561b70b7a476fe5"
+                    "reference": "4e4cb8eea84cd5ee37d8d0aa0d46509163aab2ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/bdd2f8afec5a35576fb5adb74561b70b7a476fe5",
-                    "reference": "bdd2f8afec5a35576fb5adb74561b70b7a476fe5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/4e4cb8eea84cd5ee37d8d0aa0d46509163aab2ed",
+                    "reference": "4e4cb8eea84cd5ee37d8d0aa0d46509163aab2ed",
                     "shasum": ""
                 },
                 "require": {
@@ -40006,7 +40006,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T01:52:55+00:00",
+                "time": "2024-04-28T06:55:10+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
