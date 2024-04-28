@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "b9f9fe984494a864ac45c6b641b36bb7524faa73"
+                    "reference": "8c47a1b4ea443f0da7e023385ca6dfff5b5730be"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b9f9fe984494a864ac45c6b641b36bb7524faa73",
-                    "reference": "b9f9fe984494a864ac45c6b641b36bb7524faa73",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/8c47a1b4ea443f0da7e023385ca6dfff5b5730be",
+                    "reference": "8c47a1b4ea443f0da7e023385ca6dfff5b5730be",
                     "shasum": ""
                 },
                 "require": {
@@ -615,7 +615,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T17:23:27+00:00",
+                "time": "2024-04-28T18:38:28+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1022,12 +1022,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "952a1c9384da44fd4c07463669f7c339dcea390a"
+                    "reference": "34c48888e904a3dcf40ca2be978c871f39a7eb67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/952a1c9384da44fd4c07463669f7c339dcea390a",
-                    "reference": "952a1c9384da44fd4c07463669f7c339dcea390a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/34c48888e904a3dcf40ca2be978c871f39a7eb67",
+                    "reference": "34c48888e904a3dcf40ca2be978c871f39a7eb67",
                     "shasum": ""
                 },
                 "require": {
@@ -1072,7 +1072,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T17:24:28+00:00",
+                "time": "2024-04-28T18:40:09+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1469,17 +1469,17 @@
             },
             {
                 "name": "modules/auth",
-                "version": "dev-renovate/terser-5.x-lockfile",
-                "version_normalized": "dev-renovate/terser-5.x-lockfile",
+                "version": "dev-renovate/ts-loader-9.x-lockfile",
+                "version_normalized": "dev-renovate/ts-loader-9.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "6c73b7eba77780888b57ed8f3f008fc7948b8ad7"
+                    "reference": "b7ff9d3d1857a31bce7592081e18bd8e406c4fbe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/6c73b7eba77780888b57ed8f3f008fc7948b8ad7",
-                    "reference": "6c73b7eba77780888b57ed8f3f008fc7948b8ad7",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b7ff9d3d1857a31bce7592081e18bd8e406c4fbe",
+                    "reference": "b7ff9d3d1857a31bce7592081e18bd8e406c4fbe",
                     "shasum": ""
                 },
                 "require": {
@@ -1524,7 +1524,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T17:24:08+00:00",
+                "time": "2024-04-28T18:39:41+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1578,7 +1578,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/terser-5.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/ts-loader-9.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
