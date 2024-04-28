@@ -565,12 +565,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "8c47a1b4ea443f0da7e023385ca6dfff5b5730be"
+                    "reference": "1d8c694899e95c1900b89cf4635a19808777ff7e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/8c47a1b4ea443f0da7e023385ca6dfff5b5730be",
-                    "reference": "8c47a1b4ea443f0da7e023385ca6dfff5b5730be",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/1d8c694899e95c1900b89cf4635a19808777ff7e",
+                    "reference": "1d8c694899e95c1900b89cf4635a19808777ff7e",
                     "shasum": ""
                 },
                 "require": {
@@ -615,7 +615,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T18:38:28+00:00",
+                "time": "2024-04-28T22:31:51+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1469,17 +1469,17 @@
             },
             {
                 "name": "modules/auth",
-                "version": "dev-renovate/ts-loader-9.x-lockfile",
-                "version_normalized": "dev-renovate/ts-loader-9.x-lockfile",
+                "version": "dev-renovate/unplugin-vue-define-options-1.x-lockfile",
+                "version_normalized": "dev-renovate/unplugin-vue-define-options-1.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "b7ff9d3d1857a31bce7592081e18bd8e406c4fbe"
+                    "reference": "16f58754263483215f86a0276315f4f564cffcd5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b7ff9d3d1857a31bce7592081e18bd8e406c4fbe",
-                    "reference": "b7ff9d3d1857a31bce7592081e18bd8e406c4fbe",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/16f58754263483215f86a0276315f4f564cffcd5",
+                    "reference": "16f58754263483215f86a0276315f4f564cffcd5",
                     "shasum": ""
                 },
                 "require": {
@@ -1524,7 +1524,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-28T18:39:41+00:00",
+                "time": "2024-04-28T22:32:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1578,7 +1578,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/ts-loader-9.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/unplugin-vue-define-options-1.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
