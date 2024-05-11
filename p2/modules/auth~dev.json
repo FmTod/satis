@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "07dfb08135837bdc267d848e19c41cc77bebca9c"
+                    "reference": "4a02afe33c54292cc3b71d41a12ec393774da2a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/07dfb08135837bdc267d848e19c41cc77bebca9c",
-                    "reference": "07dfb08135837bdc267d848e19c41cc77bebca9c",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/4a02afe33c54292cc3b71d41a12ec393774da2a5",
+                    "reference": "4a02afe33c54292cc3b71d41a12ec393774da2a5",
                     "shasum": ""
                 },
                 "require": {
@@ -46,7 +46,7 @@
                 "require-dev": {
                     "larastan/larastan": "^2.0",
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/collision": "^7.10",
                     "nunomaduro/larastan": "^2.8",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
@@ -58,7 +58,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-09T15:58:43+00:00",
+                "time": "2024-05-10T20:14:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -69,11 +69,13 @@
                             "Modules\\Auth\\Providers\\EventServiceProvider",
                             "Modules\\Auth\\Providers\\InertiaServiceProvider",
                             "Modules\\Auth\\Providers\\SparkServiceProvider",
-                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider",
+                            "Modules\\Auth\\Providers\\RouteServiceProvider"
                         ],
                         "aliases": {
                             "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
-                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache",
+                            "AuthModule": "Modules\\Auth\\Facades\\AuthModule"
                         }
                     }
                 },
@@ -96,10 +98,10 @@
                         "vendor/bin/phpstan analyse"
                     ],
                     "test": [
-                        "vendor/bin/pest"
+                        "vendor/bin/testbench package:test"
                     ],
                     "test-coverage": [
-                        "vendor/bin/pest --coverage"
+                        "vendor/bin/testbench package:test --coverage"
                     ],
                     "format": [
                         "vendor/bin/pint"
@@ -113,7 +115,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.8.0",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.9.1",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
@@ -469,12 +471,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "81aea2615981e7535f0357ddc4dec67c0712a066"
+                    "reference": "2e97e5246da4ab302af200e43168923fe98f427f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/81aea2615981e7535f0357ddc4dec67c0712a066",
-                    "reference": "81aea2615981e7535f0357ddc4dec67c0712a066",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/2e97e5246da4ab302af200e43168923fe98f427f",
+                    "reference": "2e97e5246da4ab302af200e43168923fe98f427f",
                     "shasum": ""
                 },
                 "require": {
@@ -519,7 +521,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-09T02:26:43+00:00",
+                "time": "2024-05-10T19:27:20+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -529,11 +531,13 @@
                             "Modules\\Auth\\Providers\\EventServiceProvider",
                             "Modules\\Auth\\Providers\\InertiaServiceProvider",
                             "Modules\\Auth\\Providers\\SparkServiceProvider",
-                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider",
+                            "Modules\\Auth\\Providers\\RouteServiceProvider"
                         ],
                         "aliases": {
                             "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
-                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache",
+                            "AuthModule": "Modules\\Auth\\Facades\\AuthModule"
                         }
                     }
                 },
@@ -556,10 +560,10 @@
                         "vendor/bin/phpstan analyse"
                     ],
                     "test": [
-                        "vendor/bin/pest"
+                        "vendor/bin/testbench package:test"
                     ],
                     "test-coverage": [
-                        "vendor/bin/pest --coverage"
+                        "vendor/bin/testbench package:test --coverage"
                     ],
                     "format": [
                         "vendor/bin/pint"
