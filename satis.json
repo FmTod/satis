@@ -29,7 +29,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/FmTod2/mylisterhub-shipping-package"
+      "url": "https://github.com/FmTod/mylisterhub-shipping-package"
     },
     {
       "type": "vcs",
@@ -41,7 +41,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/FmTod/activity-log"
+      "url": "https://github.com/FmTod/mylisterhub-activity-log"
     },
     {
       "type": "vcs",
@@ -69,7 +69,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/FmTod2/mylisterhub-template-wizard"
+      "url": "https://github.com/FmTod/mylisterhub-template-wizard"
     }
   ],
   "require-all": false,
