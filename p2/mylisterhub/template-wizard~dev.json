@@ -7,12 +7,12 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.6",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
                     "reference": "a654317557c95b59b2eaf5405686c09f09253c86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/a654317557c95b59b2eaf5405686c09f09253c86",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/a654317557c95b59b2eaf5405686c09f09253c86",
                     "reference": "a654317557c95b59b2eaf5405686c09f09253c86",
                     "shasum": ""
                 },
@@ -95,8 +95,8 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/follow-redirects-1.15.6",
-                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/follow-redirects-1.15.6",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
@@ -105,12 +105,12 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/ip-2.0.1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
                     "reference": "5dbfc6f3bee68bc29c2dff83cab51f325831f638"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/5dbfc6f3bee68bc29c2dff83cab51f325831f638",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/5dbfc6f3bee68bc29c2dff83cab51f325831f638",
                     "reference": "5dbfc6f3bee68bc29c2dff83cab51f325831f638",
                     "shasum": ""
                 },
@@ -193,8 +193,8 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/ip-2.0.1",
-                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/ip-2.0.1",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
@@ -203,12 +203,12 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.13",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
                     "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
                     "reference": "e62934e5af62efdf4e9849fdf527bd9c8bc8fdc0",
                     "shasum": ""
                 },
@@ -291,8 +291,8 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.13",
-                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/dependabot/npm_and_yarn/vite-5.0.13",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
@@ -301,12 +301,12 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
                     "reference": "0a7021db1ede19c9b7976a358650a06ec9e47475"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/0a7021db1ede19c9b7976a358650a06ec9e47475",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/0a7021db1ede19c9b7976a358650a06ec9e47475",
                     "reference": "0a7021db1ede19c9b7976a358650a06ec9e47475",
                     "shasum": ""
                 },
@@ -390,8 +390,8 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/main",
-                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/main",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
@@ -400,12 +400,12 @@
                 "version_normalized": "dev-task",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/mylisterhub-template-wizard.git",
+                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
                     "reference": "a6110057264c444527dde6427481514b0e6d15ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/mylisterhub-template-wizard/zipball/a6110057264c444527dde6427481514b0e6d15ff",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/a6110057264c444527dde6427481514b0e6d15ff",
                     "reference": "a6110057264c444527dde6427481514b0e6d15ff",
                     "shasum": ""
                 },
@@ -487,8 +487,8 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/mylisterhub-template-wizard/tree/task",
-                    "issues": "https://github.com/FmTod2/mylisterhub-template-wizard/issues"
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/task",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             }
         ]

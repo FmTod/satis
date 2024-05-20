@@ -7,12 +7,12 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "11a1ffce3ec0de78d1ae9be3b6d92ba5ce55323a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/11a1ffce3ec0de78d1ae9be3b6d92ba5ce55323a",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/11a1ffce3ec0de78d1ae9be3b6d92ba5ce55323a",
                     "reference": "11a1ffce3ec0de78d1ae9be3b6d92ba5ce55323a",
                     "shasum": ""
                 },
@@ -93,8 +93,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.0.0",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -103,12 +103,12 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "455f0baf86b2b195cf2d78c758f39517ca81e6f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/455f0baf86b2b195cf2d78c758f39517ca81e6f4",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/455f0baf86b2b195cf2d78c758f39517ca81e6f4",
                     "reference": "455f0baf86b2b195cf2d78c758f39517ca81e6f4",
                     "shasum": ""
                 },
@@ -188,8 +188,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.0.1",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -198,12 +198,12 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "a244739ab8c4aa0500b09069278b8075fb1960f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/a244739ab8c4aa0500b09069278b8075fb1960f5",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/a244739ab8c4aa0500b09069278b8075fb1960f5",
                     "reference": "a244739ab8c4aa0500b09069278b8075fb1960f5",
                     "shasum": ""
                 },
@@ -283,8 +283,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.0.2",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.2",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -293,12 +293,12 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "416adf036296bfd3b0a207d2c9d2a339de21ff29"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/416adf036296bfd3b0a207d2c9d2a339de21ff29",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/416adf036296bfd3b0a207d2c9d2a339de21ff29",
                     "reference": "416adf036296bfd3b0a207d2c9d2a339de21ff29",
                     "shasum": ""
                 },
@@ -378,8 +378,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.0.3",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.3",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -388,12 +388,12 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "5c60c8147bc37944acff64f0adb1d0d1bfd07fb2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/5c60c8147bc37944acff64f0adb1d0d1bfd07fb2",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/5c60c8147bc37944acff64f0adb1d0d1bfd07fb2",
                     "reference": "5c60c8147bc37944acff64f0adb1d0d1bfd07fb2",
                     "shasum": ""
                 },
@@ -473,8 +473,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.0.4",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.4",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -483,12 +483,12 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "b92e508fa242919756610161871bebec8a812ceb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/b92e508fa242919756610161871bebec8a812ceb",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/b92e508fa242919756610161871bebec8a812ceb",
                     "reference": "b92e508fa242919756610161871bebec8a812ceb",
                     "shasum": ""
                 },
@@ -568,8 +568,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.1.0",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.1.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -578,12 +578,12 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "cb91af48b2cef43d5d309e3126f2ea40c5039a8a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/cb91af48b2cef43d5d309e3126f2ea40c5039a8a",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/cb91af48b2cef43d5d309e3126f2ea40c5039a8a",
                     "reference": "cb91af48b2cef43d5d309e3126f2ea40c5039a8a",
                     "shasum": ""
                 },
@@ -663,8 +663,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v1.1.1",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.1.1",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -673,12 +673,12 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "c0241ab43f6932aabf761d4a31b2cacc452bf545"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/c0241ab43f6932aabf761d4a31b2cacc452bf545",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/c0241ab43f6932aabf761d4a31b2cacc452bf545",
                     "reference": "c0241ab43f6932aabf761d4a31b2cacc452bf545",
                     "shasum": ""
                 },
@@ -758,8 +758,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
             {
@@ -768,12 +768,12 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod2/laravel-errorable.git",
+                    "url": "git@github.com:FmTod/laravel-errorable.git",
                     "reference": "c0241ab43f6932aabf761d4a31b2cacc452bf545"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod2/laravel-errorable/zipball/c0241ab43f6932aabf761d4a31b2cacc452bf545",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/c0241ab43f6932aabf761d4a31b2cacc452bf545",
                     "reference": "c0241ab43f6932aabf761d4a31b2cacc452bf545",
                     "shasum": ""
                 },
@@ -853,8 +853,8 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod2/laravel-errorable/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod2/laravel-errorable/issues"
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             }
         ]
