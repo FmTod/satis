@@ -695,12 +695,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "36278542a3b0c7947a427af0bc7868254eaadf14"
+                    "reference": "fc255d89f17f3f9af71693ffc7349088c6b29b01"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/36278542a3b0c7947a427af0bc7868254eaadf14",
-                    "reference": "36278542a3b0c7947a427af0bc7868254eaadf14",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/fc255d89f17f3f9af71693ffc7349088c6b29b01",
+                    "reference": "fc255d89f17f3f9af71693ffc7349088c6b29b01",
                     "shasum": ""
                 },
                 "require": {
@@ -728,7 +728,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-02T07:06:03+00:00",
+                "time": "2024-05-20T22:09:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -886,17 +886,17 @@
             },
             {
                 "name": "fmtod/shipping",
-                "version": "dev-renovate/paambaati-codeclimate-action-5.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-5.x",
+                "version": "dev-renovate/orchestra-testbench-9.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "edf22bfa5d28aa7764778d040649cc67120d3324"
+                    "reference": "fd9629c1afc6a2dd7e09282b6e70bd59eb63b5c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/edf22bfa5d28aa7764778d040649cc67120d3324",
-                    "reference": "edf22bfa5d28aa7764778d040649cc67120d3324",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/fd9629c1afc6a2dd7e09282b6e70bd59eb63b5c8",
+                    "reference": "fd9629c1afc6a2dd7e09282b6e70bd59eb63b5c8",
                     "shasum": ""
                 },
                 "require": {
@@ -914,7 +914,7 @@
                     "jetbrains/phpstorm-attributes": "^1.0",
                     "nunomaduro/collision": "^7.0",
                     "nunomaduro/larastan": "^2.4",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-faker": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.1",
@@ -924,7 +924,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-02T09:37:01+00:00",
+                "time": "2024-05-20T22:09:15+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -978,7 +978,7 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/paambaati-codeclimate-action-5.x",
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/orchestra-testbench-9.x",
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             },
