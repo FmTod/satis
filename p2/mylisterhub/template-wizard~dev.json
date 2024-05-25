@@ -302,12 +302,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "e69945df7eb6e6e1f5c15daf6073152c0666a95c"
+                    "reference": "98a2fa85ce887ff4917e8f57f6ee9d0780e2d25f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/e69945df7eb6e6e1f5c15daf6073152c0666a95c",
-                    "reference": "e69945df7eb6e6e1f5c15daf6073152c0666a95c",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/98a2fa85ce887ff4917e8f57f6ee9d0780e2d25f",
+                    "reference": "98a2fa85ce887ff4917e8f57f6ee9d0780e2d25f",
                     "shasum": ""
                 },
                 "require": {
@@ -329,7 +329,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T23:12:08+00:00",
+                "time": "2024-05-24T10:51:00+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -597,12 +597,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "5ae3917a92211d1ee8acf11893e545f2d78e483d"
+                    "reference": "a7de9dc34fb5a77cc6fa25479ac28971241e9610"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/5ae3917a92211d1ee8acf11893e545f2d78e483d",
-                    "reference": "5ae3917a92211d1ee8acf11893e545f2d78e483d",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/a7de9dc34fb5a77cc6fa25479ac28971241e9610",
+                    "reference": "a7de9dc34fb5a77cc6fa25479ac28971241e9610",
                     "shasum": ""
                 },
                 "require": {
@@ -624,7 +624,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T09:20:45+00:00",
+                "time": "2024-05-24T06:21:34+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -788,17 +788,17 @@
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/terser-5.x-lockfile",
-                "version_normalized": "dev-renovate/terser-5.x-lockfile",
+                "version": "dev-renovate/nunomaduro-collision-8.x",
+                "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "657252050c6307177d709387bf4da5f20382eb28"
+                    "reference": "86e2f0265bde0d2e79a03da86e5b8359c6aabb6c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/657252050c6307177d709387bf4da5f20382eb28",
-                    "reference": "657252050c6307177d709387bf4da5f20382eb28",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/86e2f0265bde0d2e79a03da86e5b8359c6aabb6c",
+                    "reference": "86e2f0265bde0d2e79a03da86e5b8359c6aabb6c",
                     "shasum": ""
                 },
                 "require": {
@@ -808,7 +808,7 @@
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
@@ -820,7 +820,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T23:12:37+00:00",
+                "time": "2024-05-24T00:59:24+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -880,23 +880,23 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/terser-5.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/nunomaduro-collision-8.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/typescript-5.x-lockfile",
-                "version_normalized": "dev-renovate/typescript-5.x-lockfile",
+                "version": "dev-renovate/orchestra-canvas-9.x",
+                "version_normalized": "dev-renovate/orchestra-canvas-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "1ac32b7e81411360427c5a6454bd69315de8648a"
+                    "reference": "2c3d4a6be26a0dcc4c0ab55a6fd609b365b303f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/1ac32b7e81411360427c5a6454bd69315de8648a",
-                    "reference": "1ac32b7e81411360427c5a6454bd69315de8648a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/2c3d4a6be26a0dcc4c0ab55a6fd609b365b303f8",
+                    "reference": "2c3d4a6be26a0dcc4c0ab55a6fd609b365b303f8",
                     "shasum": ""
                 },
                 "require": {
@@ -908,7 +908,7 @@
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
+                    "orchestra/canvas": "^9.0",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
@@ -918,7 +918,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T23:12:45+00:00",
+                "time": "2024-05-24T04:54:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -978,23 +978,23 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/typescript-5.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/orchestra-canvas-9.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/vite-5.x-lockfile",
-                "version_normalized": "dev-renovate/vite-5.x-lockfile",
+                "version": "dev-renovate/orchestra-testbench-9.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "8c138e1934bde490242c735f32e4bf31d4c857a6"
+                    "reference": "bd99e1af54dd3b973fb02c1494c9a6c991bfb647"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/8c138e1934bde490242c735f32e4bf31d4c857a6",
-                    "reference": "8c138e1934bde490242c735f32e4bf31d4c857a6",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/bd99e1af54dd3b973fb02c1494c9a6c991bfb647",
+                    "reference": "bd99e1af54dd3b973fb02c1494c9a6c991bfb647",
                     "shasum": ""
                 },
                 "require": {
@@ -1007,7 +1007,7 @@
                     "nunomaduro/collision": "^7.9",
                     "nunomaduro/larastan": "^2.0.1",
                     "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
@@ -1016,7 +1016,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T23:13:01+00:00",
+                "time": "2024-05-24T06:21:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1076,23 +1076,23 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-5.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/orchestra-testbench-9.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/vite-plugin-dts-3.x-lockfile",
-                "version_normalized": "dev-renovate/vite-plugin-dts-3.x-lockfile",
+                "version": "dev-renovate/sass-loader-14.x",
+                "version_normalized": "dev-renovate/sass-loader-14.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "c5dd8517cec1f6a7d704082439c621078384cb0c"
+                    "reference": "3bf7712a244be51f41a899225211dfd29d286a7f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/c5dd8517cec1f6a7d704082439c621078384cb0c",
-                    "reference": "c5dd8517cec1f6a7d704082439c621078384cb0c",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/3bf7712a244be51f41a899225211dfd29d286a7f",
+                    "reference": "3bf7712a244be51f41a899225211dfd29d286a7f",
                     "shasum": ""
                 },
                 "require": {
@@ -1114,7 +1114,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-23T23:13:16+00:00",
+                "time": "2024-05-24T10:51:48+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1174,7 +1174,7 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-plugin-dts-3.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/sass-loader-14.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
