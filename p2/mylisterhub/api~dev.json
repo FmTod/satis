@@ -971,17 +971,17 @@
             },
             {
                 "name": "mylisterhub/api",
-                "version": "dev-renovate/paambaati-codeclimate-action-6.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-6.x",
+                "version": "dev-renovate/paambaati-codeclimate-action-8.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-8.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "f85ab81d61c8aa88d1e4701333e2fa441fe83b99"
+                    "reference": "af5840df56dc1d97fd8f0a6d5412bdde09db1d07"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/f85ab81d61c8aa88d1e4701333e2fa441fe83b99",
-                    "reference": "f85ab81d61c8aa88d1e4701333e2fa441fe83b99",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/af5840df56dc1d97fd8f0a6d5412bdde09db1d07",
+                    "reference": "af5840df56dc1d97fd8f0a6d5412bdde09db1d07",
                     "shasum": ""
                 },
                 "require": {
@@ -1004,7 +1004,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-04-26T07:49:46+00:00",
+                "time": "2024-06-12T11:14:23+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1062,7 +1062,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/paambaati-codeclimate-action-6.x",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/paambaati-codeclimate-action-8.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
