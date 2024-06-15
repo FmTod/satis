@@ -218,12 +218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "e12c41d640e07c56b1d258f6e57c0ae65e1a9784"
+                    "reference": "4c17f66bfb7b7be14da82f7ce2f06c17fd8a2af2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/e12c41d640e07c56b1d258f6e57c0ae65e1a9784",
-                    "reference": "e12c41d640e07c56b1d258f6e57c0ae65e1a9784",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/4c17f66bfb7b7be14da82f7ce2f06c17fd8a2af2",
+                    "reference": "4c17f66bfb7b7be14da82f7ce2f06c17fd8a2af2",
                     "shasum": ""
                 },
                 "require": {
@@ -250,7 +250,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-06-13T19:58:43+00:00",
+                "time": "2024-06-14T12:11:07+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -313,7 +313,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.1.7",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/main",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
@@ -1269,12 +1269,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "e85eddd66a11a91bc52e426159f19f630551f93e"
+                    "reference": "9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/e85eddd66a11a91bc52e426159f19f630551f93e",
-                    "reference": "e85eddd66a11a91bc52e426159f19f630551f93e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea",
+                    "reference": "9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea",
                     "shasum": ""
                 },
                 "require": {
@@ -1301,7 +1301,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-06-13T19:59:19+00:00",
+                "time": "2024-06-14T12:11:51+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
