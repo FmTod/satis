@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "de719c23121aef7e81c128f371abea126acc11ee"
+                    "reference": "5bd5e340c059b93bf084ed8485fbae25084ebed8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/de719c23121aef7e81c128f371abea126acc11ee",
-                    "reference": "de719c23121aef7e81c128f371abea126acc11ee",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/5bd5e340c059b93bf084ed8485fbae25084ebed8",
+                    "reference": "5bd5e340c059b93bf084ed8485fbae25084ebed8",
                     "shasum": ""
                 },
                 "require": {
@@ -29,12 +29,12 @@
                     "laravel/sanctum": "^3.2",
                     "laravel/scout": "^10.0",
                     "laravel/slack-notification-channel": "^3.2",
-                    "laravel/spark-stripe": "^4.0",
+                    "laravel/spark-stripe": "4.2.11",
                     "laravel/ui": "^4.0.0",
                     "lorisleiva/laravel-actions": "^2.5",
                     "mylisterhub/api": "*",
-                    "mylisterhub/core": "^1.1",
-                    "mylisterhub/media": "^10.1.1",
+                    "mylisterhub/core": "*",
+                    "mylisterhub/media": "*",
                     "php": "^8.1",
                     "rinvex/countries": "^9.0",
                     "santigarcor/laratrust": "^8.0",
@@ -58,7 +58,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-06-03T16:07:40+00:00",
+                "time": "2024-06-24T19:14:36+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -115,7 +115,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.11.3",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.11.4",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
