@@ -218,12 +218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "3afb9ddc4774e072cdf42b0dd91b18ba820a6e64"
+                    "reference": "74c423623491efe9ad4ce4e38633e1a6c65c7cc9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/3afb9ddc4774e072cdf42b0dd91b18ba820a6e64",
-                    "reference": "3afb9ddc4774e072cdf42b0dd91b18ba820a6e64",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/74c423623491efe9ad4ce4e38633e1a6c65c7cc9",
+                    "reference": "74c423623491efe9ad4ce4e38633e1a6c65c7cc9",
                     "shasum": ""
                 },
                 "require": {
@@ -250,7 +250,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-06-25T17:08:40+00:00",
+                "time": "2024-06-27T22:36:22+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -313,7 +313,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/main",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.1.10",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
@@ -1264,22 +1264,22 @@
             },
             {
                 "name": "mylisterhub/media",
-                "version": "dev-renovate/vite-5.x-lockfile",
-                "version_normalized": "dev-renovate/vite-5.x-lockfile",
+                "version": "dev-renovate/typescript-5.x-lockfile",
+                "version_normalized": "dev-renovate/typescript-5.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea"
+                    "reference": "9c85254108b43c399cb6c876dc37eebca58c2f11"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea",
-                    "reference": "9b90449ae77ef92bbd8ca2a2dce6668d55e6e0ea",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/9c85254108b43c399cb6c876dc37eebca58c2f11",
+                    "reference": "9c85254108b43c399cb6c876dc37eebca58c2f11",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0",
-                    "mylisterhub/api": "^1.0",
+                    "mylisterhub/api": "*",
                     "php": "^8.1",
                     "rahulhaque/laravel-filepond": "^10.0",
                     "spatie/image": "^2.2",
@@ -1301,7 +1301,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-06-14T12:11:51+00:00",
+                "time": "2024-06-27T22:36:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1363,7 +1363,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/vite-5.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/typescript-5.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             }
