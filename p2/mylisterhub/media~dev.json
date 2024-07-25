@@ -218,12 +218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "18159c8a8b35c2af0a1077992a9bc8587d4121af"
+                    "reference": "6daec5e5cf4e70d1d4cc9ca365924d50cd00fe21"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/18159c8a8b35c2af0a1077992a9bc8587d4121af",
-                    "reference": "18159c8a8b35c2af0a1077992a9bc8587d4121af",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/6daec5e5cf4e70d1d4cc9ca365924d50cd00fe21",
+                    "reference": "6daec5e5cf4e70d1d4cc9ca365924d50cd00fe21",
                     "shasum": ""
                 },
                 "require": {
@@ -250,7 +250,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-07-08T17:33:01+00:00",
+                "time": "2024-07-24T16:15:09+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -313,7 +313,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.2.0",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.2.1",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
