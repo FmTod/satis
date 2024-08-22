@@ -884,17 +884,17 @@
             },
             {
                 "name": "fmtod/laravel-google-translate",
-                "version": "dev-renovate/paambaati-codeclimate-action-8.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-8.x",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-google-translate.git",
-                    "reference": "466eb3c40baa2623518fa9c8e57ce04f2ed4a83e"
+                    "reference": "fbc01e41805810cb69e0e2d5babd046069220ef3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/466eb3c40baa2623518fa9c8e57ce04f2ed4a83e",
-                    "reference": "466eb3c40baa2623518fa9c8e57ce04f2ed4a83e",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/fbc01e41805810cb69e0e2d5babd046069220ef3",
+                    "reference": "fbc01e41805810cb69e0e2d5babd046069220ef3",
                     "shasum": ""
                 },
                 "require": {
@@ -911,7 +911,7 @@
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-drift": "^2.2"
                 },
-                "time": "2024-06-12T11:31:56+00:00",
+                "time": "2024-08-21T14:22:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -966,7 +966,7 @@
                     "translate"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/paambaati-codeclimate-action-8.x",
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/paambaati-codeclimate-action-9.x",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },

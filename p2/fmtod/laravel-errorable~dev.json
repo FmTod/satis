@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "677d2ba960d866c37238fa7bcc13f340d813f375"
+                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/677d2ba960d866c37238fa7bcc13f340d813f375",
-                    "reference": "677d2ba960d866c37238fa7bcc13f340d813f375",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
+                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
                     "shasum": ""
                 },
                 "require": {
@@ -34,7 +34,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-20T17:40:29+00:00",
+                "time": "2024-08-21T02:05:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -384,17 +384,17 @@
             },
             {
                 "name": "fmtod/laravel-errorable",
-                "version": "dev-renovate/semantic-release-monorepo",
-                "version_normalized": "dev-renovate/semantic-release-monorepo",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "5df281928d94d91c437a2749b9b48190bb674e77"
+                    "reference": "01fb7e1b66846bb074b11ad98ca9719d928ca124"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/5df281928d94d91c437a2749b9b48190bb674e77",
-                    "reference": "5df281928d94d91c437a2749b9b48190bb674e77",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/01fb7e1b66846bb074b11ad98ca9719d928ca124",
+                    "reference": "01fb7e1b66846bb074b11ad98ca9719d928ca124",
                     "shasum": ""
                 },
                 "require": {
@@ -415,7 +415,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-20T23:00:00+00:00",
+                "time": "2024-08-21T15:18:40+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -473,7 +473,7 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/semantic-release-monorepo",
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/paambaati-codeclimate-action-9.x",
                     "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             }

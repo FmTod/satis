@@ -8432,12 +8432,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "677d2ba960d866c37238fa7bcc13f340d813f375"
+                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/677d2ba960d866c37238fa7bcc13f340d813f375",
-                    "reference": "677d2ba960d866c37238fa7bcc13f340d813f375",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
+                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
                     "shasum": ""
                 },
                 "require": {
@@ -8458,7 +8458,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-20T17:40:29+00:00",
+                "time": "2024-08-21T02:05:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8806,19 +8806,19 @@
                     "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             },
-            "dev-renovate/semantic-release-monorepo": {
+            "dev-renovate/paambaati-codeclimate-action-9.x": {
                 "name": "fmtod/laravel-errorable",
-                "version": "dev-renovate/semantic-release-monorepo",
-                "version_normalized": "dev-renovate/semantic-release-monorepo",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "5df281928d94d91c437a2749b9b48190bb674e77"
+                    "reference": "01fb7e1b66846bb074b11ad98ca9719d928ca124"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/5df281928d94d91c437a2749b9b48190bb674e77",
-                    "reference": "5df281928d94d91c437a2749b9b48190bb674e77",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/01fb7e1b66846bb074b11ad98ca9719d928ca124",
+                    "reference": "01fb7e1b66846bb074b11ad98ca9719d928ca124",
                     "shasum": ""
                 },
                 "require": {
@@ -8839,7 +8839,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-20T23:00:00+00:00",
+                "time": "2024-08-21T15:18:40+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -8897,7 +8897,7 @@
                     "laravel-errorable"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/semantic-release-monorepo",
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/paambaati-codeclimate-action-9.x",
                     "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             }
@@ -11412,19 +11412,19 @@
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },
-            "dev-renovate/paambaati-codeclimate-action-8.x": {
+            "dev-renovate/paambaati-codeclimate-action-9.x": {
                 "name": "fmtod/laravel-google-translate",
-                "version": "dev-renovate/paambaati-codeclimate-action-8.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-8.x",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-google-translate.git",
-                    "reference": "466eb3c40baa2623518fa9c8e57ce04f2ed4a83e"
+                    "reference": "fbc01e41805810cb69e0e2d5babd046069220ef3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/466eb3c40baa2623518fa9c8e57ce04f2ed4a83e",
-                    "reference": "466eb3c40baa2623518fa9c8e57ce04f2ed4a83e",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/fbc01e41805810cb69e0e2d5babd046069220ef3",
+                    "reference": "fbc01e41805810cb69e0e2d5babd046069220ef3",
                     "shasum": ""
                 },
                 "require": {
@@ -11441,7 +11441,7 @@
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-drift": "^2.2"
                 },
-                "time": "2024-06-12T11:31:56+00:00",
+                "time": "2024-08-21T14:22:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -11496,7 +11496,7 @@
                     "translate"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/paambaati-codeclimate-action-8.x",
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/paambaati-codeclimate-action-9.x",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },
@@ -30819,6 +30819,105 @@
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             },
+            "dev-renovate/paambaati-codeclimate-action-9.x": {
+                "name": "fmtod/shipping",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
+                    "reference": "28a52fea0ee34844e6b201f092b868fbf26a1183"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/28a52fea0ee34844e6b201f092b868fbf26a1183",
+                    "reference": "28a52fea0ee34844e6b201f092b868fbf26a1183",
+                    "shasum": ""
+                },
+                "require": {
+                    "bensampo/laravel-enum": "^6.4",
+                    "fmtod/laravel-money": "^10.0",
+                    "guzzlehttp/guzzle": "^7.0",
+                    "illuminate/contracts": "^10.0",
+                    "illuminate/translation": "^10.0",
+                    "illuminate/validation": "^10.0",
+                    "php": "^8.1|^8.2",
+                    "shippo/shippo-php": "^1.4.4",
+                    "spatie/laravel-package-tools": "^1.14"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.4",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-faker": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.1",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "roave/security-advisories": "dev-latest",
+                    "spatie/laravel-ray": "^1.26",
+                    "tightenco/duster": "^3.0"
+                },
+                "time": "2024-08-21T17:41:53+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\Shipping\\ShippingServiceProvider"
+                        ],
+                        "aliases": {
+                            "Shipping": "FmTod\\Shipping\\Facades\\Shipping"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\Shipping\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Shipping\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "lint": [
+                        "vendor/bin/php-cs-fixer fix"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This is my package shipping",
+                "homepage": "https://github.com/FmTod/shipping-source",
+                "keywords": [
+                    "fmtod",
+                    "laravel",
+                    "shipping"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/paambaati-codeclimate-action-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
+            },
             "dev-renovate/shippo-shippo-php-2.x": {
                 "name": "fmtod/shipping",
                 "version": "dev-renovate/shippo-shippo-php-2.x",
@@ -43117,12 +43216,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "15546905d0dff0370e716ad995a669a27fec97f7"
+                    "reference": "a5aee3b75a7ae31ec1e391acaa1883eae6165dd0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/15546905d0dff0370e716ad995a669a27fec97f7",
-                    "reference": "15546905d0dff0370e716ad995a669a27fec97f7",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/a5aee3b75a7ae31ec1e391acaa1883eae6165dd0",
+                    "reference": "a5aee3b75a7ae31ec1e391acaa1883eae6165dd0",
                     "shasum": ""
                 },
                 "require": {
@@ -43145,7 +43244,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-17T17:40:19+00:00",
+                "time": "2024-08-21T16:11:12+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -43880,103 +43979,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-testbench-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
-                }
-            },
-            "dev-renovate/paambaati-codeclimate-action-8.x": {
-                "name": "mylisterhub/api",
-                "version": "dev-renovate/paambaati-codeclimate-action-8.x",
-                "version_normalized": "dev-renovate/paambaati-codeclimate-action-8.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "af5840df56dc1d97fd8f0a6d5412bdde09db1d07"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/af5840df56dc1d97fd8f0a6d5412bdde09db1d07",
-                    "reference": "af5840df56dc1d97fd8f0a6d5412bdde09db1d07",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.6"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-06-12T11:14:23+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\API\\APIServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\API\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\API\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "canvas": [
-                        "vendor/bin/canvas"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Victor R",
-                        "email": "39545521+viicslen@users.noreply.github.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Resource API for MyListerHub",
-                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
-                "keywords": [
-                    "FmTod",
-                    "MyListerHub",
-                    "api",
-                    "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/paambaati-codeclimate-action-8.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
