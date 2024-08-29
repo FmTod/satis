@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46"
+                    "reference": "cf2824c7a292ad9b479d758718ccd9e9d1d3c183"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
-                    "reference": "12dc7e5a2657dbe6c5d88c0a563f949ea35e0a46",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/cf2824c7a292ad9b479d758718ccd9e9d1d3c183",
+                    "reference": "cf2824c7a292ad9b479d758718ccd9e9d1d3c183",
                     "shasum": ""
                 },
                 "require": {
@@ -34,7 +34,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-21T02:05:11+00:00",
+                "time": "2024-08-28T10:45:47+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
