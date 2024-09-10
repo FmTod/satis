@@ -7,7 +7,7 @@
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/factory-generator.git",
+                    "url": "git@github.com:FmTod/factory-generator.git",
                     "reference": "f5bc52b5a48bac226f5bf85bd9669f93c8bc7312"
                 },
                 "dist": {
@@ -55,10 +55,7 @@
                     "laravel",
                     "model",
                     "testing"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/factory-generator/tree/master"
-                }
+                ]
             }
         ]
     }

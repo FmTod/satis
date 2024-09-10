@@ -7,7 +7,7 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/braces-3.0.3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "11435bdc50940c3814b711a458ad2b18fd417ac4"
                 },
                 "dist": {
@@ -117,11 +117,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/dependabot/npm_and_yarn/braces-3.0.3",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -129,7 +125,7 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/micromatch-4.0.8",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "d654cd135af898ae7245d404b1765858e548a57b"
                 },
                 "dist": {
@@ -239,11 +235,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/dependabot/npm_and_yarn/micromatch-4.0.8",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -251,7 +243,7 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "539ed9d7774768bde1e02ed2c92eb8d5cf5afc20"
                 },
                 "dist": {
@@ -362,11 +354,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/main",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -374,7 +362,7 @@
                 "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "ee061398d2e6f65923162feecce3a8aebb549b78"
                 },
                 "dist": {
@@ -484,11 +472,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/actions-cache-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -496,7 +480,7 @@
                 "version_normalized": "dev-renovate/actions-setup-node-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "598034af4ceecaabc72aaf17eb4f4b75cdd16cc5"
                 },
                 "dist": {
@@ -606,11 +590,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/actions-setup-node-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -618,7 +598,7 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "0dcd9760d248e395e775b653011a0f64cb7233a3"
                 },
                 "dist": {
@@ -728,11 +708,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/husky-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -740,7 +716,7 @@
                 "version_normalized": "dev-renovate/intervention-image-3.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "37259bfa9ba5f393ed34108184ef89eb0909c0ac"
                 },
                 "dist": {
@@ -850,11 +826,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/intervention-image-3.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -862,7 +834,7 @@
                 "version_normalized": "dev-renovate/laravie-serialize-queries-3.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "c4600f11069d94b2c33bcea035f273c18281232d"
                 },
                 "dist": {
@@ -972,11 +944,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/laravie-serialize-queries-3.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -984,7 +952,7 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "90f1ad5748f5fd4ded5daee961ba9d9dd471656d"
                 },
                 "dist": {
@@ -1094,11 +1062,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/major-commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -1106,7 +1070,7 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "bb870bab2086510be3f68613759b0f91d2e89854"
                 },
                 "dist": {
@@ -1216,11 +1180,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -1228,7 +1188,7 @@
                 "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "b48cbbbc4dae3654c804e21e7149444e7cedeaa9"
                 },
                 "dist": {
@@ -1338,11 +1298,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/nunomaduro-collision-8.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -1350,7 +1306,7 @@
                 "version_normalized": "dev-renovate/spatie-laravel-data-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "8620964f529cf54a46122feddd0b8cd5507a3ec0"
                 },
                 "dist": {
@@ -1460,11 +1416,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/spatie-laravel-data-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/core",
@@ -1472,7 +1424,7 @@
                 "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-core-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-core-package.git",
                     "reference": "1b095fb213995729b91ce90299625cddfd8abf9d"
                 },
                 "dist": {
@@ -1582,11 +1534,7 @@
                     "MyListerHub",
                     "core",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
-                }
+                ]
             }
         ]
     }

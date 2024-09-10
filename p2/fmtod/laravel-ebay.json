@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "3badf00747256368f8389b7abbce122ba57b5139"
                 },
                 "dist": {
@@ -39,10 +39,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/0.1.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -50,7 +47,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "064c6aad70ec304b8afc24d73e6a77342a983ee0"
                 },
                 "dist": {
@@ -87,10 +84,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/0.1.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -98,7 +92,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "d62c4095ac538992316ebe5194e496fe66c03100"
                 },
                 "dist": {
@@ -135,10 +129,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -146,7 +137,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "d62c4095ac538992316ebe5194e496fe66c03100"
                 },
                 "dist": {
@@ -183,10 +174,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -194,7 +182,7 @@
                 "version_normalized": "1.0.0.0-beta",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "305976f8986fc29a5bb1ce501fa90f5a7d561d2c"
                 },
                 "dist": {
@@ -226,10 +214,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.0-beta"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -237,7 +222,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "f5f9b95a0e80410bcb00e029ed828ac864615f1a"
                 },
                 "dist": {
@@ -274,10 +259,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -285,7 +267,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "30cbd13681a06a9d11f1c27a7dc3522dc04665b2"
                 },
                 "dist": {
@@ -322,10 +304,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.2"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -333,7 +312,7 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "5cb5d47a2f493929f6fa7ac0e48fcd293985b296"
                 },
                 "dist": {
@@ -370,10 +349,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.3"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -381,7 +357,7 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "141bad61980bec616695aa304892a36d9b6f3240"
                 },
                 "dist": {
@@ -418,10 +394,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.4"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -429,7 +402,7 @@
                 "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "15bea8ce8945accdabd843abc89923e2cdb2e422"
                 },
                 "dist": {
@@ -466,10 +439,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -477,7 +447,7 @@
                 "version_normalized": "1.5.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "54ab07ba8416d2e097121c2ea76d591e8d1d9014"
                 },
                 "dist": {
@@ -514,10 +484,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -525,7 +492,7 @@
                 "version_normalized": "1.5.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "2b9399321a67489b643ff6d0e5bbca74c4997a1b"
                 },
                 "dist": {
@@ -562,10 +529,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.2"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -573,7 +537,7 @@
                 "version_normalized": "1.5.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "407c8ab8601b3126d21d936a456d0c582b144f4c"
                 },
                 "dist": {
@@ -610,10 +574,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.5.3"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -621,7 +582,7 @@
                 "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "3c4b393bb6538d5712ecb187a0c9612cf603a124"
                 },
                 "dist": {
@@ -658,10 +619,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.6.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -669,7 +627,7 @@
                 "version_normalized": "1.6.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "23ccd31d3d504b859e6c8e160db9af4be1ce0046"
                 },
                 "dist": {
@@ -706,10 +664,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.6.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-ebay",
@@ -717,7 +672,7 @@
                 "version_normalized": "1.7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "627b1aab116ae270fd62c05cee01e0a686010a30"
                 },
                 "dist": {
@@ -754,10 +709,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.7.0"
-                }
+                ]
             }
         ]
     }

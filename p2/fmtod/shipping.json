@@ -94,11 +94,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.5.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -193,11 +189,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.6.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -293,11 +285,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.6.5",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -393,11 +381,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.6.7",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -493,11 +477,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.6.8",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -593,11 +573,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.6.9",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -693,11 +669,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -793,11 +765,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -893,11 +861,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -995,11 +959,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.3",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1097,11 +1057,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.4",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1199,11 +1155,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.5",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1301,11 +1253,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.6",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1403,11 +1351,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.7",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1505,11 +1449,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/0.7.8",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1553,7 +1493,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-02-01T06:33:46+00:00",
+                "time": "2023-02-01T06:33:16+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1605,11 +1545,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/1.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1705,11 +1641,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/1.0.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1805,11 +1737,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/1.1.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -1903,11 +1831,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -2001,11 +1925,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v2.0.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -2047,7 +1967,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-16T19:13:15+00:00",
+                "time": "2023-10-16T19:13:05+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -2099,11 +2019,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v2.0.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -2198,11 +2114,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v3.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/shipping",
@@ -2297,11 +2209,7 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v3.0.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
+                ]
             }
         ]
     }

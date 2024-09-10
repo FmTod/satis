@@ -7,7 +7,7 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/follow-redirects-1.15.4",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "94779ab682208cf2a97c88089ffccf5743a40957"
                 },
                 "dist": {
@@ -100,11 +100,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/dependabot/npm_and_yarn/follow-redirects-1.15.4",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -112,7 +108,7 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/vite-5.0.12",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "10d24fddf58393814ddf91334d9a658bd24f9a96"
                 },
                 "dist": {
@@ -205,11 +201,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/dependabot/npm_and_yarn/vite-5.0.12",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -217,7 +209,7 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "eb18ae6a26118b420bbcdc2c05cfce762bdebe89"
                 },
                 "dist": {
@@ -311,11 +303,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v10.2.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -323,7 +311,7 @@
                 "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "18c4a482611d22307f1d03303c1e3e42375f42e9"
                 },
                 "dist": {
@@ -416,11 +404,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/actions-cache-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -428,7 +412,7 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "332c7ba53e8d5eb644fa67003e4e6415da43144a"
                 },
                 "dist": {
@@ -521,11 +505,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/husky-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -533,7 +513,7 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "3134d03afbaf4019c084d06da12bae80d10e961e"
                 },
                 "dist": {
@@ -626,11 +606,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/major-commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -638,7 +614,7 @@
                 "version_normalized": "dev-renovate/major-illuminate",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "cb698be2b0f09ff09df9f5f9702a7c6aba994cbf"
                 },
                 "dist": {
@@ -731,11 +707,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/major-illuminate",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -743,7 +715,7 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "c5f1fc5e9cf021f8ff67c1a6a45b237a3f48a134"
                 },
                 "dist": {
@@ -836,11 +808,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -848,7 +816,7 @@
                 "version_normalized": "dev-renovate/orchestra-canvas-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "9d39b006722efdc81a010c395cb23d2ba15bf9cf"
                 },
                 "dist": {
@@ -941,11 +909,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/orchestra-canvas-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -953,7 +917,7 @@
                 "version_normalized": "dev-renovate/orchestra-testbench-9.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "effeaa83840101a03f3194f13394f5817f0ac9d0"
                 },
                 "dist": {
@@ -1046,11 +1010,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/orchestra-testbench-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -1058,7 +1018,7 @@
                 "version_normalized": "dev-renovate/rahulhaque-laravel-filepond-11.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "2d87de008297ce16717635c7b3ff8aace61845a6"
                 },
                 "dist": {
@@ -1151,11 +1111,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/rahulhaque-laravel-filepond-11.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -1163,7 +1119,7 @@
                 "version_normalized": "dev-renovate/spatie-image-3.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "eeb646bbb744dd0fd1a7b10dd499ec9c49314823"
                 },
                 "dist": {
@@ -1256,11 +1212,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/spatie-image-3.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             },
             {
                 "name": "mylisterhub/media",
@@ -1268,7 +1220,7 @@
                 "version_normalized": "dev-renovate/tightenco-duster-3.x",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/mylisterhub-media-package.git",
+                    "url": "git@github.com:FmTod/mylisterhub-media-package.git",
                     "reference": "6c84fbdc83b78b9c5ada6c3d29e7273bea9246c7"
                 },
                 "dist": {
@@ -1361,11 +1313,7 @@
                     "MyListerHub",
                     "laravel",
                     "media"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/renovate/tightenco-duster-3.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
-                }
+                ]
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "34c2db7680a97a12245ba183f90d988606d411fa"
                 },
                 "dist": {
@@ -59,8 +59,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.1.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -69,7 +68,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "aa083ab0cc159c826a28de744448365762b5fc1c"
                 },
                 "dist": {
@@ -121,8 +120,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.1.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -131,7 +129,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "589f30a1ac50cb386de8cd6a483155fdd7912937"
                 },
                 "dist": {
@@ -183,8 +181,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.2.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -193,7 +190,7 @@
                 "version_normalized": "0.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "48179ff5d33f2142c6581175041eb4e7effa8575"
                 },
                 "dist": {
@@ -245,8 +242,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.3.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -255,7 +251,7 @@
                 "version_normalized": "0.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "c73fa1d758d980e294e4c301c20a860296c794e6"
                 },
                 "dist": {
@@ -308,8 +304,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.4.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -318,7 +313,7 @@
                 "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "d7e6d968dafacd7b2def7a45de9cb840914bcdf7"
                 },
                 "dist": {
@@ -371,8 +366,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.5.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -381,7 +375,7 @@
                 "version_normalized": "0.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "3ba668c6fcb9e9123e70ddde7cf4d7eba92f4e18"
                 },
                 "dist": {
@@ -434,8 +428,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/0.6.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -444,7 +437,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "49433c7b8b2872258501f8b767adce68b10fb01e"
                 },
                 "dist": {
@@ -498,8 +491,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/1.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -508,7 +500,7 @@
                 "version_normalized": "10.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "8da242b0603fbfd22abbce063eb7d854b74ed656"
                 },
                 "dist": {
@@ -527,7 +519,7 @@
                     "phpunit/phpunit": "~4.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-17T10:05:04+00:00",
+                "time": "2017-03-07T12:46:19+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -563,8 +555,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/10.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -573,7 +564,7 @@
                 "version_normalized": "11.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "3f730148d5caa639eb1407c0c4a4c5e356a1b752"
                 },
                 "dist": {
@@ -592,7 +583,7 @@
                     "phpunit/phpunit": "~4.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-20T16:23:39+00:00",
+                "time": "2017-03-20T16:12:15+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -628,8 +619,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/11.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -638,7 +628,7 @@
                 "version_normalized": "12.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "6b8e12a5587721f64cc4eea826218803a1398d31"
                 },
                 "dist": {
@@ -693,8 +683,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/12.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -703,7 +692,7 @@
                 "version_normalized": "12.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "a35247358dc22ceaa23830bf0cb8c6d9fadbdbc6"
                 },
                 "dist": {
@@ -758,8 +747,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/12.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -768,7 +756,7 @@
                 "version_normalized": "13.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "828c48e68c24ea3b67c3df04e9a92199321201d7"
                 },
                 "dist": {
@@ -823,8 +811,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -833,7 +820,7 @@
                 "version_normalized": "13.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "8d309d96674ceb857209fcc711c8e53ad853ddfc"
                 },
                 "dist": {
@@ -888,8 +875,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -898,7 +884,7 @@
                 "version_normalized": "13.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "d0274d6d7c7a5fea20c066f75786355c624bf8fc"
                 },
                 "dist": {
@@ -953,8 +939,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.2"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -963,7 +948,7 @@
                 "version_normalized": "13.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "00785e296497edd78ff13653740b17eb1e0c4454"
                 },
                 "dist": {
@@ -1018,8 +1003,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.0.3"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1028,7 +1012,7 @@
                 "version_normalized": "13.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "09288509a101cc2d138b2e33080048135f4cf1a1"
                 },
                 "dist": {
@@ -1083,8 +1067,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/13.1.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1093,7 +1076,7 @@
                 "version_normalized": "14.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "927d0eeedbcea5a13ea1b1a47530afa225a6fef2"
                 },
                 "dist": {
@@ -1148,8 +1131,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/14.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1158,7 +1140,7 @@
                 "version_normalized": "15.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "2bc1b2f212b1bfd6a3775dcc04f9cbd841b34c79"
                 },
                 "dist": {
@@ -1213,8 +1195,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/15.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1223,7 +1204,7 @@
                 "version_normalized": "16.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "693b7353df0ed01eb225b91d6e5d474193ca1411"
                 },
                 "dist": {
@@ -1278,8 +1259,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/16.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1288,7 +1268,7 @@
                 "version_normalized": "17.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "fefee1b828c45c970061db88fdf65ee968a03a26"
                 },
                 "dist": {
@@ -1343,8 +1323,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/17.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1353,7 +1332,7 @@
                 "version_normalized": "18.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "42714ad203f0d37be53aa11fbe78b3eb6b18d34b"
                 },
                 "dist": {
@@ -1408,8 +1387,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1418,7 +1396,7 @@
                 "version_normalized": "18.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "3b88fe273f34625d1e704e495a52aad7429532fd"
                 },
                 "dist": {
@@ -1473,8 +1451,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1483,7 +1460,7 @@
                 "version_normalized": "18.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "4558c65fd5d0ddfc37099fa1a62c28e462a961de"
                 },
                 "dist": {
@@ -1538,8 +1515,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.2"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1548,7 +1524,7 @@
                 "version_normalized": "18.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "5dc5f9ee726940542d2195b568e2f198ae3f5498"
                 },
                 "dist": {
@@ -1603,8 +1579,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.3"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1613,7 +1588,7 @@
                 "version_normalized": "18.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "8b333852a79c3165fb11abaa069678bba599d2ef"
                 },
                 "dist": {
@@ -1668,8 +1643,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.4"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1678,7 +1652,7 @@
                 "version_normalized": "18.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "2ee45c4b64639eb1e8c4bc9b637b72e7f3dd7274"
                 },
                 "dist": {
@@ -1734,8 +1708,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.5"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1744,7 +1717,7 @@
                 "version_normalized": "18.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "53d42be37e82dcf5b3cd91dcf4ce300f4460e0c1"
                 },
                 "dist": {
@@ -1800,8 +1773,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.6"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1810,7 +1782,7 @@
                 "version_normalized": "18.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "4b990a4e18d6bcb4075155aff9c99876755e95eb"
                 },
                 "dist": {
@@ -1866,8 +1838,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.7"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1876,7 +1847,7 @@
                 "version_normalized": "18.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "64b5d85a8e616012af349a58755fb4f63cbfc21b"
                 },
                 "dist": {
@@ -1932,8 +1903,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.0.8"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -1942,7 +1912,7 @@
                 "version_normalized": "18.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "15a2e6df5a46d68d59c1e61aef9dbe614f9cc30f"
                 },
                 "dist": {
@@ -1998,8 +1968,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.1.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2008,7 +1977,7 @@
                 "version_normalized": "18.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "ff752cdf55679e0c72976f1ed649d2c99d81555e"
                 },
                 "dist": {
@@ -2064,8 +2033,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/18.1.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2074,7 +2042,7 @@
                 "version_normalized": "19.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "21766ce1766edd1cb240643dc13106697be1932d"
                 },
                 "dist": {
@@ -2130,8 +2098,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2140,7 +2107,7 @@
                 "version_normalized": "19.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "0a9c1bdbab8f67118681fef87a80082c57a08fa2"
                 },
                 "dist": {
@@ -2196,8 +2163,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2206,7 +2172,7 @@
                 "version_normalized": "19.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "970d86f49336f22b83a217bf3ed9611e75c29fc2"
                 },
                 "dist": {
@@ -2225,7 +2191,7 @@
                     "phpunit/phpunit": "^9.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2023-12-06T14:58:12+00:00",
+                "time": "2023-12-06T14:57:58+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2262,8 +2228,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.1.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2272,7 +2237,7 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "980b004fa00b7658bbd014609f215428cfe51141"
                 },
                 "dist": {
@@ -2326,8 +2291,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/2.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2336,7 +2300,7 @@
                 "version_normalized": "3.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "7afcd692e8c50dfbd4ba91e02b18cf81c706b73e"
                 },
                 "dist": {
@@ -2390,8 +2354,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/3.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2400,7 +2363,7 @@
                 "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "00bf4639e583856df8093c9873ab561824b16e30"
                 },
                 "dist": {
@@ -2454,8 +2417,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/4.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2464,7 +2426,7 @@
                 "version_normalized": "4.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "ab18c7b29c077dfb01d1bfc4fde281926e6b0a44"
                 },
                 "dist": {
@@ -2518,8 +2480,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/4.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2528,7 +2489,7 @@
                 "version_normalized": "5.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "98879d263b1f851812c8935aafc0174e0513efdc"
                 },
                 "dist": {
@@ -2583,8 +2544,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/5.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2593,7 +2553,7 @@
                 "version_normalized": "6.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "c4c36a8dc9959c171b65b164e9a6052359c7dc5e"
                 },
                 "dist": {
@@ -2648,8 +2608,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/6.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2658,7 +2617,7 @@
                 "version_normalized": "7.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "9d490d7c0838eb0c3ccb9ac80e2645c05d7f9612"
                 },
                 "dist": {
@@ -2713,8 +2672,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/7.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2723,7 +2681,7 @@
                 "version_normalized": "8.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "3584f5fa985386b392b178d1b4212b6770dbc547"
                 },
                 "dist": {
@@ -2742,7 +2700,7 @@
                     "phpunit/phpunit": "~4.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-01-26T21:56:44+00:00",
+                "time": "2016-11-10T16:29:42+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2778,8 +2736,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/8.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2788,7 +2745,7 @@
                 "version_normalized": "9.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "81bf07053e0d8c7fd9675116de94979676cd3697"
                 },
                 "dist": {
@@ -2807,7 +2764,7 @@
                     "phpunit/phpunit": "~4.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-01T14:45:08+00:00",
+                "time": "2017-03-01T12:06:18+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2843,8 +2800,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/9.0.0"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             },
             {
@@ -2853,7 +2809,7 @@
                 "version_normalized": "9.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "url": "git@github.com:FmTod/ebay-sdk-source.git",
                     "reference": "7495ccd6562388954dcb158757e401e765592d02"
                 },
                 "dist": {
@@ -2872,7 +2828,7 @@
                     "phpunit/phpunit": "~4.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2017-03-06T09:48:13+00:00",
+                "time": "2017-03-06T09:39:47+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2908,8 +2864,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/9.0.1"
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
                 }
             }
         ]

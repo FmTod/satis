@@ -34,7 +34,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-06T03:14:00+00:00",
+                "time": "2024-09-06T00:09:27+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -91,11 +91,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/main",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -186,11 +182,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/major-illuminate",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -281,11 +273,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/nunomaduro-collision-8.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -376,11 +364,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/orchestra-testbench-9.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -471,11 +455,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/paambaati-codeclimate-action-9.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -566,11 +546,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/pestphp-pest-3.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -661,11 +637,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/pestphp-pest-plugin-faker-3.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -756,11 +728,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/pestphp-pest-plugin-laravel-3.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
+                ]
             }
         ]
     }

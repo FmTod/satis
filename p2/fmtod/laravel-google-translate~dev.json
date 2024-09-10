@@ -83,11 +83,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/dependabot/npm_and_yarn/braces-3.0.3",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -171,11 +167,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/dependabot/npm_and_yarn/micromatch-4.0.8",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -206,7 +198,7 @@
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-drift": "^2.2"
                 },
-                "time": "2024-02-25T15:35:42+00:00",
+                "time": "2024-02-25T13:12:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -260,11 +252,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/master",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -348,11 +336,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/actions-cache-4.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -436,11 +420,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/actions-checkout-4.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -524,11 +504,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/actions-setup-node-4.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -612,11 +588,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/husky-9.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -700,11 +672,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/major-commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -788,11 +756,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/major-illuminate",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -876,11 +840,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -964,11 +924,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/orchestra-testbench-9.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1052,11 +1008,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/paambaati-codeclimate-action-9.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1140,11 +1092,7 @@
                     "laravel",
                     "package",
                     "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
+                ]
             }
         ]
     }

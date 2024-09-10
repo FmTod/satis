@@ -94,11 +94,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/v1.0.0",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -195,11 +191,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             }
         ]
     }

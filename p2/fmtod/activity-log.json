@@ -89,11 +89,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -183,11 +179,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.0.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -277,11 +269,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.0.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -374,11 +362,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -471,11 +455,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -568,11 +548,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -611,7 +587,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-01-03T19:28:04+00:00",
+                "time": "2023-01-03T19:27:57+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -665,11 +641,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.3",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -762,11 +734,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.4",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -805,7 +773,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-01-03T20:06:24+00:00",
+                "time": "2023-01-03T20:06:15+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -859,11 +827,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.5",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -956,11 +920,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.1.6",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -1052,11 +1012,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.2.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -1148,11 +1104,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.2.1",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -1190,7 +1142,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-01-05T16:44:44+00:00",
+                "time": "2023-01-05T16:44:37+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1244,11 +1196,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v1.2.2",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/activity-log",
@@ -1338,11 +1286,7 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
+                ]
             }
         ]
     }

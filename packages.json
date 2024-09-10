@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "f0b3be82fc94a5c87cb0e6d958d16a383f97df9f"
+            "sha1": "30ea11983c9acd40fdbfb72366fad86610ecdeb1"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -23,6 +23,7 @@
         "mylisterhub/api",
         "mylisterhub/core",
         "mylisterhub/media",
-        "mylisterhub/template-wizard"
+        "mylisterhub/template-wizard",
+        "mylisterhub/user-workflows"
     ]
 }

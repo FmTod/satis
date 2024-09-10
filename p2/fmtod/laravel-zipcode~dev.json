@@ -94,11 +94,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/dependabot/npm_and_yarn/braces-3.0.3",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -193,11 +189,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/dependabot/npm_and_yarn/micromatch-4.0.8",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -237,7 +229,7 @@
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-25T15:19:06+00:00",
+                "time": "2024-02-25T13:00:43+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -293,11 +285,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/main",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -392,11 +380,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/actions-checkout-4.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -491,11 +475,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/actions-setup-node-4.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -590,11 +570,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/husky-9.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -689,11 +665,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/major-commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -788,11 +760,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/major-illuminate",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -887,11 +855,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -986,11 +950,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/nunomaduro-collision-8.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -1085,11 +1045,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/orchestra-testbench-9.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -1184,11 +1140,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/phpunit-php-code-coverage-11.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-zipcode",
@@ -1283,11 +1235,7 @@
                     "FmTod",
                     "laravel",
                     "laravel-zipcode"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
-                    "issues": "https://github.com/FmTod/laravel-zipcode/issues"
-                }
+                ]
             }
         ]
     }

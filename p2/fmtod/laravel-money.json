@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "a9765a7a6ea2018d24f31c00b47201cfb140275c"
                 },
                 "dist": {
@@ -54,8 +54,7 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v0.1.0"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
@@ -64,7 +63,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "56692d4fec7f1b44c221707c260a7dcdb6c0b99f"
                 },
                 "dist": {
@@ -113,8 +112,7 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v0.1.1"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
@@ -123,7 +121,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "d1b8cde0278fb1d8499c62a4f9cad1a263460b4b"
                 },
                 "dist": {
@@ -172,8 +170,7 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v0.1.2"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
@@ -182,7 +179,7 @@
                 "version_normalized": "0.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "5c67dc58861d2eafc7f46b19e15829d66d146ba6"
                 },
                 "dist": {
@@ -231,8 +228,7 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v0.1.3"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
@@ -241,7 +237,7 @@
                 "version_normalized": "0.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "3da3e83d38d4dea32152a5f5d436c6d21bc75e5a"
                 },
                 "dist": {
@@ -290,46 +286,68 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v0.1.4"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
                 "name": "fmtod/laravel-money",
-                "version": "v1.0.0",
+                "version": "v1.0",
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
-                    "reference": "5d60a81a7b9c12a39fc0f1b877b8ee4bac892cd0"
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
+                    "reference": "4f400d55380552ff970591a7131fee3753c4db32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-money-source/zipball/5d60a81a7b9c12a39fc0f1b877b8ee4bac892cd0",
-                    "reference": "5d60a81a7b9c12a39fc0f1b877b8ee4bac892cd0",
+                    "url": "https://api.github.com/repos/FmTod/laravel-money-source/zipball/4f400d55380552ff970591a7131fee3753c4db32",
+                    "reference": "4f400d55380552ff970591a7131fee3753c4db32",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "~5.1",
-                    "illuminate/view": "~5.1",
-                    "php": ">=5.5.9"
+                    "brick/money": "^0.5.1",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "illuminate/support": "^7.0|^8.0",
+                    "illuminate/view": "^7.0|^8.0",
+                    "moneyphp/money": "^3.3",
+                    "php": "^7.3|^8.0"
                 },
                 "require-dev": {
-                    "mockery/mockery": "~0.9",
-                    "phpunit/phpunit": "~4.0"
+                    "graham-campbell/testbench": "^5.5",
+                    "illuminate/filesystem": "^7.0|^8.0",
+                    "mockery/mockery": "^1.4",
+                    "phpunit/phpunit": "^8.5|^9.0"
                 },
-                "suggest": {
-                    "ext-intl": "Required to use NumberFormatter."
-                },
-                "time": "2016-08-07T18:21:30+00:00",
+                "time": "2021-03-18T19:27:18+00:00",
                 "type": "library",
-                "autoload": {
-                    "files": [
-                        "src/ClickNow/Money/helpers.php"
-                    ],
-                    "psr-4": {
-                        "ClickNow\\": "src/ClickNow"
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\Money\\Providers\\MoneyServiceProvider"
+                        ]
                     }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\Money\\": "src/"
+                    },
+                    "files": [
+                        "src/Helpers/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Money\\Tests\\": "tests/"
+                    },
+                    "files": [
+                        "tests/Database/Migrations/2020_04_30_000000_create_users_table.php"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -337,21 +355,16 @@
                 "authors": [
                     {
                         "name": "Ricardo Gobbo de Souza",
-                        "email": "ricardogobbosouza@yahoo.com.br",
-                        "role": "Developer"
+                        "email": "ricardogobbosouza@yahoo.com.br"
                     }
                 ],
                 "description": "Laravel Money",
-                "homepage": "https://github.com/cknow/laravel-money",
+                "homepage": "https://github.com/FmTod/laravel-money-source",
                 "keywords": [
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v1.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -359,7 +372,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "d7e399887d76b1dae87fa2d254e25dc1b0fde966"
                 },
                 "dist": {
@@ -408,8 +421,7 @@
                     "money"
                 ],
                 "support": {
-                    "email": "ricardo@clicknow.com.br",
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v1.0.1"
+                    "email": "ricardo@clicknow.com.br"
                 }
             },
             {
@@ -418,7 +430,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "bd2d25727a9b381327dc55d37481830194496340"
                 },
                 "dist": {
@@ -478,7 +490,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "a94f18c7fd29114bb1e22a5f32c2d6d7e871eb27"
                 },
                 "dist": {
@@ -538,7 +550,7 @@
                 "version_normalized": "10.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "6d0482fb6a0b77270ad57d58f15eeb3301da8b3e"
                 },
                 "dist": {
@@ -613,10 +625,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -624,7 +633,7 @@
                 "version_normalized": "10.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "9b118ff5ea74f2c28eedd4bd09baf1f1a4babdbd"
                 },
                 "dist": {
@@ -699,10 +708,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.0.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -710,7 +716,7 @@
                 "version_normalized": "10.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "dbe92aa2c7ecfbc6b7133d67b2781006db98e620"
                 },
                 "dist": {
@@ -785,10 +791,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.0.2"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -796,7 +799,7 @@
                 "version_normalized": "10.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "faa30bcc6c1ee95c8860e49ebcb8cb6d1970fc74"
                 },
                 "dist": {
@@ -871,10 +874,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.0.3"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -882,7 +882,7 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "9499fbc1fe3afb174b4030fe1dc54db6d76276cf"
                 },
                 "dist": {
@@ -968,7 +968,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "062d38d88f5949ddbfab4265d16b47920055860c"
                 },
                 "dist": {
@@ -1054,7 +1054,7 @@
                 "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "514f748cddbf2af478918ba051c596ff07c3364a"
                 },
                 "dist": {
@@ -1141,7 +1141,7 @@
                 "version_normalized": "2.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "167a12c598439bdd54b89bf1389be2f2564326ca"
                 },
                 "dist": {
@@ -1228,7 +1228,7 @@
                 "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "fb559a18bc7e060d524f757e30b15ee8ba81addf"
                 },
                 "dist": {
@@ -1315,7 +1315,7 @@
                 "version_normalized": "3.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "fb9a6ace5c86b0d506b3819b1ee4761b8b57a581"
                 },
                 "dist": {
@@ -1403,7 +1403,7 @@
                 "version_normalized": "3.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "b74a4909efe87e3ce60ea11cea9d0e9c307464c7"
                 },
                 "dist": {
@@ -1491,7 +1491,7 @@
                 "version_normalized": "3.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "f532af7a2741d1022b65668e18569db732b2a231"
                 },
                 "dist": {
@@ -1579,7 +1579,7 @@
                 "version_normalized": "3.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "18d9a18aa27add5cfe4f152c415c67e8b0c681c1"
                 },
                 "dist": {
@@ -1667,7 +1667,7 @@
                 "version_normalized": "3.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "d36584d9a7fc3acfd91b3950af797e176b549bfe"
                 },
                 "dist": {
@@ -1755,7 +1755,7 @@
                 "version_normalized": "3.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "e4e18e13e0d9160e5353041869811200c6cbae61"
                 },
                 "dist": {
@@ -1843,7 +1843,7 @@
                 "version_normalized": "3.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "e902efca7328d6ac978ccd3a5143882248d8e3b1"
                 },
                 "dist": {
@@ -1931,7 +1931,7 @@
                 "version_normalized": "3.7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "31e0082ba3d5d4d9469ce6f8bc5c3a41590a1cf5"
                 },
                 "dist": {
@@ -2019,7 +2019,7 @@
                 "version_normalized": "3.8.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "02c79d014f2be5cf7daec48b20a7bb0335804fc8"
                 },
                 "dist": {
@@ -2108,7 +2108,7 @@
                 "version_normalized": "3.8.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "e64ffc601334c3fc0cdde2f99702f09f02e18788"
                 },
                 "dist": {
@@ -2197,7 +2197,7 @@
                 "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "6f59f1f1ff4a6d13dffe929e9218ddb072dd17aa"
                 },
                 "dist": {
@@ -2286,7 +2286,7 @@
                 "version_normalized": "5.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "40ccdb6668f98492634f3d3a3483edbcabcdf204"
                 },
                 "dist": {
@@ -2361,7 +2361,7 @@
                 "version_normalized": "5.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "f5891333d0f567ec4c2d525e0d3a8dc515cb19a8"
                 },
                 "dist": {
@@ -2436,7 +2436,7 @@
                 "version_normalized": "6.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "a4aa9e908cd197f01f2bede51f0420dc4d91ab1e"
                 },
                 "dist": {
@@ -2504,10 +2504,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v6.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -2515,7 +2512,7 @@
                 "version_normalized": "6.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "3431fe3663efac5db883459b55949a269cb0880b"
                 },
                 "dist": {
@@ -2583,18 +2580,15 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v6.1.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
-                "version": "v7.0.0",
+                "version": "v7.0",
                 "version_normalized": "7.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "4f400d55380552ff970591a7131fee3753c4db32"
                 },
                 "dist": {
@@ -2663,10 +2657,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -2674,7 +2665,7 @@
                 "version_normalized": "7.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "dc6edd97baf736b7295a5514ca553262f7e38454"
                 },
                 "dist": {
@@ -2743,10 +2734,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -2754,7 +2742,7 @@
                 "version_normalized": "7.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "284b12208110a6a5091afc6b68cb315d85901044"
                 },
                 "dist": {
@@ -2827,10 +2815,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.10"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -2838,7 +2823,7 @@
                 "version_normalized": "7.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "07b00939ac8a0f867b8983faa9b32df009f6ecf5"
                 },
                 "dist": {
@@ -2911,10 +2896,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.11"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -2922,7 +2904,7 @@
                 "version_normalized": "7.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "e3c4c3d1361d05706ec8b1d277f1b9f4602a41ca"
                 },
                 "dist": {
@@ -2995,10 +2977,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.12"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3006,7 +2985,7 @@
                 "version_normalized": "7.0.13.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "4b50c03c65b0f60d1990d93a918034b0345d7fef"
                 },
                 "dist": {
@@ -3079,10 +3058,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.13"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3090,7 +3066,7 @@
                 "version_normalized": "7.0.14.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "f2d8d33cba4c58c190ef14315cf7131eb8d0f1ae"
                 },
                 "dist": {
@@ -3163,10 +3139,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.14"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3174,7 +3147,7 @@
                 "version_normalized": "7.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "d04684bef544fff5ce0fc6d83962ee584d3f014e"
                 },
                 "dist": {
@@ -3243,10 +3216,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.2"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3254,7 +3224,7 @@
                 "version_normalized": "7.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "a9b43efda2df53769008b159382b8cda92ff111a"
                 },
                 "dist": {
@@ -3323,10 +3293,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.3"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3334,7 +3301,7 @@
                 "version_normalized": "7.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "bdd4fef31b9bc36af500f0bf517ab53bfeff1689"
                 },
                 "dist": {
@@ -3403,10 +3370,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.4"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3414,7 +3378,7 @@
                 "version_normalized": "7.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "ff646be80fa68b037f45d81c218384d7a017a189"
                 },
                 "dist": {
@@ -3483,10 +3447,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.5"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3494,7 +3455,7 @@
                 "version_normalized": "7.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "4880300135055e3c456962741257d8ac5605d99a"
                 },
                 "dist": {
@@ -3563,10 +3524,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.6"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3574,7 +3532,7 @@
                 "version_normalized": "7.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "9de8b01db5d698793906c66d7bae4f3c125dcaaf"
                 },
                 "dist": {
@@ -3643,10 +3601,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v7.0.7"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3654,7 +3609,7 @@
                 "version_normalized": "7.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "ac208e54be48fdd11e28334eb213bb439372b3f3"
                 },
                 "dist": {
@@ -3723,10 +3678,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/7.0.8"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3734,7 +3686,7 @@
                 "version_normalized": "7.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "bd2146bc2f1ba1a76ea60425c8224ec4e9c1f907"
                 },
                 "dist": {
@@ -3803,10 +3755,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/7.0.9"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3814,7 +3763,7 @@
                 "version_normalized": "8.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "baa0512d371a81e71a879f029a978f2bf12ff7e5"
                 },
                 "dist": {
@@ -3887,10 +3836,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.0.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3898,7 +3844,7 @@
                 "version_normalized": "8.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "1af12b58d1f08bdcdb75d738fd1bb65c4daf141b"
                 },
                 "dist": {
@@ -3971,10 +3917,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.0"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -3982,7 +3925,7 @@
                 "version_normalized": "8.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "15a8d0d3246e6ee34a5f8b3110ddc4fb0174ebfb"
                 },
                 "dist": {
@@ -4055,10 +3998,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.1"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4066,7 +4006,7 @@
                 "version_normalized": "8.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "68cd67e49faad50fb6cc133d6fd9fc4d56c80332"
                 },
                 "dist": {
@@ -4139,10 +4079,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.2"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4150,7 +4087,7 @@
                 "version_normalized": "8.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "f8cf9748d868e68e14d59bf778a90f705e780a9f"
                 },
                 "dist": {
@@ -4224,10 +4161,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.3"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4235,7 +4169,7 @@
                 "version_normalized": "8.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "ac19ae2d75b003bc9eb21d2dd4bf7c61d3be6764"
                 },
                 "dist": {
@@ -4309,10 +4243,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.4"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4320,7 +4251,7 @@
                 "version_normalized": "8.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "ad48030f8102c18f5df5387fd59d8e1b008208e1"
                 },
                 "dist": {
@@ -4394,10 +4325,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.5"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4405,7 +4333,7 @@
                 "version_normalized": "8.1.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "85bf44a190ab7a7a14e4ff6c3ec265c5d3f6d734"
                 },
                 "dist": {
@@ -4479,10 +4407,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/8.1.6"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4490,7 +4415,7 @@
                 "version_normalized": "8.1.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "d6236353535c300de8a7ea9c89988adcde312573"
                 },
                 "dist": {
@@ -4564,10 +4489,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v8.1.7"
-                }
+                ]
             },
             {
                 "name": "fmtod/laravel-money",
@@ -4575,7 +4497,7 @@
                 "version_normalized": "9.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "url": "git@github.com:FmTod/laravel-money-source.git",
                     "reference": "958575aae8fdd7881400bc58a4dccd991cb678ae"
                 },
                 "dist": {
@@ -4651,10 +4573,7 @@
                     "currency",
                     "laravel",
                     "money"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/v9.0.0"
-                }
+                ]
             }
         ]
     }

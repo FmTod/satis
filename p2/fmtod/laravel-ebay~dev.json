@@ -7,7 +7,7 @@
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/FmTod/laravel-ebay-source.git",
+                    "url": "git@github.com:FmTod/laravel-ebay-source.git",
                     "reference": "627b1aab116ae270fd62c05cee01e0a686010a30"
                 },
                 "dist": {
@@ -45,10 +45,7 @@
                     "laravel5",
                     "php",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-ebay-source/tree/1.7.0"
-                }
+                ]
             }
         ]
     }
