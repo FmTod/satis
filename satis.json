@@ -70,6 +70,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/FmTod/mylisterhub-template-wizard"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FmTod/mylisterhub-user-workflows"
     }
   ],
   "require-all": false,
