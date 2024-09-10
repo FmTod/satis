@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "995824b7d6eeb0f985b181e3eb740071819e0c2e"
+                    "reference": "38b469ad54cd02b06bcaba2cad77506199a90b49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/995824b7d6eeb0f985b181e3eb740071819e0c2e",
-                    "reference": "995824b7d6eeb0f985b181e3eb740071819e0c2e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/38b469ad54cd02b06bcaba2cad77506199a90b49",
+                    "reference": "38b469ad54cd02b06bcaba2cad77506199a90b49",
                     "shasum": ""
                 },
                 "require": {
@@ -58,7 +58,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-29T20:34:24+00:00",
+                "time": "2024-09-10T19:35:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -113,7 +113,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.15.3",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -226,7 +230,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/husky-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -339,7 +347,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/major-eslint-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -452,7 +464,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/npm-run-all2-6.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -565,7 +581,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -676,7 +696,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/orchestra-canvas-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -787,7 +811,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/orchestra-testbench-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -900,7 +928,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/sass-loader-16.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -1013,7 +1045,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vitejs-plugin-legacy-5.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -1126,7 +1162,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vue-eslint-config-prettier-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             },
             {
                 "name": "modules/auth",
@@ -1239,7 +1279,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "Auth"
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vue-eslint-config-typescript-13.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
             }
         ]
     }

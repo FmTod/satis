@@ -93,7 +93,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/v10.0.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -129,7 +133,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-10T22:26:33+00:00",
+                "time": "2024-01-10T22:26:45+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -187,7 +191,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/v10.0.1",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -297,7 +305,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/v10.1.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             }
         ]
     }

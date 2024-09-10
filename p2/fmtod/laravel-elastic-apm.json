@@ -96,7 +96,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -134,7 +138,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-29T19:03:39+00:00",
+                "time": "2024-01-29T19:04:18+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -193,7 +197,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -290,7 +298,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.2",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -387,7 +399,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.3",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -484,7 +500,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.4",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -581,7 +601,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.5",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -678,7 +702,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.6",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -775,7 +803,11 @@
                         "email": "39545521+viicslen@users.noreply.github.com"
                     }
                 ],
-                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server"
+                "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
+                "support": {
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.7",
+                    "issues": "https://github.com/FmTod/elastic-apm-package/issues"
+                }
             }
         ]
     }

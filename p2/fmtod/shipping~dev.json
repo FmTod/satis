@@ -42,7 +42,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-08-01T18:51:14+00:00",
+                "time": "2024-08-30T13:27:43+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -94,7 +94,11 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/fixes",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
             },
             {
                 "name": "fmtod/shipping",
@@ -190,7 +194,11 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/main",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
             },
             {
                 "name": "fmtod/shipping",
@@ -285,7 +293,11 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/pestphp-pest-3.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
             },
             {
                 "name": "fmtod/shipping",
@@ -380,7 +392,11 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/pestphp-pest-plugin-faker-3.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
             },
             {
                 "name": "fmtod/shipping",
@@ -475,7 +491,11 @@
                     "fmtod",
                     "laravel",
                     "shipping"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/pestphp-pest-plugin-laravel-3.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
+                }
             }
         ]
     }

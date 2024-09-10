@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "e9633522bff40cd984d4ce4f339ab91be9c2dcab"
+                    "reference": "92e66d91326456f076a43872109e487e66afd534"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/e9633522bff40cd984d4ce4f339ab91be9c2dcab",
-                    "reference": "e9633522bff40cd984d4ce4f339ab91be9c2dcab",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/92e66d91326456f076a43872109e487e66afd534",
+                    "reference": "92e66d91326456f076a43872109e487e66afd534",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-05T16:00:26+00:00",
+                "time": "2024-09-10T17:13:05+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -110,7 +110,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/main",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -220,7 +224,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/eslint-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -330,7 +338,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/major-vue-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -424,7 +436,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -518,7 +534,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/orchestra-canvas-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -612,7 +632,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/orchestra-testbench-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -722,7 +746,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/paambaati-codeclimate-action-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -832,7 +860,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/sass-loader-16.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -841,12 +873,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "a6763c665ef5300ae93414e2f05625527b887bc1"
+                    "reference": "4619a1ea3ed50158e45e9147aaf417648d02249d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/a6763c665ef5300ae93414e2f05625527b887bc1",
-                    "reference": "a6763c665ef5300ae93414e2f05625527b887bc1",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/4619a1ea3ed50158e45e9147aaf417648d02249d",
+                    "reference": "4619a1ea3ed50158e45e9147aaf417648d02249d",
                     "shasum": ""
                 },
                 "require": {
@@ -868,7 +900,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-05T18:33:35+00:00",
+                "time": "2024-09-10T19:35:11+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -942,7 +974,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-plugin-checker-0.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -1052,7 +1088,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-plugin-dts-4.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -1162,7 +1202,11 @@
                     "MyListerHub",
                     "laravel",
                     "template-wizard"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vue-tsc-2.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             },
             {
                 "name": "mylisterhub/template-wizard",
@@ -1255,7 +1299,11 @@
                     ":package_slug",
                     ":vendor_name",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/task",
+                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
+                }
             }
         ]
     }

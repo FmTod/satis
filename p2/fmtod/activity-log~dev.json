@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-08-08T17:02:35+00:00",
+                "time": "2023-08-08T19:44:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -90,7 +90,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/main",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -182,7 +186,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/autoprefixer-10.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -274,7 +282,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/laravel-vite-plugin-0.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -366,7 +378,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/logue-vue2-helpers-2.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -458,7 +474,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -548,7 +568,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/major-vue-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -640,7 +664,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/nunomaduro-collision-7.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -732,7 +760,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/orchestra-testbench-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -824,7 +856,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/postcss-8.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -916,7 +952,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/postcss-preset-env-8.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -1008,7 +1048,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/tabulator-tables-5.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -1098,7 +1142,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/typescript-5.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             },
             {
                 "name": "fmtod/activity-log",
@@ -1188,7 +1236,11 @@
                     "FmTod",
                     "activity-log",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/vue-eslint-config-prettier-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             }
         ]
     }

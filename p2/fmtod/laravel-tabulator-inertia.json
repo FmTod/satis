@@ -7,7 +7,7 @@
                 "version_normalized": "0.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "cb54ecdb60de920dd2693ceea8c4a235d0282601"
                 },
                 "dist": {
@@ -86,7 +86,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/0.0.1",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -94,7 +98,7 @@
                 "version_normalized": "0.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "cebd7e03ac4bba1de55320497b60ac555661df31"
                 },
                 "dist": {
@@ -124,7 +128,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2022-09-12T21:25:37+00:00",
+                "time": "2022-09-12T21:26:11+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -173,7 +177,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v0.0.2",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -181,7 +189,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "d72ab862b48befc7b160a7a4d9798c46dc8a4b63"
                 },
                 "dist": {
@@ -210,7 +218,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2022-09-12T21:32:22+00:00",
+                "time": "2022-09-12T21:32:33+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -259,7 +267,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v0.1.0",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -267,7 +279,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "3464944e99e2980a3d339297dcdafb03ea261657"
                 },
                 "dist": {
@@ -296,7 +308,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2022-09-12T21:37:12+00:00",
+                "time": "2022-09-12T21:37:22+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -345,7 +357,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v0.1.1",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -353,7 +369,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "82967e1b2f4ab6742a48079668982893aa21098e"
                 },
                 "dist": {
@@ -382,7 +398,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2022-09-14T17:24:58+00:00",
+                "time": "2022-09-14T17:25:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -431,7 +447,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v0.1.2",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -439,7 +459,7 @@
                 "version_normalized": "0.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "8c1e4a83d1acc2b7e5ac9cd66d35a0322d12449c"
                 },
                 "dist": {
@@ -468,7 +488,7 @@
                     "roave/security-advisories": "dev-latest",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2022-09-14T17:30:18+00:00",
+                "time": "2022-09-14T17:30:24+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -517,7 +537,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v0.1.4",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -525,7 +549,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "0dfc40cc8f53250cd15da55b3c8275a37167f1e2"
                 },
                 "dist": {
@@ -601,7 +625,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             }
         ]
     }

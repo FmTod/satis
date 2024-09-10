@@ -93,7 +93,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/dependabot/npm_and_yarn/micromatch-4.0.8",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -187,7 +191,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/dependabot/npm_and_yarn/webpack-5.94.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -196,12 +204,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "5f433b1a348d650d9b3f1000aac0f88696a5fe28"
+                    "reference": "aab3335b34f9a33fbfc1fc8d014eef676210f598"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/5f433b1a348d650d9b3f1000aac0f88696a5fe28",
-                    "reference": "5f433b1a348d650d9b3f1000aac0f88696a5fe28",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/aab3335b34f9a33fbfc1fc8d014eef676210f598",
+                    "reference": "aab3335b34f9a33fbfc1fc8d014eef676210f598",
                     "shasum": ""
                 },
                 "require": {
@@ -225,7 +233,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-09-09T19:11:58+00:00",
+                "time": "2024-09-10T19:34:38+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -282,7 +290,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -376,7 +388,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -470,7 +486,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/eslint-9.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -564,7 +584,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/eslint-plugin-vue-9.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -658,7 +682,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/husky-9.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -752,7 +780,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -846,7 +878,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/node-20.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -940,7 +976,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -1034,7 +1074,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/sass-1.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -1128,7 +1172,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/terser-5.x-lockfile",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             },
             {
                 "name": "mylisterhub/user-workflows",
@@ -1222,7 +1270,11 @@
                     "FmTod",
                     "laravel",
                     "mylisterhub-user-workflows"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/vite-plugin-checker-0.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
+                }
             }
         ]
     }

@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-05-05T05:18:44+00:00",
+                "time": "2023-05-05T05:18:55+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -91,7 +91,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -182,7 +186,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -273,7 +281,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.2",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -308,7 +320,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-05-05T19:29:59+00:00",
+                "time": "2023-05-05T19:30:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -364,7 +376,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.3",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -399,7 +415,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-05-05T19:32:33+00:00",
+                "time": "2023-05-05T19:33:52+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -455,7 +471,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.0.4",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -546,7 +566,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.1.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -637,7 +661,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v1.1.1",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -728,7 +756,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -819,7 +851,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-errorable",
@@ -910,7 +946,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-errorable"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-errorable/tree/v2.1.0",
+                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
+                }
             }
         ]
     }

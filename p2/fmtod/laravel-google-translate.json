@@ -65,7 +65,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v1.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -131,7 +135,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v1.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -162,7 +170,7 @@
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-drift": "^2.2"
                 },
-                "time": "2023-08-01T17:37:27+00:00",
+                "time": "2023-08-01T17:37:41+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -215,7 +223,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v10.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -281,7 +293,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -347,7 +363,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -413,7 +433,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -479,7 +503,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.3",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -545,7 +573,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.4",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -611,7 +643,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v2.0.5",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -677,7 +713,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -743,7 +783,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -809,7 +853,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v3.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -875,7 +923,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v4.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -941,7 +993,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v4.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1007,7 +1063,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1073,7 +1133,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1139,7 +1203,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v5.0.2",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1205,7 +1273,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v6.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1271,7 +1343,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v6.0.1",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1337,7 +1413,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v7.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1403,7 +1483,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v8.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1469,7 +1553,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v8.1.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-google-translate",
@@ -1535,7 +1623,11 @@
                     "laravel",
                     "package",
                     "translate"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v9.0.0",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
             }
         ]
     }

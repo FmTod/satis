@@ -7,7 +7,7 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "e8f43105922758c8a89de3665ba68e371600b93a"
                 },
                 "dist": {
@@ -34,7 +34,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-25T12:34:14+00:00",
+                "time": "2024-02-25T16:12:03+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -84,7 +84,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/main",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -92,7 +96,7 @@
                 "version_normalized": "dev-renovate/actions-cache-4.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "2c59276df7549b0528c2af6ba3976f6e17421db6"
                 },
                 "dist": {
@@ -168,7 +172,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/actions-cache-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -176,7 +184,7 @@
                 "version_normalized": "dev-renovate/actions-checkout-4.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "74e4d0e7d3dba3cb2644a8ebeebf5eaf3cd9950d"
                 },
                 "dist": {
@@ -252,7 +260,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/actions-checkout-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -260,7 +272,7 @@
                 "version_normalized": "dev-renovate/actions-setup-node-4.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "46b01035d130200584127aef5326a329b2b8a9a0"
                 },
                 "dist": {
@@ -336,7 +348,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/actions-setup-node-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -344,7 +360,7 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "3377c3a152025cc0876333af83b70af2e388992a"
                 },
                 "dist": {
@@ -420,7 +436,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/husky-9.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -428,7 +448,7 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "bdc80e36e78d06fbcf909adaae433075f8d6f004"
                 },
                 "dist": {
@@ -504,7 +524,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -512,7 +536,7 @@
                 "version_normalized": "dev-renovate/major-illuminate",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "c83dcd3122a6ee1a059b9da82b5038f1f4f555b6"
                 },
                 "dist": {
@@ -588,7 +612,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -596,7 +624,7 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "089c938b8391b25548566c7e15dcc76581e4cab8"
                 },
                 "dist": {
@@ -672,7 +700,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -680,7 +712,7 @@
                 "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "4ca79a5fae422367317b266a96c6656f851c0f1a"
                 },
                 "dist": {
@@ -756,7 +788,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -764,7 +800,7 @@
                 "version_normalized": "dev-renovate/orchestra-testbench-9.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "098553f7f97540aa99923ef9cd931397c1e8fe04"
                 },
                 "dist": {
@@ -840,7 +876,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/orchestra-testbench-9.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
@@ -848,7 +888,7 @@
                 "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator-inertia.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
                     "reference": "98bafadc9ee7c1be4ac2641c80629dcfaef6ebba"
                 },
                 "dist": {
@@ -924,7 +964,11 @@
                     "FmTod",
                     "laravel",
                     "laravel-tabulator-inertia"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
             }
         ]
     }

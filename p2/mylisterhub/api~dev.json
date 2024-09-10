@@ -92,7 +92,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/feat/make-controller-command",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -186,7 +190,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/main",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -279,7 +287,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/actions-cache-4.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -372,7 +384,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/husky-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -465,7 +481,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -558,7 +578,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -651,7 +675,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -741,7 +769,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -834,7 +866,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-canvas-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -927,7 +963,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-testbench-9.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -1020,7 +1060,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/spatie-laravel-query-builder-6.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             },
             {
                 "name": "mylisterhub/api",
@@ -1110,7 +1154,11 @@
                     "MyListerHub",
                     "api",
                     "laravel"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             }
         ]
     }

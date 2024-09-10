@@ -7,7 +7,7 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "82abaed299ab3ca4eaabd06710d604708461aba6"
                 },
                 "dist": {
@@ -86,7 +86,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/main",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -94,7 +98,7 @@
                 "version_normalized": "dev-renovate/actions-checkout-4.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "0144a79a98372f99a4a87d62ca6cc2f33590abd4"
                 },
                 "dist": {
@@ -172,7 +176,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/actions-checkout-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -180,7 +188,7 @@
                 "version_normalized": "dev-renovate/actions-setup-node-4.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "7345b939591dcf3a91a1154efa21ae4265540990"
                 },
                 "dist": {
@@ -258,7 +266,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/actions-setup-node-4.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -266,7 +278,7 @@
                 "version_normalized": "dev-renovate/commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "88ca5e77d9b0a818e2344166e258505e7ff7997d"
                 },
                 "dist": {
@@ -344,7 +356,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -352,7 +368,7 @@
                 "version_normalized": "dev-renovate/husky-9.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "c50aa43a9fda480e17487da5675ddb6e979c530c"
                 },
                 "dist": {
@@ -430,7 +446,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/husky-9.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -438,7 +458,7 @@
                 "version_normalized": "dev-renovate/major-commitlint-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "fc96ebb10a6000dc338f74303894783a00bad33f"
                 },
                 "dist": {
@@ -516,7 +536,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-commitlint-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -524,7 +548,7 @@
                 "version_normalized": "dev-renovate/major-illuminate",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "98fbc21444bf2f7b38e41a2e4a94ecbcd62cf240"
                 },
                 "dist": {
@@ -602,7 +626,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-illuminate",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -610,7 +638,7 @@
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "83bcbd2703853ff47e1debc20336a9cebd0c44b5"
                 },
                 "dist": {
@@ -688,7 +716,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/major-semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -696,7 +728,7 @@
                 "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "b4ddda036bd4c80479093be193a583ad4164ff9a"
                 },
                 "dist": {
@@ -774,7 +806,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/nunomaduro-collision-8.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -782,7 +818,7 @@
                 "version_normalized": "dev-renovate/semantic-release-monorepo",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "968e6f3b73c420e9cc69e80abd23e4e542a1da57"
                 },
                 "dist": {
@@ -860,7 +896,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/semantic-release-monorepo",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             },
             {
                 "name": "fmtod/laravel-tabulator",
@@ -868,7 +908,7 @@
                 "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:FmTod/laravel-tabulator.git",
+                    "url": "https://github.com/FmTod/laravel-tabulator.git",
                     "reference": "52829035ad26b062cfc82e8072d3dda887444d2c"
                 },
                 "dist": {
@@ -946,7 +986,11 @@
                     "fmtod",
                     "laravel",
                     "laravel-tabulator"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator/issues"
+                }
             }
         ]
     }
