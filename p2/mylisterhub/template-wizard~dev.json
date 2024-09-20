@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "92e66d91326456f076a43872109e487e66afd534"
+                    "reference": "e1bc13a196a736617165f51116b7b9b5e16366d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/92e66d91326456f076a43872109e487e66afd534",
-                    "reference": "92e66d91326456f076a43872109e487e66afd534",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/e1bc13a196a736617165f51116b7b9b5e16366d9",
+                    "reference": "e1bc13a196a736617165f51116b7b9b5e16366d9",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-10T17:13:05+00:00",
+                "time": "2024-09-20T18:43:03+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -118,131 +118,17 @@
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/eslint-9.x",
-                "version_normalized": "dev-renovate/eslint-9.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "1e2faa85e04d126c7d5e2a57b9ff81a605dc106f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/1e2faa85e04d126c7d5e2a57b9ff81a605dc106f",
-                    "reference": "1e2faa85e04d126c7d5e2a57b9ff81a605dc106f",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-09-04T06:36:26+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\TemplateWizard\\TemplateWizardServiceProvider"
-                        ],
-                        "aliases": {
-                            "TemplateWizard": "MyListerHub\\TemplateWizard\\Facades\\TemplateWizard"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\": "src/",
-                        "MyListerHub\\TemplateWizard\\Database\\Factories\\": "database/factories/",
-                        "MyListerHub\\TemplateWizard\\Database\\Seeders\\": "database/seeders/",
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@prepare",
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ],
-                    "prepare": [
-                        "@php vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "build": [
-                        "@php vendor/bin/testbench workbench:build --ansi"
-                    ],
-                    "serve": [
-                        "Composer\\Config::disableProcessTimeout",
-                        "@build",
-                        "@php vendor/bin/testbench serve"
-                    ],
-                    "lint": [
-                        "@php vendor/bin/pint",
-                        "@php vendor/bin/phpstan analyse"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Francisco Cahe",
-                        "email": "franciscocahe@gmail.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This wizard will enable users to select a design template and customize it with predefined colors, all within a modal window.",
-                "homepage": "https://github.com/mylisterhub/template-wizard",
-                "keywords": [
-                    "MyListerHub",
-                    "laravel",
-                    "template-wizard"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/eslint-9.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/template-wizard",
                 "version": "dev-renovate/major-vue-monorepo",
                 "version_normalized": "dev-renovate/major-vue-monorepo",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "888f6c445151f096e27dd32becee62b4ad18c7a5"
+                    "reference": "8944c8fe4054c9095284bc4f007a437d4a97c91b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/888f6c445151f096e27dd32becee62b4ad18c7a5",
-                    "reference": "888f6c445151f096e27dd32becee62b4ad18c7a5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/8944c8fe4054c9095284bc4f007a437d4a97c91b",
+                    "reference": "8944c8fe4054c9095284bc4f007a437d4a97c91b",
                     "shasum": ""
                 },
                 "require": {
@@ -264,7 +150,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-05T17:44:00+00:00",
+                "time": "2024-09-20T18:30:00+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -754,17 +640,17 @@
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/sass-loader-16.x",
-                "version_normalized": "dev-renovate/sass-loader-16.x",
+                "version": "dev-renovate/pestphp-pest-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-3.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "5aefefd6f0db50a8bf211feebd18537e24814264"
+                    "reference": "d500dd306388200e91b590b7bafafff02a5ebfaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/5aefefd6f0db50a8bf211feebd18537e24814264",
-                    "reference": "5aefefd6f0db50a8bf211feebd18537e24814264",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/d500dd306388200e91b590b7bafafff02a5ebfaf",
+                    "reference": "d500dd306388200e91b590b7bafafff02a5ebfaf",
                     "shasum": ""
                 },
                 "require": {
@@ -778,7 +664,7 @@
                     "nunomaduro/larastan": "^2.0.1",
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
+                    "pestphp/pest": "^3.0",
                     "pestphp/pest-plugin-arch": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -786,7 +672,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-04T11:24:21+00:00",
+                "time": "2024-09-20T18:29:43+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -862,23 +748,23 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/sass-loader-16.x",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/pestphp-pest-3.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
             {
                 "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/vite-plugin-checker-0.x",
-                "version_normalized": "dev-renovate/vite-plugin-checker-0.x",
+                "version": "dev-renovate/pestphp-pest-plugin-arch-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-plugin-arch-3.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "4619a1ea3ed50158e45e9147aaf417648d02249d"
+                    "reference": "eabeca2f6ecf4b76816566be12090e1bb1dc036e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/4619a1ea3ed50158e45e9147aaf417648d02249d",
-                    "reference": "4619a1ea3ed50158e45e9147aaf417648d02249d",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/eabeca2f6ecf4b76816566be12090e1bb1dc036e",
+                    "reference": "eabeca2f6ecf4b76816566be12090e1bb1dc036e",
                     "shasum": ""
                 },
                 "require": {
@@ -893,14 +779,14 @@
                     "orchestra/canvas": "^8.1",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-arch": "^3.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-09-10T19:35:11+00:00",
+                "time": "2024-09-20T18:29:47+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -976,235 +862,7 @@
                     "template-wizard"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-plugin-checker-0.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/vite-plugin-dts-4.x",
-                "version_normalized": "dev-renovate/vite-plugin-dts-4.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "c63d5be957654d07105e5fca17696836be4c6ef1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/c63d5be957654d07105e5fca17696836be4c6ef1",
-                    "reference": "c63d5be957654d07105e5fca17696836be4c6ef1",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-09-04T11:24:28+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\TemplateWizard\\TemplateWizardServiceProvider"
-                        ],
-                        "aliases": {
-                            "TemplateWizard": "MyListerHub\\TemplateWizard\\Facades\\TemplateWizard"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\": "src/",
-                        "MyListerHub\\TemplateWizard\\Database\\Factories\\": "database/factories/",
-                        "MyListerHub\\TemplateWizard\\Database\\Seeders\\": "database/seeders/",
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@prepare",
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ],
-                    "prepare": [
-                        "@php vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "build": [
-                        "@php vendor/bin/testbench workbench:build --ansi"
-                    ],
-                    "serve": [
-                        "Composer\\Config::disableProcessTimeout",
-                        "@build",
-                        "@php vendor/bin/testbench serve"
-                    ],
-                    "lint": [
-                        "@php vendor/bin/pint",
-                        "@php vendor/bin/phpstan analyse"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Francisco Cahe",
-                        "email": "franciscocahe@gmail.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This wizard will enable users to select a design template and customize it with predefined colors, all within a modal window.",
-                "homepage": "https://github.com/mylisterhub/template-wizard",
-                "keywords": [
-                    "MyListerHub",
-                    "laravel",
-                    "template-wizard"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vite-plugin-dts-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/template-wizard",
-                "version": "dev-renovate/vue-tsc-2.x",
-                "version_normalized": "dev-renovate/vue-tsc-2.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "cbd98119c6dde07371c409e765e9d22642a10e59"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/cbd98119c6dde07371c409e765e9d22642a10e59",
-                    "reference": "cbd98119c6dde07371c409e765e9d22642a10e59",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-09-04T04:36:50+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\TemplateWizard\\TemplateWizardServiceProvider"
-                        ],
-                        "aliases": {
-                            "TemplateWizard": "MyListerHub\\TemplateWizard\\Facades\\TemplateWizard"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\": "src/",
-                        "MyListerHub\\TemplateWizard\\Database\\Factories\\": "database/factories/",
-                        "MyListerHub\\TemplateWizard\\Database\\Seeders\\": "database/seeders/",
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\TemplateWizard\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@prepare",
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ],
-                    "prepare": [
-                        "@php vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "build": [
-                        "@php vendor/bin/testbench workbench:build --ansi"
-                    ],
-                    "serve": [
-                        "Composer\\Config::disableProcessTimeout",
-                        "@build",
-                        "@php vendor/bin/testbench serve"
-                    ],
-                    "lint": [
-                        "@php vendor/bin/pint",
-                        "@php vendor/bin/phpstan analyse"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Francisco Cahe",
-                        "email": "franciscocahe@gmail.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This wizard will enable users to select a design template and customize it with predefined colors, all within a modal window.",
-                "homepage": "https://github.com/mylisterhub/template-wizard",
-                "keywords": [
-                    "MyListerHub",
-                    "laravel",
-                    "template-wizard"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/vue-tsc-2.x",
+                    "source": "https://github.com/FmTod/mylisterhub-template-wizard/tree/renovate/pestphp-pest-plugin-arch-3.x",
                     "issues": "https://github.com/FmTod/mylisterhub-template-wizard/issues"
                 }
             },
