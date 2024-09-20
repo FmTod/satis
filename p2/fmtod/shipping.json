@@ -2305,17 +2305,17 @@
             },
             {
                 "name": "fmtod/shipping",
-                "version": "3.0.2",
+                "version": "v3.0.2",
                 "version_normalized": "3.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "f76206783912a0a91c6288e66599fe648f14fa16"
+                    "reference": "5af91a396897300c1681ec4d6089f770eba5302d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/f76206783912a0a91c6288e66599fe648f14fa16",
-                    "reference": "f76206783912a0a91c6288e66599fe648f14fa16",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/5af91a396897300c1681ec4d6089f770eba5302d",
+                    "reference": "5af91a396897300c1681ec4d6089f770eba5302d",
                     "shasum": ""
                 },
                 "require": {
@@ -2345,7 +2345,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-09-20T20:30:50+00:00",
+                "time": "2024-09-20T21:16:52+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -2399,7 +2399,7 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/3.0.2",
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v3.0.2",
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             }

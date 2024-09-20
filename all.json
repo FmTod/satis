@@ -31585,19 +31585,19 @@
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             },
-            "3.0.2": {
+            "v3.0.2": {
                 "name": "fmtod/shipping",
-                "version": "3.0.2",
+                "version": "v3.0.2",
                 "version_normalized": "3.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "f76206783912a0a91c6288e66599fe648f14fa16"
+                    "reference": "5af91a396897300c1681ec4d6089f770eba5302d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/f76206783912a0a91c6288e66599fe648f14fa16",
-                    "reference": "f76206783912a0a91c6288e66599fe648f14fa16",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/5af91a396897300c1681ec4d6089f770eba5302d",
+                    "reference": "5af91a396897300c1681ec4d6089f770eba5302d",
                     "shasum": ""
                 },
                 "require": {
@@ -31627,7 +31627,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-09-20T20:30:50+00:00",
+                "time": "2024-09-20T21:16:52+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -31681,7 +31681,7 @@
                     "shipping"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/3.0.2",
+                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/v3.0.2",
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             },
@@ -31791,12 +31791,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "ab7aa1c30b7d9c953896056f65b2e8b8c91efbd0"
+                    "reference": "2ab09839b1c560bd1dc7f3abba329bb868f60419"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/ab7aa1c30b7d9c953896056f65b2e8b8c91efbd0",
-                    "reference": "ab7aa1c30b7d9c953896056f65b2e8b8c91efbd0",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/2ab09839b1c560bd1dc7f3abba329bb868f60419",
+                    "reference": "2ab09839b1c560bd1dc7f3abba329bb868f60419",
                     "shasum": ""
                 },
                 "require": {
@@ -31826,7 +31826,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-09-20T20:37:14+00:00",
+                "time": "2024-09-20T21:21:30+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
