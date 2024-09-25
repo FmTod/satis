@@ -744,12 +744,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "c5f1fc5e9cf021f8ff67c1a6a45b237a3f48a134"
+                    "reference": "b43d97efd3afc21d72dae7b9c1b44c41f5a19a5a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/c5f1fc5e9cf021f8ff67c1a6a45b237a3f48a134",
-                    "reference": "c5f1fc5e9cf021f8ff67c1a6a45b237a3f48a134",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/b43d97efd3afc21d72dae7b9c1b44c41f5a19a5a",
+                    "reference": "b43d97efd3afc21d72dae7b9c1b44c41f5a19a5a",
                     "shasum": ""
                 },
                 "require": {
@@ -776,7 +776,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^2.6"
                 },
-                "time": "2024-06-28T01:13:43+00:00",
+                "time": "2024-09-24T21:15:24+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
