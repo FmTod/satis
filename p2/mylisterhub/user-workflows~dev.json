@@ -891,12 +891,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "142db71d83e5108dc0840305fd84b2c7d4db2c0f"
+                    "reference": "bcfba8ffde8d4783ae15e9ff14087a275607fcbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/142db71d83e5108dc0840305fd84b2c7d4db2c0f",
-                    "reference": "142db71d83e5108dc0840305fd84b2c7d4db2c0f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/bcfba8ffde8d4783ae15e9ff14087a275607fcbd",
+                    "reference": "bcfba8ffde8d4783ae15e9ff14087a275607fcbd",
                     "shasum": ""
                 },
                 "require": {
@@ -920,7 +920,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-10-19T06:03:50+00:00",
+                "time": "2024-10-22T04:31:40+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
