@@ -597,12 +597,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "ba6634e3093ebc9e672d5236fb215064c4576d01"
+                    "reference": "c3d1f6811f2bfab507aa9a8701570f0f3805557f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/ba6634e3093ebc9e672d5236fb215064c4576d01",
-                    "reference": "ba6634e3093ebc9e672d5236fb215064c4576d01",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/c3d1f6811f2bfab507aa9a8701570f0f3805557f",
+                    "reference": "c3d1f6811f2bfab507aa9a8701570f0f3805557f",
                     "shasum": ""
                 },
                 "require": {
@@ -626,7 +626,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-10-20T15:45:29+00:00",
+                "time": "2024-10-28T11:09:16+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -891,12 +891,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "bef26c253dd40a4009db9998e4bcc905b7992024"
+                    "reference": "235c7e38559f5b54fe79e160608889de479c0902"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/bef26c253dd40a4009db9998e4bcc905b7992024",
-                    "reference": "bef26c253dd40a4009db9998e4bcc905b7992024",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/235c7e38559f5b54fe79e160608889de479c0902",
+                    "reference": "235c7e38559f5b54fe79e160608889de479c0902",
                     "shasum": ""
                 },
                 "require": {
@@ -920,7 +920,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-10-25T14:37:34+00:00",
+                "time": "2024-10-28T22:08:49+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
