@@ -208,12 +208,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "bdea3d694b7f604f52d1c69468f7a723aea9200f"
+                    "reference": "87bd1d1acbdc25ff983f0b68e6e0201192f51ca4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/bdea3d694b7f604f52d1c69468f7a723aea9200f",
-                    "reference": "bdea3d694b7f604f52d1c69468f7a723aea9200f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/87bd1d1acbdc25ff983f0b68e6e0201192f51ca4",
+                    "reference": "87bd1d1acbdc25ff983f0b68e6e0201192f51ca4",
                     "shasum": ""
                 },
                 "require": {
@@ -243,7 +243,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-10-28T12:41:00+00:00",
+                "time": "2024-10-29T18:19:01+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
