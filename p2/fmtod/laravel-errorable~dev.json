@@ -199,12 +199,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "b964908661aaf154eaf3bae25489dc0b1b80e05b"
+                    "reference": "288c719f4cd45f3fac77b3af35c6b33bd0ea3d43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/b964908661aaf154eaf3bae25489dc0b1b80e05b",
-                    "reference": "b964908661aaf154eaf3bae25489dc0b1b80e05b",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/288c719f4cd45f3fac77b3af35c6b33bd0ea3d43",
+                    "reference": "288c719f4cd45f3fac77b3af35c6b33bd0ea3d43",
                     "shasum": ""
                 },
                 "require": {
@@ -215,7 +215,7 @@
                 "require-dev": {
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.0.1",
+                    "nunomaduro/larastan": "^3.0.0",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-faker": "^2.0",
@@ -225,7 +225,7 @@
                     "phpstan/phpstan-phpunit": "^2.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-11-11T11:01:55+00:00",
+                "time": "2024-11-15T10:15:44+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

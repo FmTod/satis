@@ -309,12 +309,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "b553e171d4cd04c1dec149450cda68404c2d69e6"
+                    "reference": "4dd7900b854f8695010a6e8d8b336ca8712e389c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/b553e171d4cd04c1dec149450cda68404c2d69e6",
-                    "reference": "b553e171d4cd04c1dec149450cda68404c2d69e6",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/4dd7900b854f8695010a6e8d8b336ca8712e389c",
+                    "reference": "4dd7900b854f8695010a6e8d8b336ca8712e389c",
                     "shasum": ""
                 },
                 "require": {
@@ -332,7 +332,7 @@
                 "require-dev": {
                     "jetbrains/phpstorm-attributes": "^1.0",
                     "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.4",
+                    "nunomaduro/larastan": "^3.0",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-faker": "^2.0",
@@ -344,7 +344,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-11-11T08:05:20+00:00",
+                "time": "2024-11-15T11:29:21+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
