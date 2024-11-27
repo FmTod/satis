@@ -44539,19 +44539,19 @@
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
-            "dev-renovate/vitejs-plugin-legacy-5.x": {
+            "dev-renovate/vite-4.x-lockfile": {
                 "name": "modules/auth",
-                "version": "dev-renovate/vitejs-plugin-legacy-5.x",
-                "version_normalized": "dev-renovate/vitejs-plugin-legacy-5.x",
+                "version": "dev-renovate/vite-4.x-lockfile",
+                "version_normalized": "dev-renovate/vite-4.x-lockfile",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "955a2647c6deaffb5fe8b515494efdb07f653b3f"
+                    "reference": "1666a00fa608724793bb35433e9afbf1edf2d7b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/955a2647c6deaffb5fe8b515494efdb07f653b3f",
-                    "reference": "955a2647c6deaffb5fe8b515494efdb07f653b3f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/1666a00fa608724793bb35433e9afbf1edf2d7b2",
+                    "reference": "1666a00fa608724793bb35433e9afbf1edf2d7b2",
                     "shasum": ""
                 },
                 "require": {
@@ -44596,7 +44596,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-08-28T17:29:39+00:00",
+                "time": "2024-11-26T11:09:07+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -44652,7 +44652,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vitejs-plugin-legacy-5.x",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/renovate/vite-4.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
@@ -53070,12 +53070,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "240e6aa9f4886d589231619b0eb9e5274efd7790"
+                    "reference": "590a84a6d880288b3a551c0dbbf4e8d39b165c71"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/240e6aa9f4886d589231619b0eb9e5274efd7790",
-                    "reference": "240e6aa9f4886d589231619b0eb9e5274efd7790",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/590a84a6d880288b3a551c0dbbf4e8d39b165c71",
+                    "reference": "590a84a6d880288b3a551c0dbbf4e8d39b165c71",
                     "shasum": ""
                 },
                 "require": {
@@ -53097,7 +53097,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-11-18T14:44:54+00:00",
+                "time": "2024-11-26T21:00:32+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
