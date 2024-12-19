@@ -1093,17 +1093,17 @@
             },
             {
                 "name": "fmtod/laravel-zipcode",
-                "version": "dev-renovate/phpunit-php-code-coverage-11.x",
-                "version_normalized": "dev-renovate/phpunit-php-code-coverage-11.x",
+                "version": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "5c0058abe1fa3e21a13204888ea06f615e85531b"
+                    "reference": "ce5a7b73d961bcba5449945ac4a5744d1bbbe7f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/5c0058abe1fa3e21a13204888ea06f615e85531b",
-                    "reference": "5c0058abe1fa3e21a13204888ea06f615e85531b",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/ce5a7b73d961bcba5449945ac4a5744d1bbbe7f9",
+                    "reference": "ce5a7b73d961bcba5449945ac4a5744d1bbbe7f9",
                     "shasum": ""
                 },
                 "require": {
@@ -1122,14 +1122,14 @@
                     "nunomaduro/larastan": "^2.0.1",
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
-                    "phpunit/php-code-coverage": "^11.0",
+                    "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-02T08:03:45+00:00",
+                "time": "2024-12-18T09:27:15+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1186,7 +1186,7 @@
                     "laravel-zipcode"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/phpunit-php-code-coverage-11.x",
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/pestphp-pest-plugin-laravel-3.x",
                     "issues": "https://github.com/FmTod/laravel-zipcode/issues"
                 }
             },

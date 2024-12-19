@@ -3,17 +3,17 @@
         "mylisterhub/user-workflows": [
             {
                 "name": "mylisterhub/user-workflows",
-                "version": "dev-events-actions",
-                "version_normalized": "dev-events-actions",
+                "version": "dev-fix/improve-actions",
+                "version_normalized": "dev-fix/improve-actions",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "b509912348d7dfab86ec023de36f39076bb63c0a"
+                    "reference": "4dd7bdf3ec17c9aa277e377b5aae0a3c9aff8a22"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/b509912348d7dfab86ec023de36f39076bb63c0a",
-                    "reference": "b509912348d7dfab86ec023de36f39076bb63c0a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/4dd7bdf3ec17c9aa277e377b5aae0a3c9aff8a22",
+                    "reference": "4dd7bdf3ec17c9aa277e377b5aae0a3c9aff8a22",
                     "shasum": ""
                 },
                 "require": {
@@ -37,105 +37,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-12-02T01:50:46+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ],
-                        "aliases": {
-                            "UserWorkflows": "WorkflowCoordinator"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/events-actions",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-hotfix/correct-event-listening",
-                "version_normalized": "dev-hotfix/correct-event-listening",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "c34ecac775fe43c9c435e0a359965c071bbb7f59"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/c34ecac775fe43c9c435e0a359965c071bbb7f59",
-                    "reference": "c34ecac775fe43c9c435e0a359965c071bbb7f59",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-12T20:53:18+00:00",
+                "time": "2024-12-18T14:09:50+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -190,7 +92,7 @@
                     "mylisterhub-user-workflows"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/hotfix/correct-event-listening",
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/fix/improve-actions",
                     "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
                 }
             },
@@ -201,18 +103,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "a4157d88a14f0a71bf04034de26c9b5dd4dd0449"
+                    "reference": "ff376847183bbf1af4408a3b614854d0267a2b2f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/a4157d88a14f0a71bf04034de26c9b5dd4dd0449",
-                    "reference": "a4157d88a14f0a71bf04034de26c9b5dd4dd0449",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/ff376847183bbf1af4408a3b614854d0267a2b2f",
+                    "reference": "ff376847183bbf1af4408a3b614854d0267a2b2f",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0",
                     "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
+                    "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.16.5"
                 },
                 "require-dev": {
@@ -230,7 +132,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-12-11T19:21:53+00:00",
+                "time": "2024-12-18T22:15:52+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -286,580 +188,7 @@
                     "mylisterhub-user-workflows"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/v2.0.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/commitlint-monorepo",
-                "version_normalized": "dev-renovate/commitlint-monorepo",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "d14c8e08da9b0b16f58dc6c8ca2bbfc60341d536"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/d14c8e08da9b0b16f58dc6c8ca2bbfc60341d536",
-                    "reference": "d14c8e08da9b0b16f58dc6c8ca2bbfc60341d536",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-15T16:07:44+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/commitlint-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/eslint-9.x-lockfile",
-                "version_normalized": "dev-renovate/eslint-9.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "4190dbf4ddb557ec2a0aa6dae2fee219afe4437d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/4190dbf4ddb557ec2a0aa6dae2fee219afe4437d",
-                    "reference": "4190dbf4ddb557ec2a0aa6dae2fee219afe4437d",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-11T19:22:44+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/eslint-9.x-lockfile",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/eslint-plugin-vue-9.x-lockfile",
-                "version_normalized": "dev-renovate/eslint-plugin-vue-9.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "803fd75ec164bdb8a278ebbc641075e49cefc298"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/803fd75ec164bdb8a278ebbc641075e49cefc298",
-                    "reference": "803fd75ec164bdb8a278ebbc641075e49cefc298",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-11T19:23:20+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/eslint-plugin-vue-9.x-lockfile",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/husky-9.x-lockfile",
-                "version_normalized": "dev-renovate/husky-9.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "16ac21657b78973a924f4457b1bc10cacfbd9fe4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/16ac21657b78973a924f4457b1bc10cacfbd9fe4",
-                    "reference": "16ac21657b78973a924f4457b1bc10cacfbd9fe4",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-11T19:22:52+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/husky-9.x-lockfile",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/major-semantic-release-monorepo",
-                "version_normalized": "dev-renovate/major-semantic-release-monorepo",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "485e80e7f5d1b43c341a20de66331fe38c05df82"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/485e80e7f5d1b43c341a20de66331fe38c05df82",
-                    "reference": "485e80e7f5d1b43c341a20de66331fe38c05df82",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-09-24T22:22:11+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ],
-                        "aliases": {
-                            "UserWorkflows": "WorkflowCoordinator"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/major-semantic-release-monorepo",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/node-20.x-lockfile",
-                "version_normalized": "dev-renovate/node-20.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "b2d36e8446a136c4081a8f8c3f2fcf2dfd79f413"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/b2d36e8446a136c4081a8f8c3f2fcf2dfd79f413",
-                    "reference": "b2d36e8446a136c4081a8f8c3f2fcf2dfd79f413",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-11T19:23:11+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/node-20.x-lockfile",
+                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/main",
                     "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
                 }
             },
@@ -963,213 +292,23 @@
             },
             {
                 "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/sass-1.x-lockfile",
-                "version_normalized": "dev-renovate/sass-1.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "7ca70c3ac323d41b38543c73d689cd5bfb7a9d51"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/7ca70c3ac323d41b38543c73d689cd5bfb7a9d51",
-                    "reference": "7ca70c3ac323d41b38543c73d689cd5bfb7a9d51",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-12T23:28:02+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/sass-1.x-lockfile",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
-                "version": "dev-renovate/terser-5.x-lockfile",
-                "version_normalized": "dev-renovate/terser-5.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "81648bb7ca3b798608e6502c26de4c8e0cf10285"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/81648bb7ca3b798608e6502c26de4c8e0cf10285",
-                    "reference": "81648bb7ca3b798608e6502c26de4c8e0cf10285",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.16.5"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17.3",
-                    "mockery/mockery": "^1.6.12",
-                    "nunomaduro/collision": "^7.10",
-                    "nunomaduro/larastan": "^2.9.8",
-                    "orchestra/canvas": "^8.11.9",
-                    "orchestra/testbench": "^8.26",
-                    "pestphp/pest": "^2.35.1",
-                    "pestphp/pest-plugin-arch": "^2.7",
-                    "pestphp/pest-plugin-laravel": "^2.4",
-                    "phpstan/extension-installer": "^1.4.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.2",
-                    "phpstan/phpstan-phpunit": "^1.4",
-                    "spatie/laravel-ray": "^1.37.1"
-                },
-                "time": "2024-12-11T19:23:38+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\UserWorkflows\\UserWorkflowsServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\": "src/",
-                        "MyListerHub\\UserWorkflows\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\UserWorkflows\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": ":author_name",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This package provides a highly customizable and user-friendly way to create automated workflows and interactions.",
-                "homepage": "https://github.com/fmtod/mylisterhub-user-workflows",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "mylisterhub-user-workflows"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-user-workflows/tree/renovate/terser-5.x-lockfile",
-                    "issues": "https://github.com/FmTod/mylisterhub-user-workflows/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/user-workflows",
                 "version": "dev-renovate/vite-plugin-checker-0.x",
                 "version_normalized": "dev-renovate/vite-plugin-checker-0.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "128a9e5f81ef5feba21ffae789e318acc927c00f"
+                    "reference": "7fc3d6686c5eae76fdaa0895e32a995c890fa7e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/128a9e5f81ef5feba21ffae789e318acc927c00f",
-                    "reference": "128a9e5f81ef5feba21ffae789e318acc927c00f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/7fc3d6686c5eae76fdaa0895e32a995c890fa7e1",
+                    "reference": "7fc3d6686c5eae76fdaa0895e32a995c890fa7e1",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0",
                     "inertiajs/inertia-laravel": "^0.6|^1.3",
-                    "php": "^8.1",
+                    "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.16.5"
                 },
                 "require-dev": {
@@ -1187,7 +326,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2024-12-11T19:23:49+00:00",
+                "time": "2024-12-18T22:16:32+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
