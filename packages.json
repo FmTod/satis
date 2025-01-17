@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "bad41a37b2cf259038ff6c7643c5124734c83ae0"
+            "sha1": "ced80046e831d4160de57d725eb90d7a0a04c865"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
