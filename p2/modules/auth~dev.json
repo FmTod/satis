@@ -597,12 +597,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "f9de1e2a8ed105199c90d621a6e03189fc10dd63"
+                    "reference": "d6ce62cca71571383f07a0a7878ae077704b0db2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/f9de1e2a8ed105199c90d621a6e03189fc10dd63",
-                    "reference": "f9de1e2a8ed105199c90d621a6e03189fc10dd63",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/d6ce62cca71571383f07a0a7878ae077704b0db2",
+                    "reference": "d6ce62cca71571383f07a0a7878ae077704b0db2",
                     "shasum": ""
                 },
                 "require": {
@@ -614,16 +614,17 @@
                     "fmtod/laravel-tabulator-inertia": "^1.0",
                     "illuminate/contracts": "^10.0",
                     "inertiajs/inertia-laravel": "^0.6.9",
+                    "laravel-notification-channels/discord": "^1.6",
                     "laravel-notification-channels/webpush": "^7.1",
                     "laravel/sanctum": "^3.2",
                     "laravel/scout": "^10.0",
                     "laravel/slack-notification-channel": "^3.2",
-                    "laravel/spark-stripe": "^4.0",
+                    "laravel/spark-stripe": "4.2.11",
                     "laravel/ui": "^4.0.0",
                     "lorisleiva/laravel-actions": "^2.5",
                     "mylisterhub/api": "*",
-                    "mylisterhub/core": "^1.1",
-                    "mylisterhub/media": "^10.1.1",
+                    "mylisterhub/core": "*",
+                    "mylisterhub/media": "*",
                     "php": "^8.1",
                     "rinvex/countries": "^9.0",
                     "santigarcor/laratrust": "^8.0",
@@ -635,7 +636,7 @@
                 "require-dev": {
                     "larastan/larastan": "^2.0",
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/collision": "^7.10",
                     "nunomaduro/larastan": "^2.8",
                     "orchestra/canvas": "^9.0",
                     "orchestra/testbench": "^8.0",
@@ -647,7 +648,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-05-09T02:26:48+00:00",
+                "time": "2025-01-26T09:33:08+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -657,11 +658,13 @@
                             "Modules\\Auth\\Providers\\EventServiceProvider",
                             "Modules\\Auth\\Providers\\InertiaServiceProvider",
                             "Modules\\Auth\\Providers\\SparkServiceProvider",
-                            "Modules\\Auth\\Providers\\TenancyServiceProvider"
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider",
+                            "Modules\\Auth\\Providers\\RouteServiceProvider"
                         ],
                         "aliases": {
                             "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
-                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache",
+                            "AuthModule": "Modules\\Auth\\Facades\\AuthModule"
                         }
                     }
                 },
@@ -684,10 +687,10 @@
                         "vendor/bin/phpstan analyse"
                     ],
                     "test": [
-                        "vendor/bin/pest"
+                        "vendor/bin/testbench package:test"
                     ],
                     "test-coverage": [
-                        "vendor/bin/pest --coverage"
+                        "vendor/bin/testbench package:test --coverage"
                     ],
                     "format": [
                         "vendor/bin/pint"
