@@ -1117,12 +1117,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-template-wizard.git",
-                    "reference": "de7e6000bf15dc8a4cf339127388b2094da188c2"
+                    "reference": "a794a4adf7dbe85140b7b0d951e8adc7b9169488"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/de7e6000bf15dc8a4cf339127388b2094da188c2",
-                    "reference": "de7e6000bf15dc8a4cf339127388b2094da188c2",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-template-wizard/zipball/a794a4adf7dbe85140b7b0d951e8adc7b9169488",
+                    "reference": "a794a4adf7dbe85140b7b0d951e8adc7b9169488",
                     "shasum": ""
                 },
                 "require": {
@@ -1144,7 +1144,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-11T00:26:15+00:00",
+                "time": "2025-02-12T02:47:12+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
