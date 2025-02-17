@@ -8634,12 +8634,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "e446e6287bd5abaad44816c65c32021e3ae435cf"
+                    "reference": "1860c788e3ab51412435fbdca9d509b9e34c8720"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/e446e6287bd5abaad44816c65c32021e3ae435cf",
-                    "reference": "e446e6287bd5abaad44816c65c32021e3ae435cf",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/1860c788e3ab51412435fbdca9d509b9e34c8720",
+                    "reference": "1860c788e3ab51412435fbdca9d509b9e34c8720",
                     "shasum": ""
                 },
                 "require": {
@@ -8660,7 +8660,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-09T21:52:07+00:00",
+                "time": "2025-02-16T01:57:36+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8920,12 +8920,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "06f340a9946a75f4e8597d1120afbbf05b9bf2c1"
+                    "reference": "8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/06f340a9946a75f4e8597d1120afbbf05b9bf2c1",
-                    "reference": "06f340a9946a75f4e8597d1120afbbf05b9bf2c1",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4",
+                    "reference": "8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4",
                     "shasum": ""
                 },
                 "require": {
@@ -8946,7 +8946,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-09T21:52:33+00:00",
+                "time": "2025-02-16T01:58:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -9575,101 +9575,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/pestphp-pest-plugin-laravel-3.x",
-                    "issues": "https://github.com/FmTod/laravel-errorable/issues"
-                }
-            },
-            "dev-renovate/semantic-release-monorepo": {
-                "name": "fmtod/laravel-errorable",
-                "version": "dev-renovate/semantic-release-monorepo",
-                "version_normalized": "dev-renovate/semantic-release-monorepo",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "fe4f59721ebc89f7f79eac003f4223d1c5daf41d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/fe4f59721ebc89f7f79eac003f4223d1c5daf41d",
-                    "reference": "fe4f59721ebc89f7f79eac003f4223d1c5daf41d",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-faker": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2025-02-15T21:32:52+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\Errorable\\ErrorableServiceProvider"
-                        ],
-                        "aliases": {
-                            "Errorable": "FmTod\\Errorable\\Facades\\Errorable"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\Errorable\\": "src/",
-                        "FmTod\\Errorable\\Database\\Factories\\": "database/factories/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\Errorable\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Victor R",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Laravel Errorable",
-                "homepage": "https://github.com/fmtod/laravel-errorable",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "laravel-errorable"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-errorable/tree/renovate/semantic-release-monorepo",
                     "issues": "https://github.com/FmTod/laravel-errorable/issues"
                 }
             }
