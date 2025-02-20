@@ -208,12 +208,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "4e831c64691d1e350eda223724484eb995f1f9ac"
+                    "reference": "1fa158b5b49c9907cba77f5c1c99fb9fe736aa8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/4e831c64691d1e350eda223724484eb995f1f9ac",
-                    "reference": "4e831c64691d1e350eda223724484eb995f1f9ac",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/1fa158b5b49c9907cba77f5c1c99fb9fe736aa8e",
+                    "reference": "1fa158b5b49c9907cba77f5c1c99fb9fe736aa8e",
                     "shasum": ""
                 },
                 "require": {
@@ -221,7 +221,7 @@
                     "cartalyst/converter": "^8.0",
                     "fmtod/laravel-money": "^10.0",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "illuminate/translation": "^10.0",
                     "illuminate/validation": "^10.0",
                     "php": "^8.1|^8.2",
@@ -243,7 +243,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2024-11-22T20:30:44+00:00",
+                "time": "2025-02-19T00:18:07+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

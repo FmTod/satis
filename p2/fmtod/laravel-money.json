@@ -878,6 +878,92 @@
             },
             {
                 "name": "fmtod/laravel-money",
+                "version": "v10.1.0",
+                "version_normalized": "10.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-money-source.git",
+                    "reference": "37a6b8c8178f9f68e027ca293f3c216d7748c4f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-money-source/zipball/37a6b8c8178f9f68e027ca293f3c216d7748c4f7",
+                    "reference": "37a6b8c8178f9f68e027ca293f3c216d7748c4f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "illuminate/support": "^11.0",
+                    "illuminate/view": "^11.0",
+                    "moneyphp/money": "^4.1",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.13",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-19T00:35:33+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\Money\\MoneyServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\Money\\": "src/"
+                    },
+                    "files": [
+                        "src/Helpers/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\Money\\Tests\\": "tests/"
+                    },
+                    "files": [
+                        "tests/Database/Migrations/2020_04_30_000000_create_users_table.php"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "lint": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ricardo Gobbo de Souza",
+                        "email": "ricardogobbosouza@yahoo.com.br"
+                    }
+                ],
+                "description": "Laravel Money",
+                "homepage": "https://github.com/FmTod/laravel-money-source",
+                "keywords": [
+                    "currency",
+                    "laravel",
+                    "money"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-money-source/tree/v10.1.0"
+                }
+            },
+            {
+                "name": "fmtod/laravel-money",
                 "version": "v2.0.0",
                 "version_normalized": "2.0.0.0",
                 "source": {

@@ -191,6 +191,103 @@
                     "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v1.0.1",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
+            },
+            {
+                "name": "mylisterhub/api",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
+                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/d7849bf4ae1af269ee747f403827bcf9200ae734",
+                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "php": "^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "spatie/laravel-query-builder": "^5.6"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-arch": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-19T18:29:37+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "MyListerHub\\API\\APIServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MyListerHub\\API\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MyListerHub\\API\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "canvas": [
+                        "vendor/bin/canvas"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Resource API for MyListerHub",
+                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
+                "keywords": [
+                    "FmTod",
+                    "MyListerHub",
+                    "api",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v1.1.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
+                }
             }
         ]
     }

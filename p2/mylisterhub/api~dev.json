@@ -105,16 +105,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "397c5a2d7440bda77fc6ccc8d17abd1bb8343ff8"
+                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/397c5a2d7440bda77fc6ccc8d17abd1bb8343ff8",
-                    "reference": "397c5a2d7440bda77fc6ccc8d17abd1bb8343ff8",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/d7849bf4ae1af269ee747f403827bcf9200ae734",
+                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "^11.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.6"
@@ -122,9 +122,9 @@
                 "require-dev": {
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^3.0",
-                    "orchestra/canvas": "^10.0",
-                    "orchestra/testbench": "^9.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/canvas": "^8.1",
+                    "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
@@ -133,7 +133,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-18T00:08:49+00:00",
+                "time": "2025-02-19T18:29:37+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -191,7 +191,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/feat/update-laravel-11",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v1.1.0",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },

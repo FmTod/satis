@@ -1343,6 +1343,100 @@
                     "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v2.0.0",
                     "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
                 }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
+                    "reference": "97cc2d115f3d095a9175c0a474dc0db9e5fcbb47"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/97cc2d115f3d095a9175c0a474dc0db9e5fcbb47",
+                    "reference": "97cc2d115f3d095a9175c0a474dc0db9e5fcbb47",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0|^11.0 ",
+                    "inertiajs/inertia-laravel": "^0.6.3|^1.0",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^1.5"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-19T22:32:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/v2.1.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
             }
         ]
     }
