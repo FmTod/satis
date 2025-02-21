@@ -210,26 +210,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/elastic-apm-package.git",
-                    "reference": "4e67fe398646d41fee58993575115a0073adeeac"
+                    "reference": "e009c394a20d564eaee93fc063aa7e3a80f57598"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/4e67fe398646d41fee58993575115a0073adeeac",
-                    "reference": "4e67fe398646d41fee58993575115a0073adeeac",
+                    "url": "https://api.github.com/repos/FmTod/elastic-apm-package/zipball/e009c394a20d564eaee93fc063aa7e3a80f57598",
+                    "reference": "e009c394a20d564eaee93fc063aa7e3a80f57598",
                     "shasum": ""
                 },
                 "require": {
                     "guzzlehttp/promises": "^2.0",
-                    "illuminate/contracts": "^10.0",
-                    "illuminate/support": "^10.0",
-                    "php": "^8.1",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "illuminate/support": "^10.0|^11.0",
+                    "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
                     "larastan/larastan": "^2.0.1",
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.8",
-                    "orchestra/testbench": "^8.8",
+                    "nunomaduro/collision": "^8.0",
+                    "orchestra/testbench": "^8.8|^9.0",
                     "pestphp/pest": "^2.20",
                     "pestphp/pest-plugin-arch": "^2.7",
                     "pestphp/pest-plugin-laravel": "^2.0",
@@ -239,7 +239,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-07-30T16:31:56+00:00",
+                "time": "2025-02-20T15:49:35+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -301,7 +301,7 @@
                 ],
                 "description": "elastic/apm-agent-php wrapper to push PHP application transactions to APM Server",
                 "support": {
-                    "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.7",
+                    "source": "https://github.com/FmTod/elastic-apm-package/tree/main",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
                 }
             },

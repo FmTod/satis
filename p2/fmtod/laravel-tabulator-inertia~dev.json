@@ -8,25 +8,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "e8f43105922758c8a89de3665ba68e371600b93a"
+                    "reference": "81084a0e0bb08c6a33e0b47a77ca802f5fdaf728"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/e8f43105922758c8a89de3665ba68e371600b93a",
-                    "reference": "e8f43105922758c8a89de3665ba68e371600b93a",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/81084a0e0bb08c6a33e0b47a77ca802f5fdaf728",
+                    "reference": "81084a0e0bb08c6a33e0b47a77ca802f5fdaf728",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
                     "php": "^8.1|^8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -34,7 +34,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-02-25T16:12:03+00:00",
+                "time": "2025-02-20T20:16:07+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -532,94 +532,6 @@
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
-                "version": "dev-renovate/major-illuminate",
-                "version_normalized": "dev-renovate/major-illuminate",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "c83dcd3122a6ee1a059b9da82b5038f1f4f555b6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/c83dcd3122a6ee1a059b9da82b5038f1f4f555b6",
-                    "reference": "c83dcd3122a6ee1a059b9da82b5038f1f4f555b6",
-                    "shasum": ""
-                },
-                "require": {
-                    "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^11.0",
-                    "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-03-12T15:09:34+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "FmTod",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
-                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "laravel-tabulator-inertia"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/major-illuminate",
-                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
-                }
-            },
-            {
-                "name": "fmtod/laravel-tabulator-inertia",
                 "version": "dev-renovate/major-semantic-release-monorepo",
                 "version_normalized": "dev-renovate/major-semantic-release-monorepo",
                 "source": {
@@ -708,116 +620,28 @@
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
-                "version": "dev-renovate/nunomaduro-collision-8.x",
-                "version_normalized": "dev-renovate/nunomaduro-collision-8.x",
+                "version": "dev-renovate/paambaati-codeclimate-action-9.x",
+                "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "4ca79a5fae422367317b266a96c6656f851c0f1a"
+                    "reference": "9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/4ca79a5fae422367317b266a96c6656f851c0f1a",
-                    "reference": "4ca79a5fae422367317b266a96c6656f851c0f1a",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445",
+                    "reference": "9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
                     "php": "^8.1|^8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^8.0",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2023-12-04T13:19:59+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "FmTod",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
-                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "laravel-tabulator-inertia"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/nunomaduro-collision-8.x",
-                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
-                }
-            },
-            {
-                "name": "fmtod/laravel-tabulator-inertia",
-                "version": "dev-renovate/orchestra-testbench-9.x",
-                "version_normalized": "dev-renovate/orchestra-testbench-9.x",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "098553f7f97540aa99923ef9cd931397c1e8fe04"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/098553f7f97540aa99923ef9cd931397c1e8fe04",
-                    "reference": "098553f7f97540aa99923ef9cd931397c1e8fe04",
-                    "shasum": ""
-                },
-                "require": {
-                    "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
                     "nunomaduro/larastan": "^2.0.1",
                     "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
@@ -827,7 +651,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-13T07:19:41+00:00",
+                "time": "2025-02-20T22:25:08+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -878,7 +702,183 @@
                     "laravel-tabulator-inertia"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/orchestra-testbench-9.x",
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/paambaati-codeclimate-action-9.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator-inertia",
+                "version": "dev-renovate/pestphp-pest-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-3.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
+                    "reference": "133c3590fd36030bc49fe4074cd56018548371ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/133c3590fd36030bc49fe4074cd56018548371ef",
+                    "reference": "133c3590fd36030bc49fe4074cd56018548371ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/laravel-tabulator": "*",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "inertiajs/inertia-laravel": "*",
+                    "php": "^8.1|^8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-20T19:53:21+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
+                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-tabulator-inertia"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/pestphp-pest-3.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator-inertia",
+                "version": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
+                    "reference": "c4fc87fe7f580dc279a8dad5afbf6a96b9fd98ba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/c4fc87fe7f580dc279a8dad5afbf6a96b9fd98ba",
+                    "reference": "c4fc87fe7f580dc279a8dad5afbf6a96b9fd98ba",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/laravel-tabulator": "*",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "inertiajs/inertia-laravel": "*",
+                    "php": "^8.1|^8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-20T19:53:26+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
+                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-tabulator-inertia"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/pestphp-pest-plugin-laravel-3.x",
                     "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
                 }
             },

@@ -618,35 +618,35 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-core-package.git",
-                    "reference": "d941d5fc920f2bbd7e57364e1186c48762daa504"
+                    "reference": "bb3ad2831aab2f310898479f2ab0826c343e5e72"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/d941d5fc920f2bbd7e57364e1186c48762daa504",
-                    "reference": "d941d5fc920f2bbd7e57364e1186c48762daa504",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/bb3ad2831aab2f310898479f2ab0826c343e5e72",
+                    "reference": "bb3ad2831aab2f310898479f2ab0826c343e5e72",
                     "shasum": ""
                 },
                 "require": {
-                    "altek/accountant": "^3.0",
+                    "altek/accountant": "^4.0",
                     "ashallendesign/laravel-exchange-rates": "^7.0",
-                    "based/laravel-typescript": "^0.0.4",
                     "bensampo/laravel-enum": "^6.6",
                     "ext-bcmath": "*",
                     "ext-imagick": "*",
                     "fmtod/laravel-money": "^10.0",
                     "fmtod/laravel-tabulator": "^1.0",
-                    "fmtod/laravel-tabulator-inertia": "^1.0",
+                    "fmtod/laravel-tabulator-inertia": "^1.1",
                     "google/apiclient": "^2.13",
-                    "illuminate/console": "^10.0",
+                    "illuminate/console": "^10.0|^11.0",
                     "illuminate/contracts": "^10.0|^11.0",
-                    "illuminate/database": "^10.0",
-                    "illuminate/filesystem": "^10.0",
+                    "illuminate/database": "^10.0|^11.0",
+                    "illuminate/filesystem": "^10.0|^11.0",
                     "intervention/image": "^2.7",
-                    "laravie/serialize-queries": "^2.2",
+                    "kiwilan/typescriptable-laravel": "^2.0",
+                    "laravie/serialize-queries": "^3.0",
                     "lorisleiva/laravel-actions": "^2.5",
                     "macellan/laravel-zip": "^1.0",
                     "php": "^8.2",
-                    "rahulhaque/laravel-filepond": "^10.0",
+                    "rahulhaque/laravel-filepond": "^11.0.2",
                     "spatie/laravel-data": "^3.8",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.3",
@@ -657,9 +657,9 @@
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
+                    "nunomaduro/collision": "^8.1 ",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.11",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
@@ -668,7 +668,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-19T18:22:48+00:00",
+                "time": "2025-02-20T20:49:54+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -729,7 +729,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/v1.3.0",
+                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/feat/update-dependencies-laravel-11",
                     "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
                 }
             },
