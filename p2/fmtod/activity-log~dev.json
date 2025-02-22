@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
-                    "reference": "041087d37e4ce174e464ab92d2dd64f9cec28e3f"
+                    "reference": "01214094d24d85c229dc2e5129c96f88263707c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/041087d37e4ce174e464ab92d2dd64f9cec28e3f",
-                    "reference": "041087d37e4ce174e464ab92d2dd64f9cec28e3f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/01214094d24d85c229dc2e5129c96f88263707c5",
+                    "reference": "01214094d24d85c229dc2e5129c96f88263707c5",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-20T22:29:07+00:00",
+                "time": "2025-02-21T23:03:34+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -187,6 +187,100 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/actions-cache-4.x",
+                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
+                }
+            },
+            {
+                "name": "fmtod/activity-log",
+                "version": "dev-renovate/actions-checkout-4.x",
+                "version_normalized": "dev-renovate/actions-checkout-4.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
+                    "reference": "619e2e778f0caf0371aa1520fe287a2a02bf01a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/619e2e778f0caf0371aa1520fe287a2a02bf01a7",
+                    "reference": "619e2e778f0caf0371aa1520fe287a2a02bf01a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0|^11.0 ",
+                    "inertiajs/inertia-laravel": "^0.6.3|^1.0",
+                    "laravel/serializable-closure": "^1.2",
+                    "php": "^8.1|^8.2",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "tightenco/ziggy": "^2.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/larastan": "^2.0",
+                    "orchestra/testbench": "^8.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-02-21T23:03:53+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
+                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
+                        ],
+                        "aliases": {
+                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\": "src",
+                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\ActivityLog\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mikhail Davydov",
+                        "email": "leathasmail@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package to log user activity throughout the Laravel app",
+                "homepage": "https://github.com/fmtod/activity-log",
+                "keywords": [
+                    "FmTod",
+                    "activity-log",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/actions-checkout-4.x",
                     "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
                 }
             },
@@ -581,12 +675,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
-                    "reference": "3286f4c0972977cb1449cfd28303abf6968ad327"
+                    "reference": "7e9d51b4d8875294568800825e09c8f8e61b3194"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/3286f4c0972977cb1449cfd28303abf6968ad327",
-                    "reference": "3286f4c0972977cb1449cfd28303abf6968ad327",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/7e9d51b4d8875294568800825e09c8f8e61b3194",
+                    "reference": "7e9d51b4d8875294568800825e09c8f8e61b3194",
                     "shasum": ""
                 },
                 "require": {
@@ -595,7 +689,7 @@
                     "laravel/serializable-closure": "^1.2",
                     "php": "^8.1|^8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "tightenco/ziggy": "^1.5"
+                    "tightenco/ziggy": "^2.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -608,7 +702,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-20T12:07:37+00:00",
+                "time": "2025-02-21T23:04:32+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1155,12 +1249,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
-                    "reference": "ef0fce313b040ebeceede194da0eca5fd48680dc"
+                    "reference": "e6035de7a9dea3c0e21fbc8d0ae51783316e3638"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/ef0fce313b040ebeceede194da0eca5fd48680dc",
-                    "reference": "ef0fce313b040ebeceede194da0eca5fd48680dc",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/e6035de7a9dea3c0e21fbc8d0ae51783316e3638",
+                    "reference": "e6035de7a9dea3c0e21fbc8d0ae51783316e3638",
                     "shasum": ""
                 },
                 "require": {
@@ -1169,7 +1263,7 @@
                     "laravel/serializable-closure": "^1.2",
                     "php": "^8.1|^8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "tightenco/ziggy": "^1.5"
+                    "tightenco/ziggy": "^2.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -1182,7 +1276,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-20T06:22:02+00:00",
+                "time": "2025-02-21T23:04:21+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1239,100 +1333,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/typescript-5.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
-                }
-            },
-            {
-                "name": "fmtod/activity-log",
-                "version": "dev-renovate/vite-4.x-lockfile",
-                "version_normalized": "dev-renovate/vite-4.x-lockfile",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
-                    "reference": "75b6dea7db61c2ffac5698be030aac4e1fbdad0d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/75b6dea7db61c2ffac5698be030aac4e1fbdad0d",
-                    "reference": "75b6dea7db61c2ffac5698be030aac4e1fbdad0d",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0|^11.0 ",
-                    "inertiajs/inertia-laravel": "^0.6.3|^1.0",
-                    "laravel/serializable-closure": "^1.2",
-                    "php": "^8.1|^8.2",
-                    "spatie/laravel-package-tools": "^1.14.0",
-                    "tightenco/ziggy": "^2.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.0",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2025-02-20T22:29:44+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\ActivityLog\\ActivityLogServiceProvider",
-                            "FmTod\\ActivityLog\\ActivityLogApplicationServiceProvider"
-                        ],
-                        "aliases": {
-                            "ActivityLog": "FmTod\\ActivityLog\\Facades\\ActivityLog"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\ActivityLog\\": "src",
-                        "FmTod\\ActivityLog\\Database\\Factories\\": "database/factories"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\ActivityLog\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Mikhail Davydov",
-                        "email": "leathasmail@gmail.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Package to log user activity throughout the Laravel app",
-                "homepage": "https://github.com/fmtod/activity-log",
-                "keywords": [
-                    "FmTod",
-                    "activity-log",
-                    "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-activity-log/tree/renovate/vite-4.x-lockfile",
                     "issues": "https://github.com/FmTod/mylisterhub-activity-log/issues"
                 }
             }

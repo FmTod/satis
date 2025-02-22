@@ -1304,12 +1304,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "dec16826639a4aad87d4a41a13b60369bdfb714f"
+                    "reference": "4b144de0d5ad5b0299b4aad5d847cf49a0a1477b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/dec16826639a4aad87d4a41a13b60369bdfb714f",
-                    "reference": "dec16826639a4aad87d4a41a13b60369bdfb714f",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/4b144de0d5ad5b0299b4aad5d847cf49a0a1477b",
+                    "reference": "4b144de0d5ad5b0299b4aad5d847cf49a0a1477b",
                     "shasum": ""
                 },
                 "require": {
@@ -1355,7 +1355,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-20T22:41:40+00:00",
+                "time": "2025-02-21T13:21:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1411,7 +1411,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/update/dependencies-laravel-11",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v2.19.0",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             }
