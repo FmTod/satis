@@ -591,16 +591,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "c4951d6577c8b2c664b74cc40afde71188e84a35"
+                    "reference": "6c85c4af073c369386fae3a19ea5fed5bc89066e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/c4951d6577c8b2c664b74cc40afde71188e84a35",
-                    "reference": "c4951d6577c8b2c664b74cc40afde71188e84a35",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/6c85c4af073c369386fae3a19ea5fed5bc89066e",
+                    "reference": "6c85c4af073c369386fae3a19ea5fed5bc89066e",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "^11.0",
+                    "illuminate/contracts": "^12.0",
                     "php": "^8.1",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.6"
@@ -619,7 +619,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-12T17:42:32+00:00",
+                "time": "2025-02-24T18:31:15+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -777,17 +777,17 @@
             },
             {
                 "name": "mylisterhub/api",
-                "version": "dev-renovate/orchestra-testbench-9.x",
-                "version_normalized": "dev-renovate/orchestra-testbench-9.x",
+                "version": "dev-renovate/orchestra-canvas-10.x",
+                "version_normalized": "dev-renovate/orchestra-canvas-10.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "18baf99264654710028e7cf9beea5915a9dc8333"
+                    "reference": "7535db6ef2fb999a4e1fc1d62c9e3c91663e9627"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/18baf99264654710028e7cf9beea5915a9dc8333",
-                    "reference": "18baf99264654710028e7cf9beea5915a9dc8333",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/7535db6ef2fb999a4e1fc1d62c9e3c91663e9627",
+                    "reference": "7535db6ef2fb999a4e1fc1d62c9e3c91663e9627",
                     "shasum": ""
                 },
                 "require": {
@@ -800,8 +800,8 @@
                     "laravel/pint": "^1.0",
                     "nunomaduro/collision": "^7.9",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^9.0",
+                    "orchestra/canvas": "^10.0",
+                    "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
@@ -810,7 +810,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-03-13T11:42:50+00:00",
+                "time": "2025-02-24T18:31:09+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -868,7 +868,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-testbench-9.x",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/orchestra-canvas-10.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
