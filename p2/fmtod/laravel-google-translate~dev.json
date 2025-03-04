@@ -262,7 +262,7 @@
                     "translate"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v10.1.0",
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/v11.0.0",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },

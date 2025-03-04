@@ -100,17 +100,17 @@
             },
             {
                 "name": "mylisterhub/api",
-                "version": "dev-feat/update-laravel-11",
-                "version_normalized": "dev-feat/update-laravel-11",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734"
+                    "reference": "e07cec60a359a9907e6ad9ce4197676a827ee520"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/d7849bf4ae1af269ee747f403827bcf9200ae734",
-                    "reference": "d7849bf4ae1af269ee747f403827bcf9200ae734",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/e07cec60a359a9907e6ad9ce4197676a827ee520",
+                    "reference": "e07cec60a359a9907e6ad9ce4197676a827ee520",
                     "shasum": ""
                 },
                 "require": {
@@ -133,104 +133,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-19T18:29:37+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "MyListerHub\\API\\APIServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "MyListerHub\\API\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "MyListerHub\\API\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "post-autoload-dump": [
-                        "@php ./vendor/bin/testbench package:discover --ansi"
-                    ],
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "canvas": [
-                        "vendor/bin/canvas"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Victor R",
-                        "email": "39545521+viicslen@users.noreply.github.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Resource API for MyListerHub",
-                "homepage": "https://github.com/FmTod/mylisterhub-api-package",
-                "keywords": [
-                    "FmTod",
-                    "MyListerHub",
-                    "api",
-                    "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v1.1.0",
-                    "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
-                }
-            },
-            {
-                "name": "mylisterhub/api",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "b99fa16e52cb729ba7b570d1d36362c5be496a64"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/b99fa16e52cb729ba7b570d1d36362c5be496a64",
-                    "reference": "b99fa16e52cb729ba7b570d1d36362c5be496a64",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
-                    "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.6"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.9",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/canvas": "^8.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2024-07-05T21:15:12+00:00",
+                "time": "2025-03-03T17:35:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -289,7 +192,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/main",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/v11.0.0",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             },
@@ -591,17 +494,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "6c85c4af073c369386fae3a19ea5fed5bc89066e"
+                    "reference": "2c1e1ed833e8bf83b260a44128aef1130dad6f01"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/6c85c4af073c369386fae3a19ea5fed5bc89066e",
-                    "reference": "6c85c4af073c369386fae3a19ea5fed5bc89066e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/2c1e1ed833e8bf83b260a44128aef1130dad6f01",
+                    "reference": "2c1e1ed833e8bf83b260a44128aef1130dad6f01",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "^12.0",
-                    "php": "^8.1",
+                    "illuminate/contracts": "12.0.1",
+                    "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.6"
                 },
@@ -619,7 +522,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-24T18:31:15+00:00",
+                "time": "2025-03-03T17:35:44+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
