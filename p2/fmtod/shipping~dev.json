@@ -208,18 +208,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "19ebe0056c5fdcd078e683d0d80ff4c74dbc1170"
+                    "reference": "e4c22ea58b1b5047f9eb153da7da57a03486795e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/19ebe0056c5fdcd078e683d0d80ff4c74dbc1170",
-                    "reference": "19ebe0056c5fdcd078e683d0d80ff4c74dbc1170",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/e4c22ea58b1b5047f9eb153da7da57a03486795e",
+                    "reference": "e4c22ea58b1b5047f9eb153da7da57a03486795e",
                     "shasum": ""
                 },
                 "require": {
                     "bensampo/laravel-enum": "^6.4",
                     "cartalyst/converter": "^9.0",
-                    "fmtod/laravel-money": "10.1.0",
+                    "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
                     "illuminate/contracts": "^10.0|^11.0",
                     "illuminate/translation": "^10.0|^11.0",
@@ -243,7 +243,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-02-27T06:09:19+00:00",
+                "time": "2025-03-04T03:18:00+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -309,18 +309,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "fd9499df79e0b18eb1c93f7cfccb97ebf1c0d4b0"
+                    "reference": "29b137edd83bd78a5adfc9298b1e33670c72ba8b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/fd9499df79e0b18eb1c93f7cfccb97ebf1c0d4b0",
-                    "reference": "fd9499df79e0b18eb1c93f7cfccb97ebf1c0d4b0",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/29b137edd83bd78a5adfc9298b1e33670c72ba8b",
+                    "reference": "29b137edd83bd78a5adfc9298b1e33670c72ba8b",
                     "shasum": ""
                 },
                 "require": {
                     "bensampo/laravel-enum": "^6.4",
                     "cartalyst/converter": "^10.0",
-                    "fmtod/laravel-money": "10.1.0",
+                    "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
                     "illuminate/contracts": "^10.0|^11.0",
                     "illuminate/translation": "^10.0|^11.0",
@@ -344,7 +344,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-02-28T22:14:18+00:00",
+                "time": "2025-03-04T03:22:27+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -409,22 +409,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "4688312b8d154bdf7c8ede091b2d12c66fb3d197"
+                    "reference": "986d610b55d0b0f780daeecaf2c755caa76467cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/4688312b8d154bdf7c8ede091b2d12c66fb3d197",
-                    "reference": "4688312b8d154bdf7c8ede091b2d12c66fb3d197",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/986d610b55d0b0f780daeecaf2c755caa76467cc",
+                    "reference": "986d610b55d0b0f780daeecaf2c755caa76467cc",
                     "shasum": ""
                 },
                 "require": {
                     "bensampo/laravel-enum": "^6.4",
                     "cartalyst/converter": "^9.0",
-                    "fmtod/laravel-money": "10.1.0",
+                    "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "12.0.1",
-                    "illuminate/translation": "12.0.1",
-                    "illuminate/validation": "12.0.1",
+                    "illuminate/contracts": "12.1.0",
+                    "illuminate/translation": "12.1.0",
+                    "illuminate/validation": "12.1.0",
                     "php": "^8.1|^8.2",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
@@ -444,7 +444,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-02-24T19:49:23+00:00",
+                "time": "2025-03-04T19:00:18+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
