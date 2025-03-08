@@ -9396,12 +9396,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "815063c4742d8419dec7e2bab84af03489ffdfdc"
+                    "reference": "f2d1d9b5e24071759733c7e570f6281217da8e4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/815063c4742d8419dec7e2bab84af03489ffdfdc",
-                    "reference": "815063c4742d8419dec7e2bab84af03489ffdfdc",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/f2d1d9b5e24071759733c7e570f6281217da8e4a",
+                    "reference": "f2d1d9b5e24071759733c7e570f6281217da8e4a",
                     "shasum": ""
                 },
                 "require": {
@@ -9422,7 +9422,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-03-03T17:43:30+00:00",
+                "time": "2025-03-07T21:32:35+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -9682,17 +9682,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4"
+                    "reference": "999acfd3fa1990197ff33263e81c3919dd2afb2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4",
-                    "reference": "8d5ce46111176f52ede06f60d4bd2a9d8db1fbe4",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/999acfd3fa1990197ff33263e81c3919dd2afb2c",
+                    "reference": "999acfd3fa1990197ff33263e81c3919dd2afb2c",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "php": "^8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
@@ -9708,7 +9708,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-16T01:58:06+00:00",
+                "time": "2025-03-07T21:33:08+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -26964,12 +26964,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator.git",
-                    "reference": "385bba9bc3fab4af60bc5481d7d5d98a30d8f5ca"
+                    "reference": "de55d5b9602d365765c75e22b0ce82c5398d1943"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/385bba9bc3fab4af60bc5481d7d5d98a30d8f5ca",
-                    "reference": "385bba9bc3fab4af60bc5481d7d5d98a30d8f5ca",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/de55d5b9602d365765c75e22b0ce82c5398d1943",
+                    "reference": "de55d5b9602d365765c75e22b0ce82c5398d1943",
                     "shasum": ""
                 },
                 "require": {
@@ -26989,7 +26989,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.29"
                 },
-                "time": "2025-03-05T11:00:52+00:00",
+                "time": "2025-03-07T19:05:14+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
