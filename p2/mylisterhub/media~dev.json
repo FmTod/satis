@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "0a77f7419e276823bc1e7cf4debe941c5496822e"
+                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/0a77f7419e276823bc1e7cf4debe941c5496822e",
-                    "reference": "0a77f7419e276823bc1e7cf4debe941c5496822e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
+                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0|^11.0",
                     "mylisterhub/api": "*",
-                    "php": "^8.2",
+                    "php": ">=8.2",
                     "rahulhaque/laravel-filepond": "^10.0|^11.0",
                     "spatie/image": "^3.0",
                     "spatie/laravel-package-tools": "^1.14.0",
@@ -40,7 +40,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-03-19T18:17:19+00:00",
+                "time": "2025-03-26T16:12:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -103,7 +103,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/v11.0.1",
+                    "source": "https://github.com/FmTod/mylisterhub-media-package/tree/main",
                     "issues": "https://github.com/FmTod/mylisterhub-media-package/issues"
                 }
             },
