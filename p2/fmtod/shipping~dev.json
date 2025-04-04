@@ -409,12 +409,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "26a973c1e092ab17aebb35b844860e24177a7d37"
+                    "reference": "db111f4f3a5fae3838b151bfabf29630201112af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/26a973c1e092ab17aebb35b844860e24177a7d37",
-                    "reference": "26a973c1e092ab17aebb35b844860e24177a7d37",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/db111f4f3a5fae3838b151bfabf29630201112af",
+                    "reference": "db111f4f3a5fae3838b151bfabf29630201112af",
                     "shasum": ""
                 },
                 "require": {
@@ -422,9 +422,9 @@
                     "cartalyst/converter": "^9.0",
                     "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "12.6.0",
-                    "illuminate/translation": "12.6.0",
-                    "illuminate/validation": "12.6.0",
+                    "illuminate/contracts": "12.7.2",
+                    "illuminate/translation": "12.7.2",
+                    "illuminate/validation": "12.7.2",
                     "php": ">=8.2",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
@@ -444,7 +444,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-04-02T18:54:43+00:00",
+                "time": "2025-04-03T22:23:02+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
