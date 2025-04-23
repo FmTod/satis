@@ -618,12 +618,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-core-package.git",
-                    "reference": "68c4a5f0d7f466d35f5b4c624acc7f597c1c199a"
+                    "reference": "4e6980cdc48c7792792def929b24782d13db10b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/68c4a5f0d7f466d35f5b4c624acc7f597c1c199a",
-                    "reference": "68c4a5f0d7f466d35f5b4c624acc7f597c1c199a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/4e6980cdc48c7792792def929b24782d13db10b2",
+                    "reference": "4e6980cdc48c7792792def929b24782d13db10b2",
                     "shasum": ""
                 },
                 "require": {
@@ -668,7 +668,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-03-26T16:10:46+00:00",
+                "time": "2025-04-22T15:28:55+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -730,7 +730,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/v11.1.0",
+                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/v11.1.1",
                     "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
                 }
             },
