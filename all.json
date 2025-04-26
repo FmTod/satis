@@ -27599,12 +27599,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator.git",
-                    "reference": "f02593b930ac169d8cb2e06d972faab7fa89f84b"
+                    "reference": "5d6911a6ac6d6fcbd02ec8d65664dadba021786f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/f02593b930ac169d8cb2e06d972faab7fa89f84b",
-                    "reference": "f02593b930ac169d8cb2e06d972faab7fa89f84b",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/5d6911a6ac6d6fcbd02ec8d65664dadba021786f",
+                    "reference": "5d6911a6ac6d6fcbd02ec8d65664dadba021786f",
                     "shasum": ""
                 },
                 "require": {
@@ -27624,7 +27624,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.29"
                 },
-                "time": "2025-04-24T10:44:25+00:00",
+                "time": "2025-04-25T23:28:42+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -38604,6 +38604,124 @@
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
+            "v11.4.0": {
+                "name": "modules/auth",
+                "version": "v11.4.0",
+                "version_normalized": "11.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
+                    "reference": "6b6d650b6e305aa321825e1f4f487badb2626cdf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/6b6d650b6e305aa321825e1f4f487badb2626cdf",
+                    "reference": "6b6d650b6e305aa321825e1f4f487badb2626cdf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ambengers/kinetic": "^1.8",
+                    "bensampo/laravel-enum": "^6.3",
+                    "fmtod/laravel-google-translate": "*",
+                    "fmtod/laravel-money": "*",
+                    "fmtod/laravel-tabulator": "*",
+                    "fmtod/laravel-tabulator-inertia": "*",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "inertiajs/inertia-laravel": "^1.0",
+                    "laravel-notification-channels/discord": "^1.6",
+                    "laravel-notification-channels/webpush": "^10.2",
+                    "laravel/sanctum": "^4.0",
+                    "laravel/scout": "^10.0",
+                    "laravel/slack-notification-channel": "^3.2",
+                    "laravel/spark-stripe": "^5.0",
+                    "laravel/ui": "^4.0.0",
+                    "lorisleiva/laravel-actions": "^2.5",
+                    "mylisterhub/api": "*",
+                    "mylisterhub/core": "*",
+                    "mylisterhub/media": "*",
+                    "php": ">=8.2",
+                    "rinvex/countries": "^9.0",
+                    "santigarcor/laratrust": "^8.0",
+                    "spatie/laravel-package-tools": "^1.14.0",
+                    "stancl/tenancy": "^3.6.1",
+                    "tightenco/ziggy": "^2.5",
+                    "touhidurabir/laravel-model-sanitize": "^1.1"
+                },
+                "require-dev": {
+                    "larastan/larastan": "^2.0",
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.1",
+                    "nunomaduro/larastan": "^2.8",
+                    "orchestra/canvas": "^9.0",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^3.7",
+                    "pestphp/pest-plugin-arch": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.1",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-04-25T15:24:13+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Modules\\Auth\\ModuleServiceProvider",
+                            "Modules\\Auth\\Providers\\AuthServiceProvider",
+                            "Modules\\Auth\\Providers\\EventServiceProvider",
+                            "Modules\\Auth\\Providers\\InertiaServiceProvider",
+                            "Modules\\Auth\\Providers\\SparkServiceProvider",
+                            "Modules\\Auth\\Providers\\TenancyServiceProvider",
+                            "Modules\\Auth\\Providers\\RouteServiceProvider"
+                        ],
+                        "aliases": {
+                            "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
+                            "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache",
+                            "AuthModule": "Modules\\Auth\\Facades\\AuthModule"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Modules\\Auth\\": "src",
+                        "Modules\\Auth\\Database\\Factories\\": "database/factories"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Modules\\Auth\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php ./vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/testbench package:test"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/testbench package:test --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Victor R",
+                        "email": "39545521+viicslen@users.noreply.github.com"
+                    }
+                ],
+                "description": "Auth",
+                "support": {
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v11.4.0",
+                    "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
+                }
+            },
             "v2.0.0": {
                 "name": "modules/auth",
                 "version": "v2.0.0",
@@ -47180,12 +47298,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "caddbe51bca0dc40aec37f727fe68c0562255f63"
+                    "reference": "6b6d650b6e305aa321825e1f4f487badb2626cdf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/caddbe51bca0dc40aec37f727fe68c0562255f63",
-                    "reference": "caddbe51bca0dc40aec37f727fe68c0562255f63",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/6b6d650b6e305aa321825e1f4f487badb2626cdf",
+                    "reference": "6b6d650b6e305aa321825e1f4f487badb2626cdf",
                     "shasum": ""
                 },
                 "require": {
@@ -47231,7 +47349,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T16:48:42+00:00",
+                "time": "2025-04-25T15:24:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -47288,7 +47406,7 @@
                 ],
                 "description": "Auth",
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v11.3.0",
+                    "source": "https://github.com/FmTod/mylisterhub-auth-module/tree/v11.4.0",
                     "issues": "https://github.com/FmTod/mylisterhub-auth-module/issues"
                 }
             },
@@ -47299,12 +47417,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "4c6a6bbf29caf1342c753e2aead9535852f93670"
+                    "reference": "11abb5fed1abfbe95f185b667f91d16c90c4edeb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/4c6a6bbf29caf1342c753e2aead9535852f93670",
-                    "reference": "4c6a6bbf29caf1342c753e2aead9535852f93670",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/11abb5fed1abfbe95f185b667f91d16c90c4edeb",
+                    "reference": "11abb5fed1abfbe95f185b667f91d16c90c4edeb",
                     "shasum": ""
                 },
                 "require": {
@@ -47350,7 +47468,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:33:20+00:00",
+                "time": "2025-04-25T19:25:48+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -47651,12 +47769,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "429cdf9da38bfcd38a39917488d17ad80114f135"
+                    "reference": "b96d8c7d682598c69c282f45c7fef0ac475455d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/429cdf9da38bfcd38a39917488d17ad80114f135",
-                    "reference": "429cdf9da38bfcd38a39917488d17ad80114f135",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b96d8c7d682598c69c282f45c7fef0ac475455d9",
+                    "reference": "b96d8c7d682598c69c282f45c7fef0ac475455d9",
                     "shasum": ""
                 },
                 "require": {
@@ -47702,7 +47820,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:34:35+00:00",
+                "time": "2025-04-25T19:27:01+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -47886,12 +48004,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "ecee6f1e179b54dc931ae1c127b3eb2e1c861d39"
+                    "reference": "237e24d94215ee123b8124602b9d0ec69db8a924"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/ecee6f1e179b54dc931ae1c127b3eb2e1c861d39",
-                    "reference": "ecee6f1e179b54dc931ae1c127b3eb2e1c861d39",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/237e24d94215ee123b8124602b9d0ec69db8a924",
+                    "reference": "237e24d94215ee123b8124602b9d0ec69db8a924",
                     "shasum": ""
                 },
                 "require": {
@@ -47937,7 +48055,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:33:40+00:00",
+                "time": "2025-04-25T19:26:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48004,12 +48122,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "3382b37e850f27cdefa1274cf1dbca1e85ba4b83"
+                    "reference": "ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/3382b37e850f27cdefa1274cf1dbca1e85ba4b83",
-                    "reference": "3382b37e850f27cdefa1274cf1dbca1e85ba4b83",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e",
+                    "reference": "ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e",
                     "shasum": ""
                 },
                 "require": {
@@ -48055,7 +48173,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:34:00+00:00",
+                "time": "2025-04-25T19:26:24+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48122,12 +48240,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "1fd4c9747d21b36af6c2ec9bc68077b1f62559a0"
+                    "reference": "b651d0cecbae57aee72c48eb1fb4c3c4be800259"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/1fd4c9747d21b36af6c2ec9bc68077b1f62559a0",
-                    "reference": "1fd4c9747d21b36af6c2ec9bc68077b1f62559a0",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b651d0cecbae57aee72c48eb1fb4c3c4be800259",
+                    "reference": "b651d0cecbae57aee72c48eb1fb4c3c4be800259",
                     "shasum": ""
                 },
                 "require": {
@@ -48173,7 +48291,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:33:02+00:00",
+                "time": "2025-04-25T19:25:28+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48240,12 +48358,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "fbebe7bed662b2bfd24e2ae1e3bc9f1c8fd7197a"
+                    "reference": "ac704f0fb525b8357c3ca45aa6026ad6fbc49fdf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/fbebe7bed662b2bfd24e2ae1e3bc9f1c8fd7197a",
-                    "reference": "fbebe7bed662b2bfd24e2ae1e3bc9f1c8fd7197a",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/ac704f0fb525b8357c3ca45aa6026ad6fbc49fdf",
+                    "reference": "ac704f0fb525b8357c3ca45aa6026ad6fbc49fdf",
                     "shasum": ""
                 },
                 "require": {
@@ -48291,7 +48409,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:32:42+00:00",
+                "time": "2025-04-25T19:25:09+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48358,12 +48476,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "b453fc15b645525aed61698670ce45b725fd06c5"
+                    "reference": "6d7a13c9b208fb2a26525341604fc08367e219c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/b453fc15b645525aed61698670ce45b725fd06c5",
-                    "reference": "b453fc15b645525aed61698670ce45b725fd06c5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/6d7a13c9b208fb2a26525341604fc08367e219c9",
+                    "reference": "6d7a13c9b208fb2a26525341604fc08367e219c9",
                     "shasum": ""
                 },
                 "require": {
@@ -48409,7 +48527,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:34:17+00:00",
+                "time": "2025-04-25T19:26:42+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -56992,12 +57110,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874"
+                    "reference": "7ae5e6c5546feae3734804dc3228d308b42343f3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
-                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/7ae5e6c5546feae3734804dc3228d308b42343f3",
+                    "reference": "7ae5e6c5546feae3734804dc3228d308b42343f3",
                     "shasum": ""
                 },
                 "require": {
@@ -57024,7 +57142,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-03-26T16:12:11+00:00",
+                "time": "2025-04-25T16:05:23+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -60743,12 +60861,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-user-workflows.git",
-                    "reference": "218b91460a0cba5764dc732bff3717539c84d438"
+                    "reference": "5d5372b35f05ae665823ab124dd51a4e6f643e53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/218b91460a0cba5764dc732bff3717539c84d438",
-                    "reference": "218b91460a0cba5764dc732bff3717539c84d438",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-user-workflows/zipball/5d5372b35f05ae665823ab124dd51a4e6f643e53",
+                    "reference": "5d5372b35f05ae665823ab124dd51a4e6f643e53",
                     "shasum": ""
                 },
                 "require": {
@@ -60772,7 +60890,7 @@
                     "phpstan/phpstan-phpunit": "^1.4",
                     "spatie/laravel-ray": "^1.37.1"
                 },
-                "time": "2025-04-10T19:25:40+00:00",
+                "time": "2025-04-25T12:30:48+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

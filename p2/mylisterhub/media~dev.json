@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874"
+                    "reference": "7ae5e6c5546feae3734804dc3228d308b42343f3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
-                    "reference": "998a1b4381cbb3d19f5f5646ee1bbb1651a60874",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/7ae5e6c5546feae3734804dc3228d308b42343f3",
+                    "reference": "7ae5e6c5546feae3734804dc3228d308b42343f3",
                     "shasum": ""
                 },
                 "require": {
@@ -40,7 +40,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-03-26T16:12:11+00:00",
+                "time": "2025-04-25T16:05:23+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
