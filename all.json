@@ -9492,16 +9492,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "77219198bd54339972f259f58299ea2569fbe6a8"
+                    "reference": "029f1e2bf5edf8237482c6368e38c606c7a7cf7d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/77219198bd54339972f259f58299ea2569fbe6a8",
-                    "reference": "77219198bd54339972f259f58299ea2569fbe6a8",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/029f1e2bf5edf8237482c6368e38c606c7a7cf7d",
+                    "reference": "029f1e2bf5edf8237482c6368e38c606c7a7cf7d",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.10.2",
+                    "illuminate/contracts": "12.11.0",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
@@ -9518,7 +9518,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T16:54:41+00:00",
+                "time": "2025-04-29T22:27:08+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -27239,16 +27239,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator.git",
-                    "reference": "72728b8d42c45db146ad1c6bf0fdcd0ee3a3e625"
+                    "reference": "e5eafe4c9caf056056c0b18d9a1c039c4264f3f6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/72728b8d42c45db146ad1c6bf0fdcd0ee3a3e625",
-                    "reference": "72728b8d42c45db146ad1c6bf0fdcd0ee3a3e625",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/e5eafe4c9caf056056c0b18d9a1c039c4264f3f6",
+                    "reference": "e5eafe4c9caf056056c0b18d9a1c039c4264f3f6",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.10.2",
+                    "illuminate/contracts": "12.11.0",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.9.2"
                 },
@@ -27264,7 +27264,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.29"
                 },
-                "time": "2025-04-24T17:49:34+00:00",
+                "time": "2025-04-29T22:14:14+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -34259,12 +34259,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "be01ecaf477b89a512b3c7c950d70795df300cf7"
+                    "reference": "261a2b1cf81068dae89783ed38396ea510b6f22c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/be01ecaf477b89a512b3c7c950d70795df300cf7",
-                    "reference": "be01ecaf477b89a512b3c7c950d70795df300cf7",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/261a2b1cf81068dae89783ed38396ea510b6f22c",
+                    "reference": "261a2b1cf81068dae89783ed38396ea510b6f22c",
                     "shasum": ""
                 },
                 "require": {
@@ -34272,9 +34272,9 @@
                     "cartalyst/converter": "^9.0",
                     "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "12.10.2",
-                    "illuminate/translation": "12.10.2",
-                    "illuminate/validation": "12.10.2",
+                    "illuminate/contracts": "12.11.0",
+                    "illuminate/translation": "12.11.0",
+                    "illuminate/validation": "12.11.0",
                     "php": ">=8.2",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
@@ -34294,7 +34294,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-04-24T19:29:34+00:00",
+                "time": "2025-04-29T20:41:56+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -49370,16 +49370,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "b53e360d85eef44c68127141cff9a1dc45313e84"
+                    "reference": "19d1cbc21f0ce57801c9050e786ca37abf5743da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/b53e360d85eef44c68127141cff9a1dc45313e84",
-                    "reference": "b53e360d85eef44c68127141cff9a1dc45313e84",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/19d1cbc21f0ce57801c9050e786ca37abf5743da",
+                    "reference": "19d1cbc21f0ce57801c9050e786ca37abf5743da",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.10.2",
+                    "illuminate/contracts": "12.11.0",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.6"
@@ -49398,7 +49398,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-24T20:01:50+00:00",
+                "time": "2025-04-29T22:12:30+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
