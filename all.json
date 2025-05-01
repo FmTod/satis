@@ -5228,6 +5228,72 @@
                     "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.1.0"
                 }
             },
+            "19.2.0": {
+                "name": "fmtod/ebay-sdk-php",
+                "version": "19.2.0",
+                "version_normalized": "19.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/ebay-sdk-source.git",
+                    "reference": "2c62b4f3d84ee278e97e4258b811998bd85a718b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/2c62b4f3d84ee278e97e4258b811998bd85a718b",
+                    "reference": "2c62b4f3d84ee278e97e4258b811998bd85a718b",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.0",
+                    "guzzlehttp/promises": "^1.5|^2.0",
+                    "guzzlehttp/psr7": "^2.0",
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2025-04-30T17:21:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DTS\\eBaySDK\\Test\\": "test/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David T. Sadler",
+                        "email": "davidtsadler@googlemail.com",
+                        "homepage": "http://davidtsadler.com"
+                    }
+                ],
+                "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+                "homepage": "http://devbay.net/",
+                "keywords": [
+                    "api",
+                    "ebay",
+                    "sdk"
+                ],
+                "support": {
+                    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.2.0"
+                }
+            },
             "2.0.0": {
                 "name": "fmtod/ebay-sdk-php",
                 "version": "2.0.0",
@@ -5946,12 +6012,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/ebay-sdk-source.git",
-                    "reference": "970d86f49336f22b83a217bf3ed9611e75c29fc2"
+                    "reference": "2c62b4f3d84ee278e97e4258b811998bd85a718b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/970d86f49336f22b83a217bf3ed9611e75c29fc2",
-                    "reference": "970d86f49336f22b83a217bf3ed9611e75c29fc2",
+                    "url": "https://api.github.com/repos/FmTod/ebay-sdk-source/zipball/2c62b4f3d84ee278e97e4258b811998bd85a718b",
+                    "reference": "2c62b4f3d84ee278e97e4258b811998bd85a718b",
                     "shasum": ""
                 },
                 "require": {
@@ -5964,7 +6030,7 @@
                     "phpunit/phpunit": "^9.0",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2023-12-06T14:58:12+00:00",
+                "time": "2025-04-30T17:21:50+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -6003,7 +6069,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues",
-                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.1.0"
+                    "source": "https://github.com/FmTod/ebay-sdk-source/tree/19.2.0"
                 }
             }
         },
@@ -9492,16 +9558,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-errorable.git",
-                    "reference": "029f1e2bf5edf8237482c6368e38c606c7a7cf7d"
+                    "reference": "8e6922d02db89fb7509216fae7f2cc33a100d794"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/029f1e2bf5edf8237482c6368e38c606c7a7cf7d",
-                    "reference": "029f1e2bf5edf8237482c6368e38c606c7a7cf7d",
+                    "url": "https://api.github.com/repos/FmTod/laravel-errorable/zipball/8e6922d02db89fb7509216fae7f2cc33a100d794",
+                    "reference": "8e6922d02db89fb7509216fae7f2cc33a100d794",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.11.0",
+                    "illuminate/contracts": "12.11.1",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
@@ -9518,7 +9584,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-29T22:27:08+00:00",
+                "time": "2025-04-30T16:09:17+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -27239,16 +27305,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator.git",
-                    "reference": "e5eafe4c9caf056056c0b18d9a1c039c4264f3f6"
+                    "reference": "0a56d2941cdc05b6922d4235c2aeb777da5ac84b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/e5eafe4c9caf056056c0b18d9a1c039c4264f3f6",
-                    "reference": "e5eafe4c9caf056056c0b18d9a1c039c4264f3f6",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/0a56d2941cdc05b6922d4235c2aeb777da5ac84b",
+                    "reference": "0a56d2941cdc05b6922d4235c2aeb777da5ac84b",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.11.0",
+                    "illuminate/contracts": "12.11.1",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.9.2"
                 },
@@ -27264,7 +27330,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.29"
                 },
-                "time": "2025-04-29T22:14:14+00:00",
+                "time": "2025-04-30T16:03:38+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -34259,12 +34325,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "261a2b1cf81068dae89783ed38396ea510b6f22c"
+                    "reference": "9d30f388da73eb209d9e4fa6c999e3f7149572bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/261a2b1cf81068dae89783ed38396ea510b6f22c",
-                    "reference": "261a2b1cf81068dae89783ed38396ea510b6f22c",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/9d30f388da73eb209d9e4fa6c999e3f7149572bb",
+                    "reference": "9d30f388da73eb209d9e4fa6c999e3f7149572bb",
                     "shasum": ""
                 },
                 "require": {
@@ -34272,9 +34338,9 @@
                     "cartalyst/converter": "^9.0",
                     "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "12.11.0",
-                    "illuminate/translation": "12.11.0",
-                    "illuminate/validation": "12.11.0",
+                    "illuminate/contracts": "12.11.1",
+                    "illuminate/translation": "12.11.1",
+                    "illuminate/validation": "12.11.1",
                     "php": ">=8.2",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
@@ -34294,7 +34360,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-04-29T20:41:56+00:00",
+                "time": "2025-04-30T16:29:59+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48122,12 +48188,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-auth-module.git",
-                    "reference": "ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e"
+                    "reference": "ac4e2524b8637116623af36d79fbe971f7f3e986"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e",
-                    "reference": "ab83ab1ff8ab17c7e0130a490131fb6f8ddaeb2e",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-auth-module/zipball/ac4e2524b8637116623af36d79fbe971f7f3e986",
+                    "reference": "ac4e2524b8637116623af36d79fbe971f7f3e986",
                     "shasum": ""
                 },
                 "require": {
@@ -48173,7 +48239,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-25T19:26:24+00:00",
+                "time": "2025-04-30T06:31:01+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -48981,12 +49047,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "fe9c54e3964e05dd5a276960ec6d63382d5785a5"
+                    "reference": "0a3f3fea1b0545206553cd2a9804311c697e3d04"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/fe9c54e3964e05dd5a276960ec6d63382d5785a5",
-                    "reference": "fe9c54e3964e05dd5a276960ec6d63382d5785a5",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/0a3f3fea1b0545206553cd2a9804311c697e3d04",
+                    "reference": "0a3f3fea1b0545206553cd2a9804311c697e3d04",
                     "shasum": ""
                 },
                 "require": {
@@ -49009,7 +49075,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-03-26T16:10:47+00:00",
+                "time": "2025-04-30T17:49:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -49370,16 +49436,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "19d1cbc21f0ce57801c9050e786ca37abf5743da"
+                    "reference": "6aa648937ef01e0f1176fc5837f68e48a4c12f94"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/19d1cbc21f0ce57801c9050e786ca37abf5743da",
-                    "reference": "19d1cbc21f0ce57801c9050e786ca37abf5743da",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/6aa648937ef01e0f1176fc5837f68e48a4c12f94",
+                    "reference": "6aa648937ef01e0f1176fc5837f68e48a4c12f94",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.11.0",
+                    "illuminate/contracts": "12.11.1",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
                     "spatie/laravel-query-builder": "^5.6"
@@ -49398,7 +49464,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-29T22:12:30+00:00",
+                "time": "2025-04-30T20:23:04+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
