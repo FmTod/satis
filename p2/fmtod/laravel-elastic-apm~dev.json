@@ -100,7 +100,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/dependabot/npm_and_yarn/cross-spawn-7.0.6",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -201,7 +202,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/dependabot/npm_and_yarn/micromatch-4.0.8",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -303,7 +305,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/main",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -363,7 +366,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/renovate/configure",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

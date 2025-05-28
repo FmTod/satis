@@ -279,16 +279,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator.git",
-                    "reference": "aa703c14bb86cb349c37db0e9bd0e1d38eefc2c2"
+                    "reference": "f7012b51c4d8d88c37210447b7020bee8304832c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/aa703c14bb86cb349c37db0e9bd0e1d38eefc2c2",
-                    "reference": "aa703c14bb86cb349c37db0e9bd0e1d38eefc2c2",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator/zipball/f7012b51c4d8d88c37210447b7020bee8304832c",
+                    "reference": "f7012b51c4d8d88c37210447b7020bee8304832c",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "12.15.0",
+                    "illuminate/contracts": "12.16.0",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.9.2"
                 },
@@ -304,7 +304,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.29"
                 },
-                "time": "2025-05-20T19:40:53+00:00",
+                "time": "2025-05-27T19:59:50+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

@@ -100,7 +100,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.0",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -201,7 +202,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.1",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -302,7 +304,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.2",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -403,7 +406,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.3",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -504,7 +508,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.4",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -605,7 +610,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.5",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -706,7 +712,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.6",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -807,7 +814,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.0.7",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "fmtod/laravel-elastic-apm",
@@ -908,7 +916,8 @@
                 "support": {
                     "source": "https://github.com/FmTod/elastic-apm-package/tree/v1.1.0",
                     "issues": "https://github.com/FmTod/elastic-apm-package/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
