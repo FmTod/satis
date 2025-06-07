@@ -3,8 +3,8 @@
         "fmtod/laravel-money": [
             {
                 "name": "fmtod/laravel-money",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-money-source.git",
@@ -86,7 +86,7 @@
                     "money"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-money-source/tree/master"
+                    "source": "https://github.com/FmTod/laravel-money-source/tree/main"
                 }
             }
         ]

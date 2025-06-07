@@ -179,8 +179,8 @@
             },
             {
                 "name": "fmtod/laravel-google-translate",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-google-translate.git",
@@ -262,7 +262,7 @@
                     "translate"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/master",
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/main",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             },
