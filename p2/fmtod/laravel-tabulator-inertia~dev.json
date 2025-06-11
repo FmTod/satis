@@ -620,6 +620,94 @@
             },
             {
                 "name": "fmtod/laravel-tabulator-inertia",
+                "version": "dev-renovate/orchestra-testbench-10.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-10.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
+                    "reference": "cf28aedd5c6e9ddd0b0ca454af91c841a1bcd311"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/cf28aedd5c6e9ddd0b0ca454af91c841a1bcd311",
+                    "reference": "cf28aedd5c6e9ddd0b0ca454af91c841a1bcd311",
+                    "shasum": ""
+                },
+                "require": {
+                    "fmtod/laravel-tabulator": "*",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "inertiajs/inertia-laravel": "*",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^8.0",
+                    "nunomaduro/larastan": "^2.0.1",
+                    "orchestra/testbench": "^10.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "phpstan/extension-installer": "^1.1",
+                    "phpstan/phpstan-deprecation-rules": "^1.0",
+                    "phpstan/phpstan-phpunit": "^1.0",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2025-06-10T19:31:41+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "FmTod",
+                        "email": "it@fmtod.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
+                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
+                "keywords": [
+                    "FmTod",
+                    "laravel",
+                    "laravel-tabulator-inertia"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/orchestra-testbench-10.x",
+                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-tabulator-inertia",
                 "version": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
@@ -879,94 +967,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/pestphp-pest-plugin-laravel-3.x",
-                    "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
-                }
-            },
-            {
-                "name": "fmtod/laravel-tabulator-inertia",
-                "version": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
-                "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "98bafadc9ee7c1be4ac2641c80629dcfaef6ebba"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/98bafadc9ee7c1be4ac2641c80629dcfaef6ebba",
-                    "reference": "98bafadc9ee7c1be4ac2641c80629dcfaef6ebba",
-                    "shasum": ""
-                },
-                "require": {
-                    "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
-                    "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
-                    "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "spatie/laravel-ray": "^1.26"
-                },
-                "time": "2023-10-06T19:20:44+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\LaravelTabulatorInertia\\TabulatorInertiaServiceProvider"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\LaravelTabulatorInertia\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "FmTod",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "Plugin for laravel-tabulator to render tables using inertia response factory",
-                "homepage": "https://github.com/fmtod/laravel-tabulator-inertia",
-                "keywords": [
-                    "FmTod",
-                    "laravel",
-                    "laravel-tabulator-inertia"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-tabulator-inertia/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
                     "issues": "https://github.com/FmTod/laravel-tabulator-inertia/issues"
                 }
             }

@@ -1192,43 +1192,43 @@
             },
             {
                 "name": "fmtod/laravel-zipcode",
-                "version": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
-                "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
+                "version": "dev-renovate/pnpm-action-setup-4.x",
+                "version_normalized": "dev-renovate/pnpm-action-setup-4.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "7ce4845a7290e64847bfd0a68fce8320fe2d587b"
+                    "reference": "0827595c6595f39377c28b7da2b174346cc353c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/7ce4845a7290e64847bfd0a68fce8320fe2d587b",
-                    "reference": "7ce4845a7290e64847bfd0a68fce8320fe2d587b",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/0827595c6595f39377c28b7da2b174346cc353c6",
+                    "reference": "0827595c6595f39377c28b7da2b174346cc353c6",
                     "shasum": ""
                 },
                 "require": {
                     "ext-simplexml": "*",
                     "guzzlehttp/guzzle": "^7.5",
-                    "illuminate/collections": "^10.0",
-                    "illuminate/contracts": "^10.0",
-                    "illuminate/http": "^10.0",
-                    "illuminate/support": "^10.0",
-                    "php": "^8.1|^8.2",
+                    "illuminate/collections": "^10.0|^11.0",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "illuminate/http": "^10.0|^11.0",
+                    "illuminate/support": "^10.0|^11.0",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-07T11:39:07+00:00",
+                "time": "2025-06-10T19:38:42+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1285,7 +1285,7 @@
                     "laravel-zipcode"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
+                    "source": "https://github.com/FmTod/laravel-zipcode/tree/renovate/pnpm-action-setup-4.x",
                     "issues": "https://github.com/FmTod/laravel-zipcode/issues"
                 }
             }

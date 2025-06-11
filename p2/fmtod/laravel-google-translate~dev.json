@@ -796,6 +796,94 @@
             },
             {
                 "name": "fmtod/laravel-google-translate",
+                "version": "dev-renovate/orchestra-testbench-10.x",
+                "version_normalized": "dev-renovate/orchestra-testbench-10.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:FmTod/laravel-google-translate.git",
+                    "reference": "0fd4479c598353f28ae9c83719e381cb9ac52e91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/0fd4479c598353f28ae9c83719e381cb9ac52e91",
+                    "reference": "0fd4479c598353f28ae9c83719e381cb9ac52e91",
+                    "shasum": ""
+                },
+                "require": {
+                    "google/cloud-translate": "^1.2",
+                    "illuminate/support": "^10.0|^11.0",
+                    "php": ">=8.2",
+                    "phpstan/extension-installer": "^1.3",
+                    "phpstan/phpstan-deprecation-rules": "^1.1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/larastan": "^2.8",
+                    "orchestra/testbench": "^10.0",
+                    "pestphp/pest": "^2.0",
+                    "pestphp/pest-plugin-drift": "^2.2"
+                },
+                "time": "2025-06-10T21:25:55+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "FmTod\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                        ],
+                        "aliases": {
+                            "GoogleTranslate": "FmTod\\GoogleTranslate\\GoogleTranslateFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FmTod\\GoogleTranslate\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Harish Toshniwal",
+                        "email": "harish@jogg.co"
+                    }
+                ],
+                "description": "Laravel package for the Google Translate API",
+                "keywords": [
+                    "api",
+                    "google",
+                    "google translate",
+                    "laravel",
+                    "package",
+                    "translate"
+                ],
+                "support": {
+                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/orchestra-testbench-10.x",
+                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
+                }
+            },
+            {
+                "name": "fmtod/laravel-google-translate",
                 "version": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "version_normalized": "dev-renovate/paambaati-codeclimate-action-9.x",
                 "source": {
@@ -1055,94 +1143,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/pestphp-pest-plugin-drift-3.x",
-                    "issues": "https://github.com/FmTod/laravel-google-translate/issues"
-                }
-            },
-            {
-                "name": "fmtod/laravel-google-translate",
-                "version": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
-                "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-5.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/laravel-google-translate.git",
-                    "reference": "a8681f54af12d7233ff7dc008b3a90736684fd44"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-google-translate/zipball/a8681f54af12d7233ff7dc008b3a90736684fd44",
-                    "reference": "a8681f54af12d7233ff7dc008b3a90736684fd44",
-                    "shasum": ""
-                },
-                "require": {
-                    "google/cloud-translate": "^1.2",
-                    "illuminate/support": "^10.0",
-                    "php": "^8.1|^8.2",
-                    "phpstan/extension-installer": "^1.3",
-                    "phpstan/phpstan-deprecation-rules": "^1.1"
-                },
-                "require-dev": {
-                    "mockery/mockery": "^1.1",
-                    "nunomaduro/larastan": "^2.6",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-drift": "^2.2"
-                },
-                "time": "2023-10-07T08:51:27+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\GoogleTranslate\\GoogleTranslateServiceProvider"
-                        ],
-                        "aliases": {
-                            "GoogleTranslate": "FmTod\\GoogleTranslate\\GoogleTranslateFacade"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\GoogleTranslate\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\GoogleTranslate\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "analyse": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Harish Toshniwal",
-                        "email": "harish@jogg.co"
-                    }
-                ],
-                "description": "Laravel package for the Google Translate API",
-                "keywords": [
-                    "api",
-                    "google",
-                    "google translate",
-                    "laravel",
-                    "package",
-                    "translate"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/laravel-google-translate/tree/renovate/stefanzweifel-git-auto-commit-action-5.x",
                     "issues": "https://github.com/FmTod/laravel-google-translate/issues"
                 }
             }
