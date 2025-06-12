@@ -105,19 +105,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "271e17118cb8c6d53a1374e54c7412c9f14379ec"
+                    "reference": "7f209498ee64c56582c22e7ba839e73f09dcc07e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/271e17118cb8c6d53a1374e54c7412c9f14379ec",
-                    "reference": "271e17118cb8c6d53a1374e54c7412c9f14379ec",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/7f209498ee64c56582c22e7ba839e73f09dcc07e",
+                    "reference": "7f209498ee64c56582c22e7ba839e73f09dcc07e",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0|^11.0",
                     "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.6"
+                    "spatie/laravel-query-builder": "^6"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -133,7 +133,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-05-16T13:09:34+00:00",
+                "time": "2025-06-11T20:04:03+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1068,24 +1068,24 @@
             },
             {
                 "name": "mylisterhub/api",
-                "version": "dev-renovate/spatie-laravel-query-builder-6.x",
-                "version_normalized": "dev-renovate/spatie-laravel-query-builder-6.x",
+                "version": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
+                "version_normalized": "dev-renovate/pestphp-pest-plugin-laravel-3.x",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-api-package.git",
-                    "reference": "1ca9e68381565147cbdbf45490509766521c9d49"
+                    "reference": "17e4d5c9a26b7d7be4ae86c0e94103f612914ddc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/1ca9e68381565147cbdbf45490509766521c9d49",
-                    "reference": "1ca9e68381565147cbdbf45490509766521c9d49",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-api-package/zipball/17e4d5c9a26b7d7be4ae86c0e94103f612914ddc",
+                    "reference": "17e4d5c9a26b7d7be4ae86c0e94103f612914ddc",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/contracts": "^10.0",
-                    "php": "^8.1",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^6.0"
+                    "spatie/laravel-query-builder": "^6"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -1095,13 +1095,13 @@
                     "orchestra/testbench": "^8.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-arch": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-07-29T14:31:40+00:00",
+                "time": "2025-06-11T21:24:39+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -1159,7 +1159,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/spatie-laravel-query-builder-6.x",
+                    "source": "https://github.com/FmTod/mylisterhub-api-package/tree/renovate/pestphp-pest-plugin-laravel-3.x",
                     "issues": "https://github.com/FmTod/mylisterhub-api-package/issues"
                 }
             }

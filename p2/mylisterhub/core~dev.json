@@ -618,12 +618,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-core-package.git",
-                    "reference": "4e6980cdc48c7792792def929b24782d13db10b2"
+                    "reference": "a976b42010b5a80c5e347d0c8e0fb20a0e4ab6e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/4e6980cdc48c7792792def929b24782d13db10b2",
-                    "reference": "4e6980cdc48c7792792def929b24782d13db10b2",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/a976b42010b5a80c5e347d0c8e0fb20a0e4ab6e7",
+                    "reference": "a976b42010b5a80c5e347d0c8e0fb20a0e4ab6e7",
                     "shasum": ""
                 },
                 "require": {
@@ -649,7 +649,7 @@
                     "rahulhaque/laravel-filepond": "^11.0.2",
                     "spatie/laravel-data": "^3.8",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.3",
+                    "spatie/laravel-query-builder": "^6",
                     "spatie/pdf-to-image": "^2.2",
                     "spatie/simple-excel": "^3.2",
                     "spatie/typescript-transformer": "^2.2",
@@ -668,7 +668,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-04-22T15:28:55+00:00",
+                "time": "2025-06-11T16:40:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -730,7 +730,7 @@
                     "laravel"
                 ],
                 "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/v11.1.1",
+                    "source": "https://github.com/FmTod/mylisterhub-core-package/tree/main",
                     "issues": "https://github.com/FmTod/mylisterhub-core-package/issues"
                 }
             },
