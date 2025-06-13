@@ -1839,12 +1839,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-core-package.git",
-                    "reference": "5a39e0500064718e65e101b69e64800351807275"
+                    "reference": "c4830650aa4cecdf4753dbba5f9e05bb6edc6c02"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/5a39e0500064718e65e101b69e64800351807275",
-                    "reference": "5a39e0500064718e65e101b69e64800351807275",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-core-package/zipball/c4830650aa4cecdf4753dbba5f9e05bb6edc6c02",
+                    "reference": "c4830650aa4cecdf4753dbba5f9e05bb6edc6c02",
                     "shasum": ""
                 },
                 "require": {
@@ -1853,9 +1853,9 @@
                     "bensampo/laravel-enum": "^6.6",
                     "ext-bcmath": "*",
                     "ext-imagick": "*",
-                    "fmtod/laravel-money": "^10.0",
-                    "fmtod/laravel-tabulator": "^1.0",
-                    "fmtod/laravel-tabulator-inertia": "^1.1",
+                    "fmtod/laravel-money": "*",
+                    "fmtod/laravel-tabulator": "*",
+                    "fmtod/laravel-tabulator-inertia": "*",
                     "google/apiclient": "^2.13",
                     "illuminate/console": "^10.0|^11.0",
                     "illuminate/contracts": "^10.0|^11.0",
@@ -1866,11 +1866,11 @@
                     "laravie/serialize-queries": "^3.0",
                     "lorisleiva/laravel-actions": "^2.5",
                     "macellan/laravel-zip": "^1.0",
-                    "php": "^8.2",
+                    "php": ">=8.2",
                     "rahulhaque/laravel-filepond": "^11.0.2",
                     "spatie/laravel-data": "^4.0",
                     "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.3",
+                    "spatie/laravel-query-builder": "^6",
                     "spatie/pdf-to-image": "^2.2",
                     "spatie/simple-excel": "^3.2",
                     "spatie/typescript-transformer": "^2.2",
@@ -1889,7 +1889,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-03-03T17:32:48+00:00",
+                "time": "2025-06-12T14:02:22+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
