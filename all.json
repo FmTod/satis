@@ -58022,22 +58022,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/mylisterhub-media-package.git",
-                    "reference": "a6709bf36e9c255e1ca76ac2dc778a092cafc479"
+                    "reference": "f64d59607dd2c7eae08ffbb2331c7525f1ad3b49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/a6709bf36e9c255e1ca76ac2dc778a092cafc479",
-                    "reference": "a6709bf36e9c255e1ca76ac2dc778a092cafc479",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-media-package/zipball/f64d59607dd2c7eae08ffbb2331c7525f1ad3b49",
+                    "reference": "f64d59607dd2c7eae08ffbb2331c7525f1ad3b49",
                     "shasum": ""
                 },
                 "require": {
                     "illuminate/contracts": "^10.0|^11.0",
                     "mylisterhub/api": "*",
-                    "php": "^8.1",
+                    "php": ">=8.2",
                     "rahulhaque/laravel-filepond": "^10.0|^11.0",
                     "spatie/image": "^3.0",
-                    "spatie/laravel-package-tools": "^1.14.0",
-                    "spatie/laravel-query-builder": "^5.6"
+                    "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -58054,7 +58053,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-01-29T13:05:19+00:00",
+                "time": "2025-06-20T09:57:06+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
