@@ -208,12 +208,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "14d5e61e74e3587538151daea9f6aea232e2802d"
+                    "reference": "307511e51c018acc1c2a9778aeb6dcc927819fdc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/14d5e61e74e3587538151daea9f6aea232e2802d",
-                    "reference": "14d5e61e74e3587538151daea9f6aea232e2802d",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/307511e51c018acc1c2a9778aeb6dcc927819fdc",
+                    "reference": "307511e51c018acc1c2a9778aeb6dcc927819fdc",
                     "shasum": ""
                 },
                 "require": {
@@ -221,15 +221,14 @@
                     "cartalyst/converter": "^9.0",
                     "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "^10.0|^11.0",
-                    "illuminate/translation": "^10.0|^11.0",
-                    "illuminate/validation": "^10.0|^11.0",
-                    "php": ">=8.2",
+                    "illuminate/contracts": "^11.0",
+                    "illuminate/translation": "^11.0",
+                    "illuminate/validation": "^11.0",
+                    "php": ">=8.3",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
                 },
                 "require-dev": {
-                    "jetbrains/phpstorm-attributes": "^1.0",
                     "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.4",
                     "orchestra/testbench": "^9.0",
@@ -243,7 +242,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-07-02T17:19:56+00:00",
+                "time": "2025-07-03T17:12:08+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -409,12 +408,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "7fa691d9069aea3dbb4f2c88dbc992a1afef36bc"
+                    "reference": "ac081f1edce05b40129625c83a71beef36f8902c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/7fa691d9069aea3dbb4f2c88dbc992a1afef36bc",
-                    "reference": "7fa691d9069aea3dbb4f2c88dbc992a1afef36bc",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/ac081f1edce05b40129625c83a71beef36f8902c",
+                    "reference": "ac081f1edce05b40129625c83a71beef36f8902c",
                     "shasum": ""
                 },
                 "require": {
@@ -422,15 +421,14 @@
                     "cartalyst/converter": "^9.0",
                     "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "12.19.3",
-                    "illuminate/translation": "12.19.3",
-                    "illuminate/validation": "12.19.3",
-                    "php": ">=8.2",
+                    "illuminate/contracts": "^12.0",
+                    "illuminate/translation": "^12.0",
+                    "illuminate/validation": "^12.0",
+                    "php": ">=8.3",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
                 },
                 "require-dev": {
-                    "jetbrains/phpstorm-attributes": "^1.0",
                     "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.4",
                     "orchestra/testbench": "^9.0",
@@ -444,7 +442,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-06-18T13:40:00+00:00",
+                "time": "2025-07-03T16:59:47+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -699,206 +697,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/orchestra-testbench-10.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
-            },
-            {
-                "name": "fmtod/shipping",
-                "version": "dev-renovate/pnpm-action-setup-4.x",
-                "version_normalized": "dev-renovate/pnpm-action-setup-4.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "a70d1e43268795ce8ff3dd188a865af026f7d059"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/a70d1e43268795ce8ff3dd188a865af026f7d059",
-                    "reference": "a70d1e43268795ce8ff3dd188a865af026f7d059",
-                    "shasum": ""
-                },
-                "require": {
-                    "bensampo/laravel-enum": "^6.4",
-                    "cartalyst/converter": "^9.0",
-                    "fmtod/laravel-money": "*",
-                    "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "^10.0|^11.0",
-                    "illuminate/translation": "^10.0|^11.0",
-                    "illuminate/validation": "^10.0|^11.0",
-                    "php": "^8.1|^8.2",
-                    "shippo/shippo-php": "^1.4.4",
-                    "spatie/laravel-package-tools": "^1.14"
-                },
-                "require-dev": {
-                    "jetbrains/phpstorm-attributes": "^1.0",
-                    "nunomaduro/collision": "^8.0",
-                    "nunomaduro/larastan": "^2.4",
-                    "orchestra/testbench": "^9.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-faker": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.1",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "roave/security-advisories": "dev-latest",
-                    "spatie/laravel-ray": "^1.26",
-                    "tightenco/duster": "^3.0"
-                },
-                "time": "2025-03-25T03:52:41+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\Shipping\\ShippingServiceProvider"
-                        ],
-                        "aliases": {
-                            "Shipping": "FmTod\\Shipping\\Facades\\Shipping"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\Shipping\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\Shipping\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "phpstan": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "lint": [
-                        "vendor/bin/php-cs-fixer fix"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "FmTod",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This is my package shipping",
-                "homepage": "https://github.com/FmTod/shipping-source",
-                "keywords": [
-                    "fmtod",
-                    "laravel",
-                    "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/pnpm-action-setup-4.x",
-                    "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
-                }
-            },
-            {
-                "name": "fmtod/shipping",
-                "version": "dev-renovate/stefanzweifel-git-auto-commit-action-6.x",
-                "version_normalized": "dev-renovate/stefanzweifel-git-auto-commit-action-6.x",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "8cbdc3d2338c28643d1a5d1f6c552438220e863b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/8cbdc3d2338c28643d1a5d1f6c552438220e863b",
-                    "reference": "8cbdc3d2338c28643d1a5d1f6c552438220e863b",
-                    "shasum": ""
-                },
-                "require": {
-                    "bensampo/laravel-enum": "^6.4",
-                    "cartalyst/converter": "^9.0",
-                    "fmtod/laravel-money": "*",
-                    "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "^10.0|^11.0",
-                    "illuminate/translation": "^10.0|^11.0",
-                    "illuminate/validation": "^10.0|^11.0",
-                    "php": ">=8.2",
-                    "shippo/shippo-php": "^1.4.4",
-                    "spatie/laravel-package-tools": "^1.14"
-                },
-                "require-dev": {
-                    "jetbrains/phpstorm-attributes": "^1.0",
-                    "nunomaduro/collision": "^8.0",
-                    "nunomaduro/larastan": "^2.4",
-                    "orchestra/testbench": "^9.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-faker": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.1",
-                    "phpstan/extension-installer": "^1.1",
-                    "phpstan/phpstan-deprecation-rules": "^1.0",
-                    "phpstan/phpstan-phpunit": "^1.0",
-                    "roave/security-advisories": "dev-latest",
-                    "spatie/laravel-ray": "^1.26",
-                    "tightenco/duster": "^3.0"
-                },
-                "time": "2025-06-10T19:26:03+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "FmTod\\Shipping\\ShippingServiceProvider"
-                        ],
-                        "aliases": {
-                            "Shipping": "FmTod\\Shipping\\Facades\\Shipping"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "FmTod\\Shipping\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "FmTod\\Shipping\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "phpstan": [
-                        "vendor/bin/phpstan analyse"
-                    ],
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "lint": [
-                        "vendor/bin/php-cs-fixer fix"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "FmTod",
-                        "email": "it@fmtod.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "This is my package shipping",
-                "homepage": "https://github.com/FmTod/shipping-source",
-                "keywords": [
-                    "fmtod",
-                    "laravel",
-                    "shipping"
-                ],
-                "support": {
-                    "source": "https://github.com/FmTod/mylisterhub-shipping-package/tree/renovate/stefanzweifel-git-auto-commit-action-6.x",
                     "issues": "https://github.com/FmTod/mylisterhub-shipping-package/issues"
                 }
             }
