@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-activity-log.git",
-                    "reference": "b9bdea697ccbe7a9c6352f35873386acc911c5f1"
+                    "reference": "9e609ff822da9a6d90e59fa6bb3899c3078d7996"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/b9bdea697ccbe7a9c6352f35873386acc911c5f1",
-                    "reference": "b9bdea697ccbe7a9c6352f35873386acc911c5f1",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-activity-log/zipball/9e609ff822da9a6d90e59fa6bb3899c3078d7996",
+                    "reference": "9e609ff822da9a6d90e59fa6bb3899c3078d7996",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-03-03T17:39:28+00:00",
+                "time": "2025-07-16T21:54:18+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
