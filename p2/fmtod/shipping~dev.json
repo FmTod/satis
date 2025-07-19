@@ -507,28 +507,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/mylisterhub-shipping-package.git",
-                    "reference": "dcc8427ca4a5405a4e2cf03e1cba03837ec2ae74"
+                    "reference": "ca9122abdd1821bf936a52efbf7375b778e28b61"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/dcc8427ca4a5405a4e2cf03e1cba03837ec2ae74",
-                    "reference": "dcc8427ca4a5405a4e2cf03e1cba03837ec2ae74",
+                    "url": "https://api.github.com/repos/FmTod/mylisterhub-shipping-package/zipball/ca9122abdd1821bf936a52efbf7375b778e28b61",
+                    "reference": "ca9122abdd1821bf936a52efbf7375b778e28b61",
                     "shasum": ""
                 },
                 "require": {
                     "bensampo/laravel-enum": "^6.4",
                     "cartalyst/converter": "^9.0",
-                    "fmtod/laravel-money": "10.1.0",
+                    "fmtod/laravel-money": "*",
                     "guzzlehttp/guzzle": "^7.0",
-                    "illuminate/contracts": "^10.0|^11.0",
-                    "illuminate/translation": "^10.0|^11.0",
-                    "illuminate/validation": "^10.0|^11.0",
-                    "php": "^8.1|^8.2",
+                    "illuminate/contracts": "^11.0",
+                    "illuminate/translation": "^11.0",
+                    "illuminate/validation": "^11.0",
+                    "php": ">=8.3",
                     "shippo/shippo-php": "^1.4.4",
                     "spatie/laravel-package-tools": "^1.14"
                 },
                 "require-dev": {
-                    "jetbrains/phpstorm-attributes": "^1.0",
                     "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^3.0",
                     "orchestra/testbench": "^9.0",
@@ -542,7 +541,7 @@
                     "spatie/laravel-ray": "^1.26",
                     "tightenco/duster": "^3.0"
                 },
-                "time": "2025-02-20T21:32:16+00:00",
+                "time": "2025-07-18T15:10:25+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
