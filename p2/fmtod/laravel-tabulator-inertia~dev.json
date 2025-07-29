@@ -97,25 +97,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "2c59276df7549b0528c2af6ba3976f6e17421db6"
+                    "reference": "0f9ac1e506790df384d1aa4154f0ad4c19a65be8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/2c59276df7549b0528c2af6ba3976f6e17421db6",
-                    "reference": "2c59276df7549b0528c2af6ba3976f6e17421db6",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/0f9ac1e506790df384d1aa4154f0ad4c19a65be8",
+                    "reference": "0f9ac1e506790df384d1aa4154f0ad4c19a65be8",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -123,7 +123,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2024-01-17T20:18:43+00:00",
+                "time": "2025-07-28T12:06:03+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -185,25 +185,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "74e4d0e7d3dba3cb2644a8ebeebf5eaf3cd9950d"
+                    "reference": "800f04815386a43b72fbb0e11ca698308d23f2f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/74e4d0e7d3dba3cb2644a8ebeebf5eaf3cd9950d",
-                    "reference": "74e4d0e7d3dba3cb2644a8ebeebf5eaf3cd9950d",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/800f04815386a43b72fbb0e11ca698308d23f2f1",
+                    "reference": "800f04815386a43b72fbb0e11ca698308d23f2f1",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -211,7 +211,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-19T10:30:28+00:00",
+                "time": "2025-07-28T12:06:07+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -273,25 +273,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "46b01035d130200584127aef5326a329b2b8a9a0"
+                    "reference": "f8ab2a8cc869d5b48a336a9ad26d5582e374fb34"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/46b01035d130200584127aef5326a329b2b8a9a0",
-                    "reference": "46b01035d130200584127aef5326a329b2b8a9a0",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/f8ab2a8cc869d5b48a336a9ad26d5582e374fb34",
+                    "reference": "f8ab2a8cc869d5b48a336a9ad26d5582e374fb34",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
-                    "illuminate/contracts": "^10.0",
+                    "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
+                    "orchestra/testbench": "^9.0",
                     "pestphp/pest": "^2.0",
                     "pestphp/pest-plugin-laravel": "^2.0",
                     "phpstan/extension-installer": "^1.1",
@@ -299,7 +299,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-23T18:21:02+00:00",
+                "time": "2025-07-28T12:06:10+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -713,19 +713,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/FmTod/laravel-tabulator-inertia.git",
-                    "reference": "9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445"
+                    "reference": "13a0e31120f9e91b50cdf20d72c4e05c70dc581e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445",
-                    "reference": "9d19b89b1cc2fdf4d7c09eada7e49f2c2eb8f445",
+                    "url": "https://api.github.com/repos/FmTod/laravel-tabulator-inertia/zipball/13a0e31120f9e91b50cdf20d72c4e05c70dc581e",
+                    "reference": "13a0e31120f9e91b50cdf20d72c4e05c70dc581e",
                     "shasum": ""
                 },
                 "require": {
                     "fmtod/laravel-tabulator": "*",
                     "illuminate/contracts": "^10.0|^11.0",
                     "inertiajs/inertia-laravel": "*",
-                    "php": "^8.1|^8.2"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
@@ -739,7 +739,7 @@
                     "phpstan/phpstan-phpunit": "^1.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-20T22:25:08+00:00",
+                "time": "2025-07-28T12:06:14+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {

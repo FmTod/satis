@@ -306,38 +306,38 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "c551b7b75f818a5b1dd76a7d90c78143da9c23f7"
+                    "reference": "a900de64d53ab5bdf87faf5837f01491c36e0240"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/c551b7b75f818a5b1dd76a7d90c78143da9c23f7",
-                    "reference": "c551b7b75f818a5b1dd76a7d90c78143da9c23f7",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/a900de64d53ab5bdf87faf5837f01491c36e0240",
+                    "reference": "a900de64d53ab5bdf87faf5837f01491c36e0240",
                     "shasum": ""
                 },
                 "require": {
                     "ext-simplexml": "*",
                     "guzzlehttp/guzzle": "^7.5",
-                    "illuminate/collections": "^10.0",
-                    "illuminate/contracts": "^10.0",
-                    "illuminate/http": "^10.0",
-                    "illuminate/support": "^10.0",
-                    "php": "^8.1|^8.2",
+                    "illuminate/collections": "^10.0|^11.0",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "illuminate/http": "^10.0|^11.0",
+                    "illuminate/support": "^10.0|^11.0",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-20T08:37:13+00:00",
+                "time": "2025-07-28T13:43:18+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -405,38 +405,38 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "855087ad33e2ff1c7995c575523e4effd9691bfc"
+                    "reference": "cca31fb5fc40c21fcbbeada0f9a7ddcc86403379"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/855087ad33e2ff1c7995c575523e4effd9691bfc",
-                    "reference": "855087ad33e2ff1c7995c575523e4effd9691bfc",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/cca31fb5fc40c21fcbbeada0f9a7ddcc86403379",
+                    "reference": "cca31fb5fc40c21fcbbeada0f9a7ddcc86403379",
                     "shasum": ""
                 },
                 "require": {
                     "ext-simplexml": "*",
                     "guzzlehttp/guzzle": "^7.5",
-                    "illuminate/collections": "^10.0",
-                    "illuminate/contracts": "^10.0",
-                    "illuminate/http": "^10.0",
-                    "illuminate/support": "^10.0",
-                    "php": "^8.1|^8.2",
+                    "illuminate/collections": "^10.0|^11.0",
+                    "illuminate/contracts": "^10.0|^11.0",
+                    "illuminate/http": "^10.0|^11.0",
+                    "illuminate/support": "^10.0|^11.0",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.0",
-                    "nunomaduro/collision": "^7.0",
+                    "nunomaduro/collision": "^8.0",
                     "nunomaduro/larastan": "^2.0.1",
-                    "orchestra/testbench": "^8.0",
-                    "pestphp/pest": "^2.0",
-                    "pestphp/pest-plugin-laravel": "^2.0",
+                    "orchestra/testbench": "^9.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.0",
                     "phpstan/extension-installer": "^1.1",
                     "phpstan/phpstan-deprecation-rules": "^1.0",
                     "phpstan/phpstan-phpunit": "^1.0",
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2023-10-24T02:42:57+00:00",
+                "time": "2025-07-28T13:43:22+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -999,12 +999,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "8ffb586195b4a87e29cd4ec531872b6a89614369"
+                    "reference": "e1a3e4f2d7ab50eb579b05e4eb67f50bfac04210"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/8ffb586195b4a87e29cd4ec531872b6a89614369",
-                    "reference": "8ffb586195b4a87e29cd4ec531872b6a89614369",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/e1a3e4f2d7ab50eb579b05e4eb67f50bfac04210",
+                    "reference": "e1a3e4f2d7ab50eb579b05e4eb67f50bfac04210",
                     "shasum": ""
                 },
                 "require": {
@@ -1014,7 +1014,7 @@
                     "illuminate/contracts": "^10.0|^11.0",
                     "illuminate/http": "^10.0|^11.0",
                     "illuminate/support": "^10.0|^11.0",
-                    "php": "^8.1|^8.2",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
@@ -1030,7 +1030,7 @@
                     "phpunit/php-code-coverage": "^10.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-21T11:54:32+00:00",
+                "time": "2025-07-28T13:43:25+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
