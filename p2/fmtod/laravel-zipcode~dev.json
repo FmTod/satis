@@ -1098,12 +1098,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:FmTod/laravel-zipcode.git",
-                    "reference": "855d31896b5a0ecd0b77c00a0719caa9013d7b78"
+                    "reference": "ec1048cbf75c33a90ae4d6abf0f1735d376ad91f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/855d31896b5a0ecd0b77c00a0719caa9013d7b78",
-                    "reference": "855d31896b5a0ecd0b77c00a0719caa9013d7b78",
+                    "url": "https://api.github.com/repos/FmTod/laravel-zipcode/zipball/ec1048cbf75c33a90ae4d6abf0f1735d376ad91f",
+                    "reference": "ec1048cbf75c33a90ae4d6abf0f1735d376ad91f",
                     "shasum": ""
                 },
                 "require": {
@@ -1113,7 +1113,7 @@
                     "illuminate/contracts": "^10.0|^11.0",
                     "illuminate/http": "^10.0|^11.0",
                     "illuminate/support": "^10.0|^11.0",
-                    "php": "^8.1|^8.2",
+                    "php": ">=8.2",
                     "spatie/laravel-package-tools": "^1.14.0"
                 },
                 "require-dev": {
@@ -1129,7 +1129,7 @@
                     "phpunit/php-code-coverage": "^12.0",
                     "spatie/laravel-ray": "^1.26"
                 },
-                "time": "2025-02-21T11:54:27+00:00",
+                "time": "2025-07-29T11:03:32+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
